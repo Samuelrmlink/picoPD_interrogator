@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "picoPD_interrogator")(type "KiCad")(uri "${KIPRJMOD}/picoPD_interrogator.pretty")(options "")(descr ""))
+)
