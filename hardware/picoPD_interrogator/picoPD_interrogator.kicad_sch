@@ -1986,24 +1986,6 @@
 					)
 				)
 				(pin passive line
-					(at -13.97 -13.97 0)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -13.97 -8.89 0)
 					(length 3.81)
 					(name "GND"
@@ -2212,6 +2194,24 @@
 						)
 					)
 					(number "B11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -13.97 -13.97 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5005,7 +5005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 109.728 39.37 90)
 			(effects
 				(font
@@ -7319,7 +7319,7 @@
 		(pin "B2"
 			(uuid "3fb30ee7-7ad4-420d-bd7f-88c1901e1c7f")
 		)
-		(pin "A12"
+		(pin "B12"
 			(uuid "b5546fca-d219-4fc6-8f3b-bccb308b1c6a")
 		)
 		(pin "B10"

@@ -221,6 +221,13 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "a63f79c3-2da0-4415-86c1-69594a9133b3")
 	)
+	(pad "4" smd rect
+		(at 0 0)
+		(size 0.45 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "912a1c3e-ad23-433a-8124-1f66563584f3")
+	)
 	(pad "5" smd rect
 		(at 1.025 0.75)
 		(size 0.75 0.3)
@@ -244,13 +251,6 @@
 		(size 0.75 0.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "479fda3e-a72c-4c89-9b07-2efd3a19d012")
-	)
-	(pad "9" smd rect
-		(at 0 0)
-		(size 0.45 1.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "912a1c3e-ad23-433a-8124-1f66563584f3")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8_2x2mm_P0.5mm.wrl"
 		(offset
