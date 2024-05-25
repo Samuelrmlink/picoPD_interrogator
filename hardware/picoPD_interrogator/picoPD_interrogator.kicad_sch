@@ -4791,6 +4791,17 @@
 		)
 		(uuid "635bf70d-9589-41c2-a826-671f8875de07")
 	)
+	(label "VBUS"
+		(at 74.93 97.79 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64f3c93c-91f3-4101-8574-2b2565189a12")
+	)
 	(label "CC2_RX"
 		(at 160.02 74.93 0)
 		(fields_autoplaced yes)
