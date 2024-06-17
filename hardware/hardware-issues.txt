@@ -1,0 +1,4 @@
+Rev. A:
+	No CC pull-down resistors (should be pulled down via n-channel fet)
+	USB-C connector footprint does not match the part (GS8 USB-C port)
+	Incorrect input pin assignment (swap + and - inputs)
