@@ -207,7 +207,7 @@
 		)
 	)
 	(pad "A1" smd roundrect
-		(at 2.9 5.83)
+		(at 2.65 5.83)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -215,7 +215,7 @@
 		(uuid "19688d0c-73d6-490a-ba57-daa90de30e8f")
 	)
 	(pad "A2" smd roundrect
-		(at 2.4 5.83)
+		(at 2.15 5.83)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -223,7 +223,7 @@
 		(uuid "27b8766f-5815-479e-b721-59913b0bdd79")
 	)
 	(pad "A3" smd roundrect
-		(at 1.9 5.83)
+		(at 1.65 5.83)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -231,7 +231,7 @@
 		(uuid "3fe1339d-3208-430d-9fdb-4e4df875f65b")
 	)
 	(pad "A4" smd roundrect
-		(at 1.4 5.83)
+		(at 1.15 5.83)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -239,7 +239,7 @@
 		(uuid "731d67f1-c39e-463e-b76f-71c63ad60841")
 	)
 	(pad "A5" smd roundrect
-		(at 0.9 5.83)
+		(at 0.65 5.83)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -247,7 +247,7 @@
 		(uuid "b4c6b5c9-9f3e-4e2a-aba7-ac1ba8e62863")
 	)
 	(pad "A6" smd roundrect
-		(at 0.4 5.83)
+		(at 0.15 5.83)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -255,7 +255,7 @@
 		(uuid "4edaa875-53d7-4f50-a64c-0e15db2eadef")
 	)
 	(pad "A7" smd roundrect
-		(at -0.1 5.83)
+		(at -0.35 5.83)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -263,7 +263,7 @@
 		(uuid "b3cdc3fb-feec-4701-a079-431aba005188")
 	)
 	(pad "A8" smd roundrect
-		(at -0.6 5.83)
+		(at -0.85 5.83)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -271,7 +271,7 @@
 		(uuid "b5e31365-1418-4758-afb9-1b77201e4285")
 	)
 	(pad "A9" smd roundrect
-		(at -1.1 5.83)
+		(at -1.35 5.83)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -279,7 +279,7 @@
 		(uuid "6e456372-e640-48db-a163-caf5ddcb6896")
 	)
 	(pad "A10" smd roundrect
-		(at -1.6 5.83)
+		(at -1.85 5.83)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -287,7 +287,7 @@
 		(uuid "d580f8b5-b73e-4145-873f-22f3b5dc8ea5")
 	)
 	(pad "A11" smd roundrect
-		(at -2.1 5.83)
+		(at -2.35 5.83)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -295,7 +295,7 @@
 		(uuid "90f4ef11-87b1-439a-8f54-a5a849d2701d")
 	)
 	(pad "A12" smd roundrect
-		(at -2.6 5.83)
+		(at -2.85 5.83)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -303,7 +303,7 @@
 		(uuid "aa72c444-f062-4762-b85c-3ce524727039")
 	)
 	(pad "B1" smd roundrect
-		(at -2.85 4.65)
+		(at -2.6 4.65)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -311,7 +311,7 @@
 		(uuid "21c2f2d1-8657-4aa5-b47b-2ff053940c68")
 	)
 	(pad "B2" smd roundrect
-		(at -2.35 4.65)
+		(at -2.1 4.65)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -319,7 +319,7 @@
 		(uuid "eac00fd6-ea46-4d22-b676-95a9d4edc212")
 	)
 	(pad "B3" smd roundrect
-		(at -1.85 4.65)
+		(at -1.6 4.65)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -327,7 +327,7 @@
 		(uuid "bb9b14fc-1134-44d8-bc3f-1a63d8cd03f9")
 	)
 	(pad "B4" smd roundrect
-		(at -1.35 4.65)
+		(at -1.1 4.65)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -335,7 +335,7 @@
 		(uuid "e72dec10-3703-4d38-8c36-8cb716f20894")
 	)
 	(pad "B5" smd roundrect
-		(at -0.85 4.65)
+		(at -0.6 4.65)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -343,7 +343,7 @@
 		(uuid "033c5000-0a2a-4a03-a1d7-9f0fb572cb37")
 	)
 	(pad "B6" smd roundrect
-		(at -0.35 4.65)
+		(at -0.1 4.65)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -351,7 +351,7 @@
 		(uuid "44c73811-ab27-4c3a-88c9-5233867d3767")
 	)
 	(pad "B7" smd roundrect
-		(at 0.15 4.65)
+		(at 0.4 4.65)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -359,7 +359,7 @@
 		(uuid "096940b4-1511-47ee-9498-ab2fc5534bb2")
 	)
 	(pad "B8" smd roundrect
-		(at 0.65 4.65)
+		(at 0.9 4.65)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -367,7 +367,7 @@
 		(uuid "f6056103-4f68-48ee-9518-91ac6401d3ad")
 	)
 	(pad "B9" smd roundrect
-		(at 1.15 4.65)
+		(at 1.4 4.65)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -375,7 +375,7 @@
 		(uuid "d1492350-2be4-4694-9d5d-3e40eef5a0bb")
 	)
 	(pad "B10" smd roundrect
-		(at 1.65 4.65)
+		(at 1.9 4.65)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -383,7 +383,7 @@
 		(uuid "eab80708-2c00-4d96-94a5-b51ef112b346")
 	)
 	(pad "B11" smd roundrect
-		(at 2.15 4.65)
+		(at 2.4 4.65)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -391,7 +391,7 @@
 		(uuid "7eec999e-f0af-4eef-9ee8-cc787186c069")
 	)
 	(pad "B12" smd roundrect
-		(at 2.65 4.65)
+		(at 2.9 4.65)
 		(size 0.25 0.55)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
@@ -399,9 +399,9 @@
 		(uuid "88c02a83-9aaf-4756-922b-cef11a5e3785")
 	)
 	(pad "SH" thru_hole roundrect
-		(at -4.49 5.39)
+		(at -4.49 5.4)
 		(size 1 2.7)
-		(drill oval 0.6 1.55)
+		(drill oval 0.6 1.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
@@ -409,9 +409,9 @@
 		(uuid "edbb5b01-8f3e-421b-972f-59a6c406158e")
 	)
 	(pad "SH" thru_hole roundrect
-		(at -4.17 1.5)
+		(at -4.17 1.6)
 		(size 1 2.7)
-		(drill oval 0.6 1.55)
+		(drill oval 0.6 1.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
@@ -445,9 +445,9 @@
 		(uuid "d4f406c2-00b5-4d0c-b874-18d88cecb9fb")
 	)
 	(pad "SH" thru_hole roundrect
-		(at 4.17 1.5)
+		(at 4.17 1.6)
 		(size 1 2.7)
-		(drill oval 0.6 1.55)
+		(drill oval 0.6 1.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
@@ -457,7 +457,7 @@
 	(pad "SH" thru_hole roundrect
 		(at 4.5 5.4)
 		(size 1 2.7)
-		(drill oval 0.6 1.55)
+		(drill oval 0.6 1.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
