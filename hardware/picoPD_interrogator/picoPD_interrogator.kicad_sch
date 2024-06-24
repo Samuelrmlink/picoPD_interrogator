@@ -2824,6 +2824,12 @@
 		(uuid "24304698-9b45-4322-abb4-a822e4175a5e")
 	)
 	(junction
+		(at 73.66 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "320f92f7-a838-4469-be1d-f8a762c4d444")
+	)
+	(junction
 		(at 115.57 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2938,6 +2944,12 @@
 		(uuid "b22ae76e-564c-48e1-98df-0e4dc5341d58")
 	)
 	(junction
+		(at 71.12 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bede669d-ed85-459c-b5bd-4e0f549907c8")
+	)
+	(junction
 		(at 82.55 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3002,6 +3014,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb301345-e921-4845-a963-950a1f189054")
+	)
+	(junction
+		(at 60.96 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed5eb3d2-7d6e-4e93-9d7a-70f160e68268")
 	)
 	(junction
 		(at 71.12 55.88)
@@ -3417,6 +3435,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 76.2) (xy 60.96 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a0b9b65-11f8-401b-842f-bd3437efef5c")
+	)
+	(wire
+		(pts
 			(xy 74.93 92.71) (xy 74.93 90.17)
 		)
 		(stroke
@@ -3724,6 +3752,16 @@
 			(type default)
 		)
 		(uuid "5f6ec9f0-7985-42b8-a9fa-6fd043ef16b0")
+	)
+	(wire
+		(pts
+			(xy 68.58 82.55) (xy 73.66 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6452fb64-3b01-48f0-baf2-6a6cb91b1d6a")
 	)
 	(wire
 		(pts
@@ -4077,6 +4115,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 76.2) (xy 71.12 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7d1b16-5562-4084-9263-1b6042e5cf05")
+	)
+	(wire
+		(pts
 			(xy 129.54 80.01) (xy 129.54 50.8)
 		)
 		(stroke
@@ -4287,6 +4335,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 76.2) (xy 71.12 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c313af9c-ee61-4100-9f7a-cf3fda3a4c20")
+	)
+	(wire
+		(pts
 			(xy 223.52 35.56) (xy 208.28 35.56)
 		)
 		(stroke
@@ -4447,7 +4505,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 55.88) (xy 71.12 80.01)
+			(xy 71.12 55.88) (xy 71.12 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5343,6 +5401,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 60.96 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fe88b99-5317-450b-9c7f-538b79a1cbe8")
+		(property "Reference" "#PWR010"
+			(at 60.96 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dbbbd62-3c84-451e-a949-408ea250e7d6")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Flag")
 		(at 241.3 67.31 0)
 		(unit 1)
@@ -6077,6 +6201,74 @@
 			(project "picoPD_interrogator"
 				(path "/e34b0978-7def-4921-94d0-accc0a677529"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63cc8dcf-bbbd-4619-8136-f779aad62c49")
+		(property "Reference" "R15"
+			(at 66.802 73.406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 64.77 76.2 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 64.77 74.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c747fb9-24e8-4091-8d44-fe695ae6fd6d")
+		)
+		(pin "2"
+			(uuid "bfc718b1-b301-434c-ba12-a34e11e033b3")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7928,6 +8120,74 @@
 			(project "picoPD_interrogator"
 				(path "/e34b0978-7def-4921-94d0-accc0a677529"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f315aad0-b432-4f83-9ca1-77cfec05c35d")
+		(property "Reference" "R14"
+			(at 66.802 79.756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 64.77 82.55 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 64.77 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29fdcd48-33c2-4db2-9064-d3d6b10c1881")
+		)
+		(pin "2"
+			(uuid "0c814b0f-8be9-4648-b201-893bf6945c96")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529"
+					(reference "R14")
 					(unit 1)
 				)
 			)
