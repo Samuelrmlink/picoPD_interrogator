@@ -6005,7 +6005,7 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 1.05 360)
+			(at 0 1.05 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "e29b8041-37f8-4846-9884-f6a5590a5047")
@@ -6018,7 +6018,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 0 -1.05 360)
+			(at 0 -1.05 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "25f36e3c-75eb-4fa4-9fed-9fe3e7e9b70f")
@@ -6158,7 +6158,7 @@
 			(uuid "216dea3c-dd35-495c-885f-51e8497a4a93")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.68 360)
+			(at 0 0.68 0)
 			(layer "B.Fab")
 			(uuid "49909745-46ba-4378-9ef0-f9243a497f88")
 			(effects
@@ -6650,7 +6650,7 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at 0 1.05 360)
+			(at 0 1.05 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "afbec2a1-b3e0-4eb9-aeb5-626a1dc263d9")
@@ -6663,7 +6663,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 0 -1.05 360)
+			(at 0 -1.05 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "73b51064-e64b-45b2-bc53-24f5e2ccb8e3")
@@ -6803,7 +6803,7 @@
 			(uuid "5d9f559d-36f3-4ed0-a8df-5cdedb10056d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.68 360)
+			(at 0 0.68 0)
 			(layer "B.Fab")
 			(uuid "64572090-47bc-4acd-bd12-742cd47732f9")
 			(effects
@@ -7799,7 +7799,7 @@
 		(layer "User.1")
 		(uuid "149ec9e8-8c00-4c2a-b652-cf710c068c4c")
 	)
-	(gr_text "Rev. A"
+	(gr_text "Rev. B"
 		(at 176.95 98.275 180)
 		(layer "B.SilkS")
 		(uuid "700438d5-2c28-4398-8034-9b02614d7fe0")
