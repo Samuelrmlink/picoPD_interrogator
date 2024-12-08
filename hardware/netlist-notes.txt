@@ -1,0 +1,5 @@
+Phased out netlists:
+
+CC1_CONN
+CC2_CONN
+VBUS
