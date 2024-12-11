@@ -7,3 +7,35 @@ IC SWITCH SPDT X 1 15OHM SC70-6
 1P1G3157QDCKRQ1
 https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g3157-q1
 
+
+
+
+
+Voltage regulator:
+    IC REG BUCK ADJ 600MA SOT23
+    LV2862YDDCR & LV2862XLVDDCR
+    https://www.digikey.com/en/products/detail/texas-instruments/LV2862YDDCR/15857122
+
+    FIXED IND 22UH 220MA 1.25OHM SMD
+    MLZ2012P220WT000
+    https://www.digikey.com/en/products/detail/tdk-corporation/MLZ2012P220WT000/4327893
+
+    DIODE SCHOTTKY 60V 1A SOD123FL
+    DSS16U
+    https://www.digikey.com/en/products/detail/smc-diode-solutions/DSS16U/8341861
+
+    CAP CER 0.1UF 16V X5R 0201
+    0201X104K160CT
+
+    CAP CER 4.7UF 10V X5R 0603
+    CL10A475KP8NNNC
+
+    RES SMD 33K OHM 1% 1/20W 0201
+    ERJ-1GNF3302C
+
+    RES SMD 10K OHM 1% 1/20W 0201
+    ERJ-1GNF1002C
+
+    RES SMD 100K OHM 1% 1/20W 0201
+    ERJ-1GNF1003C
+
