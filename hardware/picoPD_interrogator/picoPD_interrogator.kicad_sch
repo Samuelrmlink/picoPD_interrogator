@@ -7177,7 +7177,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES SMD 3.3K OHM 1% 1/20W 0201"
+			(at 265.43 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF3301C"
 			(at 265.43 111.76 0)
 			(effects
 				(font
@@ -7310,8 +7319,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES SMD 4.7K OHM 1% 1/20W 0201"
 			(at 93.98 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF4701C"
+			(at 93.98 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7464,7 +7482,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES SMD 1K OHM 1% 1/20W 0201"
+			(at 217.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF1001C"
 			(at 217.17 123.19 0)
 			(effects
 				(font
@@ -7595,7 +7622,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 149.098 66.04 90)
 			(effects
 				(font
@@ -7615,6 +7642,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 147.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF1003C"
+			(at 147.32 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7792,7 +7828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "picoPD_interrogator:TI_sn741vc1g3157-q1"
 			(at 105.41 160.02 0)
 			(effects
 				(font
@@ -7801,7 +7837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 105.41 160.02 0)
 			(effects
 				(font
@@ -7810,7 +7846,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC SWITCH SPDT X 1 15OHM SC70-6"
+			(at 105.41 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "1P1G3157QDCKRQ1"
 			(at 105.41 160.02 0)
 			(effects
 				(font
@@ -7994,7 +8039,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "20R"
 			(at 273.05 50.8 90)
 			(effects
 				(font
@@ -8020,8 +8065,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES SMD 20 OHM 1% 1/20W 0201"
 			(at 273.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF20R0C"
+			(at 273.05 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8205,7 +8259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 185.1152 63.5 0)
 			(effects
 				(font
@@ -8223,7 +8277,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 0.1UF 16V X5R 0201"
+			(at 184.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "0201X104K160CT"
 			(at 184.15 59.69 0)
 			(effects
 				(font
@@ -8421,7 +8484,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES SMD 3.3K OHM 1% 1/20W 0201"
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF3301C"
 			(at 217.17 113.03 0)
 			(effects
 				(font
@@ -8470,7 +8542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "picoPD_interrogator:USB-C_GS8"
+		(property "Footprint" "picoPD_interrogator:JAE_DX07BN24JA2R1300"
 			(at 106.68 40.64 0)
 			(effects
 				(font
@@ -8625,7 +8697,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES SMD 100 OHM 1% 1/20W 0201"
+			(at 262.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF1000C"
 			(at 262.89 73.66 0)
 			(effects
 				(font
@@ -8732,7 +8813,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "20R"
 			(at 234.95 50.8 90)
 			(effects
 				(font
@@ -8758,7 +8839,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES SMD 20 OHM 1% 1/20W 0201"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF20R0C"
 			(at 234.95 50.8 0)
 			(effects
 				(font
@@ -8807,7 +8897,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "picoPD_interrogator:NXP_NX3DV3899GU"
 			(at 45.72 114.3 0)
 			(effects
 				(font
@@ -8816,7 +8906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/NX3DV3899.pdf"
 			(at 45.72 114.3 0)
 			(effects
 				(font
@@ -8825,7 +8915,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC SWITCH DPDT X 2 3.3OHM 16XQFN"
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "NX3DV3899GU,115"
 			(at 45.72 114.3 0)
 			(effects
 				(font
@@ -8935,8 +9034,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES SMD 5.1K OHM 1% 1/20W 0201"
 			(at 33.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF5101C"
+			(at 33.02 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8984,7 +9092,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "picoPD_interrogator:TI_sn741vc1g3157-q1"
 			(at 44.45 160.02 0)
 			(effects
 				(font
@@ -8993,7 +9101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 44.45 160.02 0)
 			(effects
 				(font
@@ -9002,7 +9110,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC SWITCH SPDT X 1 15OHM SC70-6"
+			(at 44.45 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "1P1G3157QDCKRQ1"
 			(at 44.45 160.02 0)
 			(effects
 				(font
@@ -9636,7 +9753,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES SMD 100 OHM 1% 1/20W 0201"
+			(at 224.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF1000C"
 			(at 224.79 73.66 0)
 			(effects
 				(font
@@ -10105,8 +10231,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES SMD 33 OHM 1% 1/20W 0201"
 			(at 33.02 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF33R0C"
+			(at 33.02 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10324,8 +10459,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES SMD 4.7K OHM 1% 1/20W 0201"
 			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF4701C"
+			(at 93.98 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10480,7 +10624,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "22uH"
 			(at 185.42 65.532 90)
 			(effects
 				(font
@@ -10488,7 +10632,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 185.42 67.31 0)
 			(effects
 				(font
@@ -10497,7 +10641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_decoupling_mlz2012_en.pdf"
 			(at 185.42 67.31 0)
 			(effects
 				(font
@@ -10506,8 +10650,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "FIXED IND 22UH 220MA 1.25OHM SMD"
 			(at 185.42 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "MLZ2012P220WT000"
+			(at 185.42 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10556,7 +10709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 185.42 71.12 0)
 			(effects
 				(font
@@ -10565,7 +10718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.smc-diodes.com/propdf/DSS12U%20THRU%20DSS125U%20N1873%20REV.A.pdf"
 			(at 185.42 71.12 0)
 			(effects
 				(font
@@ -10574,7 +10727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "DIODE SCHOTTKY 60V 1A SOD123FL"
 			(at 185.42 71.12 0)
 			(effects
 				(font
@@ -10593,6 +10746,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 185.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "DSS16U"
 			(at 185.42 71.12 0)
 			(effects
 				(font
@@ -10707,7 +10869,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 172.72 81.788 90)
 			(effects
 				(font
@@ -10727,6 +10889,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF1002C"
+			(at 172.72 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10843,7 +11014,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 182.88 78.232 90)
 			(effects
 				(font
@@ -10863,6 +11034,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 182.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF3302C"
+			(at 182.88 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10996,7 +11176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "picoPD_interrogator:USB-C_GS8"
+		(property "Footprint" "picoPD_interrogator:JAE_DX07BN24JA2R1300"
 			(at 45.72 40.64 0)
 			(effects
 				(font
@@ -11216,7 +11396,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES SMD 200 OHM 1% 1/20W 0201"
+			(at 224.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF2000C"
 			(at 224.79 38.1 0)
 			(effects
 				(font
@@ -11480,7 +11669,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES SMD 3.3K OHM 1% 1/20W 0201"
+			(at 265.43 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF3301C"
 			(at 265.43 121.92 0)
 			(effects
 				(font
@@ -11548,7 +11746,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES SMD 200 OHM 1% 1/20W 0201"
+			(at 262.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF2000C"
 			(at 262.89 38.1 0)
 			(effects
 				(font
@@ -11812,8 +12019,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES SMD 33 OHM 1% 1/20W 0201"
 			(at 93.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF33R0C"
+			(at 93.98 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11880,8 +12096,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES SMD 5.1K OHM 1% 1/20W 0201"
 			(at 33.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF5101C"
+			(at 33.02 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11995,7 +12220,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "picoPD_interrogator:NXP_NX3DV3899GU"
 			(at 106.68 114.3 0)
 			(effects
 				(font
@@ -12004,7 +12229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/NX3DV3899.pdf"
 			(at 106.68 114.3 0)
 			(effects
 				(font
@@ -12013,7 +12238,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC SWITCH DPDT X 2 3.3OHM 16XQFN"
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "NX3DV3899GU,115"
 			(at 106.68 114.3 0)
 			(effects
 				(font

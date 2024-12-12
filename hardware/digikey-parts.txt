@@ -1,6 +1,4 @@
-Dual double-pole double-throw analog switch
-NX3DV3899GU-115
-https://www.nxp.com/docs/en/data-sheet/NX3DV3899.pdf
+
 
 
 IC SWITCH SPDT X 1 15OHM SC70-6
@@ -8,6 +6,21 @@ IC SWITCH SPDT X 1 15OHM SC70-6
 https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g3157-q1
 
 
+Manufacturer PN
+
+USB passthrough:
+    USB TYPE C RECEPTACLE - ULTRA LO
+    DX07BN24JA2R1300
+    https://www.digikey.com/en/products/detail/jae-electronics/dx07bn24ja2r1300/10233365
+
+    Dual double-pole double-throw analog switch
+    IC SWITCH DPDT X 2 3.3OHM 16XQFN
+    NX3DV3899GU,115
+    https://www.nxp.com/docs/en/data-sheet/NX3DV3899.pdf
+
+    IC SWITCH SPDT X 1 15OHM SC70-6
+    1P1G3157QDCKRQ1
+    https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g3157-q1
 
 
 
