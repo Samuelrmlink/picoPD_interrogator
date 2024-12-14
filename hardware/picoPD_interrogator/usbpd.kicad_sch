@@ -3595,6 +3595,281 @@
 		)
 		(uuid "f8f49ceb-406a-4416-a8eb-0c7a18635312")
 	)
+	(label "P0_DM"
+		(at 62.23 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08fd0460-9a61-427c-8669-b66a404a508f")
+	)
+	(label "P1_SBU1"
+		(at 92.71 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "094e5f6c-8832-44e2-a0f3-34e9360ac6db")
+	)
+	(label "P0_SBU1"
+		(at 31.75 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a261d32-9834-48c6-8440-087a057b24ce")
+	)
+	(label "P0_DP"
+		(at 257.81 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d3459b3-2ffa-4814-94d1-bd2be77a28da")
+	)
+	(label "P1_SBU1"
+		(at 265.43 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1726c803-ff94-41e8-948b-ca810f1d25d6")
+	)
+	(label "P1_CC1"
+		(at 97.79 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a87b1f4-6f9f-473d-bdc2-756693ed1569")
+	)
+	(label "P0_CC2"
+		(at 36.83 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "252b4663-f95b-47f4-9eea-325c3a8f7440")
+	)
+	(label "P0_CC2"
+		(at 36.83 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "255646a8-5a5e-4f79-b2b9-a5bef4ae88c5")
+	)
+	(label "P0_CC2"
+		(at 31.75 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2606d6b0-9f24-42d3-93e6-4801f7c4a29c")
+	)
+	(label "P1_CC1"
+		(at 92.71 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27d01ea6-5dc8-4474-9afc-f054b4a26f56")
+	)
+	(label "BMC_VREF"
+		(at 153.67 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3105d33a-5f66-4ada-a83b-827b73a16f48")
+	)
+	(label "PT_VCONN"
+		(at 97.79 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "331f241f-1993-492b-91b4-3854b9545240")
+	)
+	(label "BMC_VREF"
+		(at 179.07 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "360f361f-1b46-4cb6-8caa-b379fe1c9d8f")
+	)
+	(label "P1_CC2"
+		(at 97.79 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52760f7f-6645-4144-baad-f32963c1a2a8")
+	)
+	(label "PT_CC"
+		(at 97.79 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c80c316-749e-4845-8b10-85cd4bdcf750")
+	)
+	(label "BMC_VREF"
+		(at 179.07 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f80b2fa-28e9-42e4-affb-15388aa870cc")
+	)
+	(label "P0_CC1"
+		(at 36.83 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ffb3191-f5d3-4ed6-bb40-7a9b1f3deab1")
+	)
+	(label "P1_DP"
+		(at 123.19 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "670251a5-169f-4897-b03d-41e26c3e10ba")
+	)
+	(label "P_USB_DM"
+		(at 240.03 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "686eced4-030b-4ee4-89ed-9bb592c68e44")
+	)
+	(label "P0_SBU2"
+		(at 240.03 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7037200b-afda-43cc-b7a2-2bc7d62e2c52")
+	)
+	(label "P0_DM"
+		(at 257.81 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "745af70f-39f4-40d6-8906-4d35d8f8e6d8")
+	)
+	(label "P1_CC2"
+		(at 92.71 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78315fde-9b53-4b3a-9e9b-65a344281197")
+	)
+	(label "P1_CC1"
+		(at 97.79 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d18bec6-ba6e-4bb7-be59-1383a46f6b7f")
+	)
+	(label "PT_VCONN"
+		(at 36.83 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b3071ea-cc75-4e7b-8e7c-4533cb606d29")
+	)
+	(label "P1_SBU2"
+		(at 265.43 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90c534e4-3a7b-494e-8bfe-0b1278fb946a")
+	)
 	(label "P0_TX"
 		(at 160.02 55.88 0)
 		(fields_autoplaced yes)
@@ -3606,6 +3881,149 @@
 		)
 		(uuid "9bd8c78f-3b3e-4e77-8ab0-bc0258b6e976")
 	)
+	(label "P0_SBU2"
+		(at 240.03 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a07e7026-b016-425d-a449-03b6da8620a0")
+	)
+	(label "P0_DP"
+		(at 62.23 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a32f5939-6893-4fe8-839b-c8053725dfd5")
+	)
+	(label "P1_DM"
+		(at 240.03 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a47c9505-7196-455c-8b7f-5203b1d54937")
+	)
+	(label "P0_SBU1"
+		(at 240.03 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b04b91a9-f53f-4c49-9771-f1698c932c65")
+	)
+	(label "PT_CC"
+		(at 36.83 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba43b1f0-934c-4a7c-8718-7d9f513ccd80")
+	)
+	(label "P_USB_DP"
+		(at 240.03 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bcc768c2-21ad-4bb0-8fb7-a819e2686c79")
+	)
+	(label "P_USB_DM"
+		(at 240.03 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb0b219d-3b11-4549-80a2-8e08fe1f2c41")
+	)
+	(label "P0_CC1"
+		(at 31.75 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdec69f9-30ae-456c-9961-62b88b295ab9")
+	)
+	(label "P1_SBU2"
+		(at 92.71 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d10acd14-5790-448a-914c-acee8e056276")
+	)
+	(label "P_USB_DP"
+		(at 240.03 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d50fb583-b6a1-4cd2-bd2c-85c89b9f2879")
+	)
+	(label "P0_SBU1"
+		(at 240.03 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc162764-cd0c-41ab-8be8-5dd783976a1c")
+	)
+	(label "P0_CC1"
+		(at 36.83 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd5b9531-f5ad-4a0f-8660-205156c50229")
+	)
+	(label "P1_DP"
+		(at 257.81 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4a2aad2-8c0d-4121-946c-4a46f05a16fc")
+	)
 	(label "P0_TX"
 		(at 198.12 55.88 0)
 		(fields_autoplaced yes)
@@ -3616,6 +4034,61 @@
 			(justify left bottom)
 		)
 		(uuid "e654e832-83a2-43cf-a22c-a55060414b9c")
+	)
+	(label "P1_DM"
+		(at 123.19 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec60f190-e5fd-458c-a30b-28e8717bc3a5")
+	)
+	(label "P1_DP"
+		(at 240.03 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec6b31f9-ec10-4697-a293-e3a38dd73caf")
+	)
+	(label "P1_DM"
+		(at 257.81 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eefbd4d9-9e38-4b99-ac22-b8158bb63e19")
+	)
+	(label "P0_SBU2"
+		(at 31.75 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef5f815c-496c-49f1-80b6-a934e6e3cd46")
+	)
+	(label "P1_CC2"
+		(at 97.79 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef7e7419-f681-4f37-a4f5-7882375fee7a")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -3665,18 +4138,6 @@
 		)
 		(uuid "086e8526-cc6c-430c-8c5e-83d8bf97ea7f")
 	)
-	(hierarchical_label "P_USB_DP"
-		(shape input)
-		(at 240.03 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0aee43e4-f6a3-4cc8-9615-ce3a2d280016")
-	)
 	(hierarchical_label "P0_CC_RX"
 		(shape input)
 		(at 201.93 107.95 0)
@@ -3725,18 +4186,6 @@
 		)
 		(uuid "12301b73-6d59-422a-a114-0cfa64c2a328")
 	)
-	(hierarchical_label "P0_CC2"
-		(shape input)
-		(at 36.83 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "142b2ff6-0625-4939-b710-1b7f5beacd90")
-	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 240.03 29.21 180)
@@ -3748,18 +4197,6 @@
 			(justify right)
 		)
 		(uuid "14c6c557-626a-481f-934f-2dde4d4f2a20")
-	)
-	(hierarchical_label "P0_CC1"
-		(shape input)
-		(at 31.75 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "14c7d1ef-353d-430d-aa9f-7c4bd2e5b0c5")
 	)
 	(hierarchical_label "USB_DP"
 		(shape input)
@@ -3773,18 +4210,6 @@
 		)
 		(uuid "165abd64-da4c-48f0-8049-860f1b52113b")
 	)
-	(hierarchical_label "P0_SBU2"
-		(shape input)
-		(at 240.03 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "177afeba-00aa-46e1-b75a-7b5bbc4fb852")
-	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 158.75 34.29 90)
@@ -3797,42 +4222,6 @@
 		)
 		(uuid "182d2d1b-334b-40f6-bcb2-0b63fc97103f")
 	)
-	(hierarchical_label "P1_SBU2"
-		(shape input)
-		(at 92.71 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "193b90f1-116a-4f71-9a1c-6594c67e38f9")
-	)
-	(hierarchical_label "P_USB_DM"
-		(shape input)
-		(at 240.03 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1966da95-e582-4651-87dc-6b0483f08720")
-	)
-	(hierarchical_label "P1_DP"
-		(shape input)
-		(at 123.19 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1db49ab2-ebf6-4ecc-9e0f-de90b4b4c81a")
-	)
 	(hierarchical_label "P0_CC"
 		(shape input)
 		(at 179.07 110.49 180)
@@ -3844,18 +4233,6 @@
 			(justify right)
 		)
 		(uuid "2043e810-568e-46ad-baf4-339cd3421a16")
-	)
-	(hierarchical_label "P1_CC1"
-		(shape input)
-		(at 97.79 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "24885bd8-25ee-432e-9f3d-e8226d99181e")
 	)
 	(hierarchical_label "P1_VCONN"
 		(shape input)
@@ -3881,18 +4258,6 @@
 		)
 		(uuid "2cdb73c4-0492-4ffa-ab19-1b3539f30d5e")
 	)
-	(hierarchical_label "P0_SBU2"
-		(shape input)
-		(at 31.75 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2d4a9520-4fff-4606-81be-37c8ba9a9f16")
-	)
 	(hierarchical_label "P1_VBUS"
 		(shape input)
 		(at 90.17 43.18 180)
@@ -3904,18 +4269,6 @@
 			(justify right)
 		)
 		(uuid "2f1e34d3-3a13-487e-b253-a47863b9f0fe")
-	)
-	(hierarchical_label "P1_SBU1"
-		(shape input)
-		(at 265.43 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "35f93fcd-cdd1-418f-afc8-2fb254291e08")
 	)
 	(hierarchical_label "PIO_USB_DP"
 		(shape input)
@@ -3965,30 +4318,6 @@
 		)
 		(uuid "3e3bfdb6-bb94-4aed-b810-c27a358b224d")
 	)
-	(hierarchical_label "P0_SBU1"
-		(shape input)
-		(at 240.03 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3eb4a0dd-6cda-4f0c-90fe-2aa3b92cb033")
-	)
-	(hierarchical_label "P1_CC2"
-		(shape input)
-		(at 92.71 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4183ef40-7a53-4592-8e3b-efdf7a2e5666")
-	)
 	(hierarchical_label "P1_VCONN"
 		(shape input)
 		(at 113.03 154.94 0)
@@ -4012,18 +4341,6 @@
 			(justify left)
 		)
 		(uuid "496bc5ef-3f5e-4513-8981-07831f440aef")
-	)
-	(hierarchical_label "P0_DM"
-		(shape input)
-		(at 257.81 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4c0b4ee9-9333-4586-80bc-edacf24b2a98")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -4049,18 +4366,6 @@
 		)
 		(uuid "5e5924bb-e152-4f1f-a9b0-f708fe1e9889")
 	)
-	(hierarchical_label "P1_DM"
-		(shape input)
-		(at 240.03 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5f10142d-dd23-4188-b428-ae6053fd9898")
-	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 203.2 116.84 0)
@@ -4072,18 +4377,6 @@
 			(justify left)
 		)
 		(uuid "5f246501-99bb-4fdb-a1ba-f3875b6ecf80")
-	)
-	(hierarchical_label "P1_DP"
-		(shape input)
-		(at 257.81 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "69cf6ba8-c670-4c26-bd76-b72c2c94379f")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -4108,18 +4401,6 @@
 			(justify left)
 		)
 		(uuid "752f30d9-f0f3-4e51-a48c-a46716d36969")
-	)
-	(hierarchical_label "P_USB_DM"
-		(shape input)
-		(at 240.03 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7763eb97-1bec-4db5-83c4-4b1def1b089b")
 	)
 	(hierarchical_label "USB_DISABLE"
 		(shape input)
@@ -4157,42 +4438,6 @@
 		)
 		(uuid "7c7adbe1-bd75-411c-890d-e0ab62175057")
 	)
-	(hierarchical_label "PT_CC"
-		(shape input)
-		(at 36.83 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7f029c0e-8688-48eb-bab6-c22c5f4b0bd0")
-	)
-	(hierarchical_label "PT_CC"
-		(shape input)
-		(at 97.79 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "83086c9e-c52a-4b13-b4c6-b1ceb159cb7f")
-	)
-	(hierarchical_label "P1_CC2"
-		(shape input)
-		(at 97.79 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "85f5eccb-c1e7-4a13-93db-ebdc5f3463f9")
-	)
 	(hierarchical_label "P0_VCONN"
 		(shape input)
 		(at 54.61 106.68 0)
@@ -4204,30 +4449,6 @@
 			(justify left)
 		)
 		(uuid "86ec5cc7-ba67-4e00-946e-28503a99a418")
-	)
-	(hierarchical_label "P0_SBU2"
-		(shape input)
-		(at 240.03 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "873da55f-4270-4cd8-8c5e-3b5caa3845d7")
-	)
-	(hierarchical_label "BMC_VREF"
-		(shape input)
-		(at 179.07 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8f49c254-13e6-4774-a4ab-643d29880b7c")
 	)
 	(hierarchical_label "P0_VCONN"
 		(shape input)
@@ -4241,30 +4462,6 @@
 		)
 		(uuid "940b4ec3-6afb-4afc-ade9-0531663e771f")
 	)
-	(hierarchical_label "P1_CC1"
-		(shape input)
-		(at 92.71 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "98f98024-d582-494a-be8c-8ce086f2476d")
-	)
-	(hierarchical_label "BMC_VREF"
-		(shape input)
-		(at 179.07 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9a2d42ec-94fc-4eed-b9ae-c82b56779591")
-	)
 	(hierarchical_label "P0_ORIENT"
 		(shape input)
 		(at 54.61 111.76 0)
@@ -4277,18 +4474,6 @@
 		)
 		(uuid "9d70aea7-2203-4e59-bf6a-584a90254b43")
 	)
-	(hierarchical_label "P0_DP"
-		(shape input)
-		(at 62.23 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a448bb09-1780-480e-9d0a-53a7a1906e07")
-	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 113.03 165.1 0)
@@ -4300,30 +4485,6 @@
 			(justify left)
 		)
 		(uuid "a56c433b-2f6b-43b6-ade0-d8caf976198f")
-	)
-	(hierarchical_label "P1_DM"
-		(shape input)
-		(at 257.81 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a7d010cb-8dbc-4b26-a911-3a3b58340317")
-	)
-	(hierarchical_label "P0_DM"
-		(shape input)
-		(at 62.23 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ab731945-f17e-497a-83f0-3d99a84971ff")
 	)
 	(hierarchical_label "P1_CC"
 		(shape input)
@@ -4349,18 +4510,6 @@
 		)
 		(uuid "adb1732c-75c5-4e96-a378-931fc5de8e87")
 	)
-	(hierarchical_label "P1_SBU2"
-		(shape input)
-		(at 265.43 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "af4552a7-a729-452e-9255-d79d772cc079")
-	)
 	(hierarchical_label "P1_TX_L"
 		(shape input)
 		(at 189.23 63.5 180)
@@ -4372,30 +4521,6 @@
 			(justify right)
 		)
 		(uuid "af487e8a-f28d-44bc-a26a-330bb53dd984")
-	)
-	(hierarchical_label "P1_SBU1"
-		(shape input)
-		(at 92.71 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b20d468a-c83f-4673-8be5-fd698da52c37")
-	)
-	(hierarchical_label "P0_CC1"
-		(shape input)
-		(at 36.83 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b391ec26-6317-4000-985e-f20047e4d39e")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -4432,18 +4557,6 @@
 			(justify right)
 		)
 		(uuid "bb49f7d4-207e-408f-8c51-9402f61fb654")
-	)
-	(hierarchical_label "P0_SBU1"
-		(shape input)
-		(at 240.03 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bdfb8a1b-7bed-415d-8160-57f5968f0b23")
 	)
 	(hierarchical_label "P0_CC"
 		(shape input)
@@ -4505,42 +4618,6 @@
 		)
 		(uuid "d0504f4f-5e37-4ea5-a733-25593b220828")
 	)
-	(hierarchical_label "PT_VCONN"
-		(shape input)
-		(at 97.79 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d1fb301f-75bf-41d5-b3e7-6f3206778b91")
-	)
-	(hierarchical_label "BMC_VREF"
-		(shape input)
-		(at 153.67 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d64a849d-64f3-4a4a-84aa-23aefe86e4d1")
-	)
-	(hierarchical_label "P_USB_DP"
-		(shape input)
-		(at 240.03 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "db8e52f9-ef2c-493c-a2bb-b0423927cdb6")
-	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 29.21 160.02 180)
@@ -4552,18 +4629,6 @@
 			(justify right)
 		)
 		(uuid "deb0172a-551d-4d39-9646-4c8bdad56bf4")
-	)
-	(hierarchical_label "P0_CC2"
-		(shape input)
-		(at 36.83 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e120ba0d-e0f4-41a3-a629-b330877b3455")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -4577,66 +4642,6 @@
 		)
 		(uuid "e12d7c0b-2c87-470e-ae48-0c7a81587166")
 	)
-	(hierarchical_label "P0_DP"
-		(shape input)
-		(at 257.81 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e36ba511-b08f-41a9-9597-aa0b4ca71c57")
-	)
-	(hierarchical_label "P1_DM"
-		(shape input)
-		(at 123.19 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e3f7422b-42cc-43fa-a7ff-1c0f50a2568b")
-	)
-	(hierarchical_label "P0_CC1"
-		(shape input)
-		(at 36.83 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e4cd2412-ca3a-4250-9774-c5af94390379")
-	)
-	(hierarchical_label "P1_CC2"
-		(shape input)
-		(at 97.79 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e4fb9d25-b02e-4d85-890a-aed919467882")
-	)
-	(hierarchical_label "P1_DP"
-		(shape input)
-		(at 240.03 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e8cb0bf5-4524-40b6-b56d-65c4bc73efc6")
-	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 179.07 138.43 180)
@@ -4649,42 +4654,6 @@
 		)
 		(uuid "eacd8596-c032-401a-b6db-23b2646312cf")
 	)
-	(hierarchical_label "P0_CC2"
-		(shape input)
-		(at 31.75 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f7b33712-0048-4f67-9bd2-a0836a713a84")
-	)
-	(hierarchical_label "PT_VCONN"
-		(shape input)
-		(at 36.83 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f7fd95cb-1e43-4cb1-9030-73f73c831cd9")
-	)
-	(hierarchical_label "P1_CC1"
-		(shape input)
-		(at 97.79 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fa4b5c50-6b1c-4c93-8721-30eca4631b3a")
-	)
 	(hierarchical_label "USB_DM"
 		(shape input)
 		(at 257.81 62.23 0)
@@ -4696,18 +4665,6 @@
 			(justify left)
 		)
 		(uuid "fd375b49-4df5-49f6-9a4b-d422e08d911b")
-	)
-	(hierarchical_label "P0_SBU1"
-		(shape input)
-		(at 31.75 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fd9422ca-d525-4b30-8062-50c22e3d6b22")
 	)
 	(hierarchical_label "P0_MODE"
 		(shape input)
