@@ -6583,19 +6583,19 @@
 		)
 	)
 	(sheet
-		(at 185.42 100.33)
-		(size 20.32 12.7)
+		(at 189.23 62.23)
+		(size 53.34 64.77)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 216 33 41 0.5000)
 		)
 		(uuid "333d3781-0a13-4e35-ba01-5e9040bdcfcc")
 		(property "Sheetname" "USB_PD"
-			(at 185.42 99.6184 0)
+			(at 189.23 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6604,13 +6604,283 @@
 			)
 		)
 		(property "Sheetfile" "usbpd.kicad_sch"
-			(at 185.42 113.6146 0)
+			(at 189.23 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "P0_CC" input
+			(at 242.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fed9f979-8a6b-4ae1-8ab9-edb5a6069815")
+		)
+		(pin "P0_VCONN" input
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1c9b5cdf-3037-4524-ae6d-3b231ec6ce84")
+		)
+		(pin "P0_ORIENT" input
+			(at 189.23 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "943baa9c-e216-49ad-ac17-158e5c2a413f")
+		)
+		(pin "3V3" input
+			(at 189.23 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b8684a06-d8e9-49c3-b31c-ae0e620098aa")
+		)
+		(pin "P0_MODE" input
+			(at 189.23 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bc5f8e1b-ff84-41b7-b7d8-2104279fa315")
+		)
+		(pin "P0_VCONN_EN" input
+			(at 189.23 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "90ccacca-8088-4e6d-9f57-788db989134c")
+		)
+		(pin "P0_VBUS" input
+			(at 242.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bacb6e61-4665-4c3d-9cd4-949d5a08fa9a")
+		)
+		(pin "P1_ORIENT" input
+			(at 189.23 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2bb823c7-5dbe-491b-87cd-6e9accb2fd47")
+		)
+		(pin "P1_MODE" input
+			(at 189.23 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0c74c00b-6999-4e6b-a11c-bf7dba0569fe")
+		)
+		(pin "P1_VCONN" input
+			(at 242.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4c50fb72-3071-4a4c-9f55-ce7f710f6376")
+		)
+		(pin "P1_CC" input
+			(at 242.57 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6bfc10e1-c85a-4d3d-b99d-ee6bb75b047c")
+		)
+		(pin "P1_VCONN_EN" input
+			(at 189.23 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "04d07ecb-4ece-4026-8cfb-566ef35f3e75")
+		)
+		(pin "P1_VBUS" input
+			(at 242.57 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6d67eb08-3b05-4bf4-ac51-70d57d42aff2")
+		)
+		(pin "SBU_PT_SWAP" input
+			(at 189.23 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0828bfd7-2488-4f76-935e-dc4a9d9a154a")
+		)
+		(pin "PIO_USB_DM" input
+			(at 242.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "900997dc-6fce-4d0e-8be5-d68c18dd8e37")
+		)
+		(pin "PIO_USB_DP" input
+			(at 242.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b167c5d3-b8a8-49fc-8c87-a92a9e79a0e4")
+		)
+		(pin "PIO_USB_EN" input
+			(at 242.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3a89f45b-7fae-426d-87a9-cbcac7c1d7c8")
+		)
+		(pin "USB_PT_EN" input
+			(at 242.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd4fd429-26cb-4a81-91e2-2abc96d50f11")
+		)
+		(pin "USB_DISABLE" input
+			(at 242.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "10702eba-68ce-4ad3-a6c3-088a2873b352")
+		)
+		(pin "USB_DP" input
+			(at 242.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c407c793-5031-4abe-abe4-692eed15dd33")
+		)
+		(pin "USB_DM" input
+			(at 242.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e3f7b0e1-9206-41e5-ab5a-ecc8dd717776")
+		)
+		(pin "P1_TX_L" input
+			(at 189.23 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2ca3107e-589c-4e90-976e-e3011b12188a")
+		)
+		(pin "P0_TX_H" input
+			(at 189.23 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "58282db3-43ca-4835-b0b1-0ee1d8b637a2")
+		)
+		(pin "P0_TX_L" input
+			(at 189.23 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f788570d-80cd-4298-9d0d-955cd6d76f26")
+		)
+		(pin "P1_TX_H" input
+			(at 189.23 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c15d152a-5750-4713-b2fa-0338d9f92d1e")
+		)
+		(pin "P0_CC_RX" input
+			(at 189.23 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bff61760-f738-4ca2-aa9f-b401511d7b68")
+		)
+		(pin "P1_CC_RX" input
+			(at 189.23 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6ff8ba94-d9ec-4e1f-9ec3-de8cbf913d62")
 		)
 		(instances
 			(project "picoPD_interrogator"
