@@ -5135,7 +5135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10c043e3-64cd-4ae1-a2df-e6e0750d2268")
-		(property "Reference" "U10"
+		(property "Reference" "U?"
 			(at 191.4241 153.67 0)
 			(effects
 				(font
@@ -5362,6 +5362,14 @@
 		)
 		(pin "60"
 			(uuid "b66ab36d-282d-482e-8a1b-61298a45dea0")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/dcdf1db7-f9f6-495b-a623-7e4b73e77f06"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6172,7 +6180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d0c73af-5511-4186-b700-441c0962890c")
-		(property "Reference" "U11"
+		(property "Reference" "U?"
 			(at 269.24 92.7099 0)
 			(effects
 				(font
@@ -6240,6 +6248,14 @@
 		)
 		(pin "7"
 			(uuid "303dbed5-1c1a-409d-9a41-1a244f9efd9e")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/dcdf1db7-f9f6-495b-a623-7e4b73e77f06"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6458,7 +6474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75b5c927-004b-4388-9dfc-f6ff1c6cf471")
-		(property "Reference" "Y1"
+		(property "Reference" "Y?"
 			(at 256.794 130.048 0)
 			(effects
 				(font
@@ -6513,6 +6529,14 @@
 		(pin "3"
 			(uuid "c3aee692-8be9-4de8-ac3f-b9f8d948fc41")
 		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/dcdf1db7-f9f6-495b-a623-7e4b73e77f06"
+					(reference "Y?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6524,7 +6548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b2caa44-60d2-46fd-bed3-b69f6bd6c4c7")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR?"
 			(at 175.26 34.29 0)
 			(effects
 				(font
@@ -6571,6 +6595,14 @@
 		(pin "1"
 			(uuid "f6450c4d-e439-4197-a074-b3b28093d667")
 		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/dcdf1db7-f9f6-495b-a623-7e4b73e77f06"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6582,7 +6614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d6f4584-b431-45d2-ba37-489413ec82a1")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR?"
 			(at 256.54 153.67 0)
 			(effects
 				(font
@@ -6628,6 +6660,14 @@
 		)
 		(pin "1"
 			(uuid "338d2185-3f90-4efb-8669-15071beadfa0")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/dcdf1db7-f9f6-495b-a623-7e4b73e77f06"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6843,7 +6883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c2bbc4a-6af5-4cac-a98c-53faa3ab05bd")
-		(property "Reference" "SW1"
+		(property "Reference" "SW?"
 			(at 52.07 24.13 0)
 			(effects
 				(font
@@ -6892,6 +6932,14 @@
 		(pin "2"
 			(uuid "7f92a6d0-e881-48dd-af34-58378668787e")
 		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/dcdf1db7-f9f6-495b-a623-7e4b73e77f06"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
@@ -6903,7 +6951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ca13cb0-14e3-4bbb-a723-f66c7d10e949")
-		(property "Reference" "J4"
+		(property "Reference" "J?"
 			(at 45.72 95.6055 0)
 			(effects
 				(font
@@ -6960,6 +7008,14 @@
 		(pin "2"
 			(uuid "aab86b35-54b9-4910-aa10-b6a854e9a0c4")
 		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/dcdf1db7-f9f6-495b-a623-7e4b73e77f06"
+					(reference "J?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6970,7 +7026,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8db2d26d-7d22-4636-ba20-acda25515733")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR?"
 			(at 59.69 39.37 0)
 			(effects
 				(font
@@ -7017,6 +7073,14 @@
 		(pin "1"
 			(uuid "9659bd1c-a488-4c16-93ac-d40570397c48")
 		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/dcdf1db7-f9f6-495b-a623-7e4b73e77f06"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -7027,7 +7091,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e1e9143-278a-4363-add5-8a3299568225")
-		(property "Reference" "C8"
+		(property "Reference" "C?"
 			(at 266.7 142.24 0)
 			(effects
 				(font
@@ -7077,6 +7141,14 @@
 		)
 		(pin "2"
 			(uuid "6111b7a1-ba32-4237-9e85-a6cd542f6bf0")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/dcdf1db7-f9f6-495b-a623-7e4b73e77f06"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7291,7 +7363,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5a07b11-674e-41a4-9737-997345a50367")
-		(property "Reference" "Q6"
+		(property "Reference" "Q?"
 			(at 48.514 54.61 0)
 			(effects
 				(font
@@ -7347,6 +7419,14 @@
 		)
 		(pin "2"
 			(uuid "0e3a43c9-6b42-4845-93a6-4a38aa2c471c")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/dcdf1db7-f9f6-495b-a623-7e4b73e77f06"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7427,7 +7507,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d54a5ed2-9a24-4816-ac04-5b11ed4e4374")
-		(property "Reference" "R26"
+		(property "Reference" "R?"
 			(at 271.78 137.16 90)
 			(effects
 				(font
@@ -7475,6 +7555,14 @@
 		)
 		(pin "1"
 			(uuid "032ef3f5-3ff6-448e-b178-cec5a8455bb0")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/dcdf1db7-f9f6-495b-a623-7e4b73e77f06"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7762,7 +7850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f221b4d1-42bd-42c6-a586-37eedb8fb9b6")
-		(property "Reference" "L2"
+		(property "Reference" "L?"
 			(at 140.97 66.0399 0)
 			(effects
 				(font
@@ -7813,6 +7901,14 @@
 		(pin "1"
 			(uuid "99aecfa6-4c47-4c94-844e-015f84ade84e")
 		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/dcdf1db7-f9f6-495b-a623-7e4b73e77f06"
+					(reference "L?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -7823,7 +7919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc1fbc4e-f02a-4ff1-9fb7-913fe8034b66")
-		(property "Reference" "C10"
+		(property "Reference" "C?"
 			(at 119.38 66.04 0)
 			(effects
 				(font
@@ -7874,6 +7970,14 @@
 		(pin "2"
 			(uuid "89618387-4344-4585-bed2-fc3ae8275857")
 		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/dcdf1db7-f9f6-495b-a623-7e4b73e77f06"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
@@ -7885,7 +7989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff7489c0-ea2d-4d14-8eab-4068704de0d3")
-		(property "Reference" "J5"
+		(property "Reference" "J?"
 			(at 45.72 132.4355 0)
 			(effects
 				(font
@@ -7944,6 +8048,14 @@
 		)
 		(pin "1"
 			(uuid "7b489919-38ab-45a4-9344-862940006c4e")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/dcdf1db7-f9f6-495b-a623-7e4b73e77f06"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 )
