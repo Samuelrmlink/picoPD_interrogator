@@ -3746,7 +3746,7 @@
 		(stroke
 			(width 0.508)
 			(type dash)
-			(color 132 12 255 1)
+			(color 194 0 0 1)
 		)
 		(fill
 			(type none)
@@ -3896,7 +3896,8 @@
 		(at 77.47 177.038 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.651 1.651)
+				(color 204 102 0 1)
 			)
 			(justify left)
 		)
@@ -5936,9 +5937,9 @@
 		(at 46.99 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "73d11905-c0eb-453b-9026-2c7b40b7386e")
 		(property "Reference" "J5"
