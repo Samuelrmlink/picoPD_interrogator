@@ -4493,6 +4493,17 @@
 		)
 		(uuid "9b425d68-7260-4075-9ae2-50ab279b64fd")
 	)
+	(label "FLIPPER_3V3"
+		(at 39.37 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "add0661e-d3b5-4641-a59a-627d351eda10")
+	)
 	(label "P1_ORIENT"
 		(at 205.74 85.09 180)
 		(fields_autoplaced yes)
