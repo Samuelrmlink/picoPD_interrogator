@@ -555,6 +555,36 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description Detailed",
+          "name": "Description Detailed",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer PN",
+          "name": "Manufacturer PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description 2",
+          "name": "Description 2",
+          "show": false
         }
       ],
       "filter_string": "",
