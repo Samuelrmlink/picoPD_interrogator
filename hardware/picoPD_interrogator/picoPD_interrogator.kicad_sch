@@ -2210,6 +2210,12 @@
 		(uuid "5038569d-e84b-4852-a972-21cceb3730c0")
 	)
 	(junction
+		(at 40.64 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "538d594a-5501-4191-b278-93e5d05a74bc")
+	)
+	(junction
 		(at 38.1 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2399,6 +2405,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 170.18) (xy 40.64 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c97909-6f03-4b70-af70-3850bf070752")
+	)
+	(wire
+		(pts
 			(xy 24.13 52.07) (xy 26.67 52.07)
 		)
 		(stroke
@@ -2519,6 +2535,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 167.64) (xy 40.64 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a48343-ab7a-4382-b901-ab8344a5f136")
+	)
+	(wire
+		(pts
 			(xy 120.65 109.22) (xy 120.65 106.68)
 		)
 		(stroke
@@ -2566,6 +2592,16 @@
 			(type default)
 		)
 		(uuid "21ba6b8f-243e-4eae-aa09-efd7399075b8")
+	)
+	(wire
+		(pts
+			(xy 40.64 170.18) (xy 26.67 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25bff5e4-452e-45bb-b258-8b1372967076")
 	)
 	(wire
 		(pts
@@ -2726,6 +2762,16 @@
 			(type default)
 		)
 		(uuid "3cef5f1b-0558-4d71-a9d9-e4a9498fcbe9")
+	)
+	(wire
+		(pts
+			(xy 40.64 167.64) (xy 40.64 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc0e320-f203-42ab-acec-5b4becf0958c")
 	)
 	(wire
 		(pts
@@ -3059,6 +3105,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 165.1) (xy 41.91 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b03c147-ea8b-4ca4-82e9-29fd3d17b4bc")
+	)
+	(wire
+		(pts
 			(xy 39.37 69.85) (xy 39.37 71.12)
 		)
 		(stroke
@@ -3279,6 +3335,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 172.72) (xy 41.91 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5b33eb-752d-43f6-bff7-fdde7f075d63")
+	)
+	(wire
+		(pts
 			(xy 96.52 54.61) (xy 99.06 54.61)
 		)
 		(stroke
@@ -3457,6 +3523,16 @@
 			(type default)
 		)
 		(uuid "d7a6cfc5-4fe7-41e5-8646-293406a8052c")
+	)
+	(wire
+		(pts
+			(xy 26.67 170.18) (xy 26.67 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9921bc9-8bbb-4051-b72b-9d73d0ab3eaf")
 	)
 	(wire
 		(pts
@@ -3665,6 +3741,19 @@
 		(uuid 576b61f8-b76d-4191-9cc2-1f740fd23594)
 	)
 	(rectangle
+		(start 74.93 138.43)
+		(end 184.15 167.64)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 132 12 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7dbd5de3-18a9-4e83-b236-afe735e620bb)
+	)
+	(rectangle
 		(start 74.93 16.51)
 		(end 184.15 133.35)
 		(stroke
@@ -3679,7 +3768,7 @@
 	)
 	(rectangle
 		(start 16.51 134.62)
-		(end 69.85 162.56)
+		(end 69.85 186.69)
 		(stroke
 			(width 0.508)
 			(type dash)
@@ -3702,6 +3791,30 @@
 			(type none)
 		)
 		(uuid ba94ed59-7842-4c23-b746-4d0e1c2af192)
+	)
+	(text "[Optional] VBUS Screw Terminal"
+		(exclude_from_sim no)
+		(at 42.672 182.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16698a29-ca97-42ff-9f6a-77b2bf17b5f9")
+	)
+	(text "Certain actions or firmware implementation quirks may allow harmful \nconditions such as overvoltage to occur. There are risks associated with\npassing VBUS power between Port 0 and Port 1. (The default configuration)\nCare must be taken to ensure that downstream devices are not damaged.\nUsers are liable for any damage they cause through the use of this device."
+		(exclude_from_sim no)
+		(at 77.216 150.114 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "3b48107a-c0d6-48a4-9116-c3ba1629cd28")
 	)
 	(text "Output"
 		(exclude_from_sim no)
@@ -3731,7 +3844,7 @@
 	)
 	(text "Passes VBUS power from Port 0 to Port 1"
 		(exclude_from_sim no)
-		(at 43.434 157.734 0)
+		(at 43.434 156.464 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3752,7 +3865,7 @@
 		)
 		(uuid "91031e05-e47d-410e-b46b-86123dbaf1f7")
 	)
-	(text "USB-C VBUS Bridge"
+	(text "USB-C VBUS"
 		(exclude_from_sim no)
 		(at 43.18 139.7 0)
 		(effects
@@ -3778,6 +3891,17 @@
 		)
 		(uuid "9fbe4543-bb59-4cdb-998b-4c5eea7d3b80")
 	)
+	(text "Port Roles: \nPort 0 is intended to Sink Power (DFP Power Role) from a charger - while\nPort 1 is intended to Supply Power (UFP Power Role) to another device."
+		(exclude_from_sim no)
+		(at 77.47 177.038 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "9fe0c9bb-ff71-498f-a711-9b03762aa02d")
+	)
 	(text "USB-C ports with\nPower Delivery Logic\n& USB Bus Logic"
 		(exclude_from_sim no)
 		(at 234.442 27.178 0)
@@ -3800,6 +3924,21 @@
 			)
 		)
 		(uuid "ba76d605-662c-4f97-abb1-3fa9a6e08c0c")
+	)
+	(text "USER WARNING!!"
+		(exclude_from_sim no)
+		(at 99.06 142.748 0)
+		(effects
+			(font
+				(face "Cantarell Extra Bold")
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "c62bfa37-4acc-47a7-9685-9e08237fe05f")
 	)
 	(text "3.3v Power Regulator"
 		(exclude_from_sim no)
@@ -3868,6 +4007,17 @@
 			(justify right)
 		)
 		(uuid "00d1c4cf-222f-4ecb-8d9c-ccd54921d2e1")
+	)
+	(label "P1_VBUS"
+		(at 39.37 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "017ba798-c3df-4c24-b0cb-86397cd5769e")
 	)
 	(label "P0_TX_L"
 		(at 205.74 54.61 180)
@@ -4055,6 +4205,17 @@
 			(justify left)
 		)
 		(uuid "38b971c9-ae1f-4d4e-a93e-808b09eb0352")
+	)
+	(label "P0_VBUS"
+		(at 39.37 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3faa8fc9-45bd-4ec8-80f7-84446627aa50")
 	)
 	(label "P0_MODE"
 		(at 165.1 54.61 0)
@@ -5771,6 +5932,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 46.99 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73d11905-c0eb-453b-9026-2c7b40b7386e")
+		(property "Reference" "J5"
+			(at 49.53 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 49.53 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-04P_1x04_P5.00mm"
+			(at 46.99 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 46.99 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ad82528-9dbb-4480-bcd8-6090e77ae1af")
+		)
+		(pin "4"
+			(uuid "7bb90e04-ac0c-4b09-8c15-3c63857d5475")
+		)
+		(pin "3"
+			(uuid "183858e8-5d01-41fd-b18c-29b53070c0a2")
+		)
+		(pin "1"
+			(uuid "9a95d9ca-b550-4ed1-9e3a-366a078d52d1")
+		)
+		(instances
+			(project ""
+				(path "/e34b0978-7def-4921-94d0-accc0a677529"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 33.02 120.65 180)
 		(unit 1)
@@ -5832,6 +6069,71 @@
 			(project "picoPD_interrogator"
 				(path "/e34b0978-7def-4921-94d0-accc0a677529"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 26.67 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "964b83bd-69d8-444e-932f-1fe4647fcb5d")
+		(property "Reference" "#PWR03"
+			(at 26.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7fbbe9c-27fe-42da-a1e4-df6fac782e0e")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
