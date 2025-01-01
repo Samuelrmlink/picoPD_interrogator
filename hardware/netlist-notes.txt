@@ -3,3 +3,12 @@ Phased out netlists:
 CC1_CONN
 CC2_CONN
 VBUS
+
+CC1_RX
+CC2_RX
+CC1_TX_H
+CC1_TX_L
+CC2_TX_H
+CC2_TX_L
+CC1_TX
+CC2_TX
