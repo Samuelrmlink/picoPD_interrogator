@@ -74,7 +74,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "B.CrtYd")
+		(layer "F.CrtYd")
 		(uuid "603de755-2136-4a7e-834e-e07c11b55509")
 	)
 	(fp_line
@@ -84,7 +84,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "B.CrtYd")
+		(layer "F.CrtYd")
 		(uuid "bb2bffd4-e02b-4e16-a25e-ea8eaad81207")
 	)
 	(fp_line
@@ -94,7 +94,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "B.CrtYd")
+		(layer "F.CrtYd")
 		(uuid "5ba6940c-7ef4-4056-b1f8-a44ef5e6f8c8")
 	)
 	(fp_line
@@ -104,7 +104,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "B.CrtYd")
+		(layer "F.CrtYd")
 		(uuid "97247ffe-33e3-4c5d-bf21-2459196cc0ed")
 	)
 	(fp_text user "${REFERENCE}"
