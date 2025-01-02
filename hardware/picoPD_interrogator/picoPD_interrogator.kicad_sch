@@ -2995,6 +2995,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 116.84) (xy 33.02 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d07b140-ffe5-4106-a59a-c8da01d5104a")
+	)
+	(wire
+		(pts
 			(xy 96.52 87.63) (xy 96.52 85.09)
 		)
 		(stroke
@@ -3663,16 +3673,6 @@
 			(type default)
 		)
 		(uuid "f6ef8ef2-8c76-442b-b2d3-4c89d688647d")
-	)
-	(wire
-		(pts
-			(xy 33.02 124.46) (xy 33.02 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f783e6e2-be7d-47fe-a1b2-be48a2335f5f")
 	)
 	(wire
 		(pts
@@ -5768,7 +5768,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 43.18 151.13 0)
 			(effects
 				(font
@@ -6014,73 +6014,6 @@
 			(project ""
 				(path "/e34b0978-7def-4921-94d0-accc0a677529"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 33.02 120.65 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "904dfc31-0852-482c-afe7-e0b2996f8650")
-		(property "Reference" "R3"
-			(at 30.988 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 33.02 120.65 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 34.798 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 33.02 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97f09df5-91e9-4b84-adb0-d7a1ac817b28")
-		)
-		(pin "2"
-			(uuid "8493f8a6-13aa-443f-b04d-17821a4329f7")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529"
-					(reference "R3")
 					(unit 1)
 				)
 			)
