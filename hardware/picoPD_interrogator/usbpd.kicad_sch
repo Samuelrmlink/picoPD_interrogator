@@ -4246,7 +4246,7 @@
 		)
 		(uuid "e4a2aad2-8c0d-4121-946c-4a46f05a16fc")
 	)
-	(label "P0_TX"
+	(label "P1_TX"
 		(at 198.12 55.88 0)
 		(fields_autoplaced yes)
 		(effects
