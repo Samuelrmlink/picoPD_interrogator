@@ -10335,7 +10335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SHL_SM07B-SHLS-TF_1x07-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "picoPD_interrogator:JST_SH_SM14B-SRSS-TB_1x14-1MP_P1.00mm_Horizontal_extended"
 			(at 245.11 109.22 0)
 			(effects
 				(font
@@ -14224,7 +14224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_SM14B-SRSS-TB_1x14-1MP_P1.00mm_Horizontal"
 			(at 275.59 111.76 0)
 			(effects
 				(font

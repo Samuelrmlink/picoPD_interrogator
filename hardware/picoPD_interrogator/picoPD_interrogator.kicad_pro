@@ -620,7 +620,7 @@
           "show": true
         }
       ],
-      "filter_string": "U6",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
