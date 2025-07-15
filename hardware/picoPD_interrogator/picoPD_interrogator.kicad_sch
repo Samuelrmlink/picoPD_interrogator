@@ -14720,12 +14720,11 @@
 		(dnp no)
 		(uuid "e64ba4a9-e188-4c22-a4db-5f0e548dc00e")
 		(property "Reference" "R15"
-			(at 136.652 38.1 0)
+			(at 138.684 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "200R"
