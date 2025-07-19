@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 4.0,
-          "width": 4.0
+          "height": 0.1,
+          "width": 0.1
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -551,7 +551,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -579,21 +579,21 @@
         },
         {
           "group_by": false,
-          "label": "Description Detailed",
-          "name": "Description Detailed",
-          "show": true
+          "label": "Description",
+          "name": "Description",
+          "show": false
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": true
+          "label": "Description Detailed",
+          "name": "Description Detailed",
+          "show": false
         },
         {
           "group_by": false,
           "label": "Manufacturer PN",
           "name": "Manufacturer PN",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -609,20 +609,14 @@
         },
         {
           "group_by": false,
-          "label": "DigiKey PN",
-          "name": "DigiKey PN",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": true
+          "label": "Description 2",
+          "name": "Description 2",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -681,6 +675,14 @@
     [
       "e34b0978-7def-4921-94d0-accc0a677529",
       "Root"
+    ],
+    [
+      "dcdf1db7-f9f6-495b-a623-7e4b73e77f06",
+      "RP2350A"
+    ],
+    [
+      "333d3781-0a13-4e35-ba01-5e9040bdcfcc",
+      "USB_PD"
     ]
   ],
   "text_variables": {}
