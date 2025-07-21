@@ -5333,6 +5333,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 187.96) (xy 27.94 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38110528-dd80-4286-8c66-0b08d827d6d1")
+	)
+	(wire
+		(pts
 			(xy 143.51 116.84) (xy 147.32 116.84)
 		)
 		(stroke
@@ -5450,6 +5460,26 @@
 			(type default)
 		)
 		(uuid "4d553852-3319-444e-b169-1bb68e4c1ccf")
+	)
+	(wire
+		(pts
+			(xy 25.4 187.96) (xy 27.94 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef254da-9451-4711-a095-7e7005a86885")
+	)
+	(wire
+		(pts
+			(xy 27.94 177.8) (xy 27.94 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50cb96d0-e7c3-4fd8-9459-de63b3f0cdc5")
 	)
 	(wire
 		(pts
@@ -6224,6 +6254,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 175.26) (xy 35.56 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca918976-d6c6-4e40-82a1-fd15fffbd89a")
+	)
+	(wire
+		(pts
 			(xy 172.72 72.39) (xy 172.72 73.66)
 		)
 		(stroke
@@ -6573,7 +6613,7 @@
 		(uuid "042898fd-1d88-4126-9dca-7053ab6aebd8")
 	)
 	(label "TCPC_INT"
-		(at 35.56 175.26 180)
+		(at 33.02 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7021,6 +7061,16 @@
 			(justify left)
 		)
 		(uuid "70880586-0f87-4616-a503-12b81d07a4f7")
+	)
+	(label "3V3"
+		(at 25.4 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72e7de6e-1b46-460f-9357-7db80a67fa43")
 	)
 	(label "CC1_TX_L"
 		(at 95.25 63.5 180)
@@ -7844,6 +7894,109 @@
 			(project "picoPD_interrogator"
 				(path "/e34b0978-7def-4921-94d0-accc0a677529"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 27.94 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "041f67af-fb9a-49fe-93d4-d8fab13e8c7f")
+		(property "Reference" "R29"
+			(at 25.908 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 27.94 181.61 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 26.162 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description Detailed" "3.3 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey PN" "P122937CT-ND"
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF3301C"
+			(at 27.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e78e553e-0d44-4f19-a6a1-56d19eb6854d")
+		)
+		(pin "2"
+			(uuid "56382e94-8d3f-4dc5-92b1-99ff9c2919a9")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529"
+					(reference "R29")
 					(unit 1)
 				)
 			)
