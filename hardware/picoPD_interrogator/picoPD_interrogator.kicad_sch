@@ -4917,6 +4917,12 @@
 		(uuid "404caf50-c96a-4c73-87f4-c53c1b60aa60")
 	)
 	(junction
+		(at 62.23 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44434040-08cf-4078-b701-598d3a17d25a")
+	)
+	(junction
 		(at 114.3 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5007,6 +5013,12 @@
 		(uuid "aec4fa37-5b0e-46cf-b37f-0c533322e5e4")
 	)
 	(junction
+		(at 57.15 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b17e5b11-3db6-4c39-b848-b0adc1535b6c")
+	)
+	(junction
 		(at 143.51 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5043,10 +5055,10 @@
 		(uuid "ee5d7e06-7381-4d30-8b42-95ab76926148")
 	)
 	(junction
-		(at 57.15 175.26)
+		(at 62.23 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f9ff7fd0-f9bf-4f9e-99dc-0bdb367d6f77")
+		(uuid "fec9f192-d307-48b7-9603-f17f752c438d")
 	)
 	(junction
 		(at 107.95 175.26)
@@ -5701,6 +5713,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 172.72) (xy 63.5 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c316574-503e-4400-b76b-89444ac9c26f")
+	)
+	(wire
+		(pts
 			(xy 102.87 54.61) (xy 102.87 55.88)
 		)
 		(stroke
@@ -5728,6 +5750,16 @@
 			(type default)
 		)
 		(uuid "70576c36-c274-4e5a-90b2-0b0eb8d44578")
+	)
+	(wire
+		(pts
+			(xy 57.15 172.72) (xy 62.23 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f25f2a-0a43-4448-9b16-c11f3906be4a")
 	)
 	(wire
 		(pts
@@ -6112,16 +6144,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 175.26) (xy 58.42 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab7ab284-be43-4b91-9ff9-edc018c29648")
-	)
-	(wire
-		(pts
 			(xy 63.5 78.74) (xy 66.04 78.74)
 		)
 		(stroke
@@ -6129,16 +6151,6 @@
 			(type default)
 		)
 		(uuid "ac2321fd-32ed-42f6-8e0c-cf5f6ff5cbde")
-	)
-	(wire
-		(pts
-			(xy 57.15 172.72) (xy 57.15 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac84ec5c-3dd7-4636-b390-b4be75665f96")
 	)
 	(wire
 		(pts
@@ -6172,7 +6184,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 180.34) (xy 58.42 180.34)
+			(xy 55.88 180.34) (xy 62.23 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6199,16 +6211,6 @@
 			(type default)
 		)
 		(uuid "b44a57cd-909b-41e9-92df-f0f196d841e9")
-	)
-	(wire
-		(pts
-			(xy 58.42 180.34) (xy 58.42 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4eeba47-d3f5-43d7-ad97-778a005590cb")
 	)
 	(wire
 		(pts
@@ -6389,6 +6391,26 @@
 			(type default)
 		)
 		(uuid "cd82273e-9040-4d9c-ba62-9ba0baa319c5")
+	)
+	(wire
+		(pts
+			(xy 57.15 172.72) (xy 57.15 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce2c99e6-2a45-47b0-9924-a8128dad52cc")
+	)
+	(wire
+		(pts
+			(xy 62.23 180.34) (xy 62.23 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6e6241-b035-4473-96e7-6be99d889bc3")
 	)
 	(wire
 		(pts
@@ -7331,7 +7353,7 @@
 		(uuid "92ba027c-6794-4498-a999-c8bc616421b7")
 	)
 	(label "3V3"
-		(at 58.42 175.26 0)
+		(at 63.5 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14474,7 +14496,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 181.61 0)
+		(at 62.23 181.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14483,7 +14505,7 @@
 		(dnp no)
 		(uuid "dd8bfc6b-4eab-446d-9b61-b58934140202")
 		(property "Reference" "#PWR06"
-			(at 58.42 187.96 0)
+			(at 62.23 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14492,7 +14514,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.738 183.134 0)
+			(at 66.548 183.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14500,7 +14522,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 181.61 0)
+			(at 62.23 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14509,7 +14531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 181.61 0)
+			(at 62.23 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14518,7 +14540,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 181.61 0)
+			(at 62.23 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15434,6 +15456,111 @@
 			(project "picoPD_interrogator"
 				(path "/e34b0978-7def-4921-94d0-accc0a677529"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 176.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8bb6d4e-fe70-4916-8760-d7c7fd2b3815")
+		(property "Reference" "C7"
+			(at 65.532 174.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 66.294 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 61.2648 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description Detailed" "1 µF ±10% 50V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 62.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "GRT188R61H105KE13D"
+			(at 62.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 62.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey PN" "490-12330-1-ND"
+			(at 62.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83718b7b-b9f2-4f6a-8b5c-bd11ccec772b")
+		)
+		(pin "1"
+			(uuid "e14d379d-b42f-4547-8dda-3c1ab540e905")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529"
+					(reference "C7")
 					(unit 1)
 				)
 			)
