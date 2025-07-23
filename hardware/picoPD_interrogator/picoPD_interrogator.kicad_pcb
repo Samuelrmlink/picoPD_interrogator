@@ -106,7 +106,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_555555df_f755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -138,7 +138,7 @@
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
-			(outputformat 4)
+			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
@@ -3698,7 +3698,7 @@
 			(net 1 "GND")
 			(pinfunction "MP")
 			(pintype "passive")
-			(uuid "a253a1fd-565d-4224-9133-18770810720a")
+			(uuid "f3d43904-f28f-4235-a202-48f6e05e14bb")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM07B-SRSS-TB_1x07-1MP_P1.00mm_Horizontal.step"
@@ -5863,7 +5863,7 @@
 			(net 1 "GND")
 			(pinfunction "MP")
 			(pintype "passive")
-			(uuid "efec0a05-08ad-440e-86a3-cda46e277ca9")
+			(uuid "17947686-6b1b-41e5-b6b9-933fad5788b6")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM14B-SRSS-TB_1x14-1MP_P1.00mm_Horizontal.step"
@@ -6264,7 +6264,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "74f97111-e094-4dd8-808c-0ea10b9bdd4e")
+			(uuid "dd19db19-5bf8-435f-9aa4-3dcf0c720ceb")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.105 270)
@@ -6276,7 +6276,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "74f97111-e094-4dd8-808c-0ea10b9bdd4e")
+			(uuid "ff985470-67c9-4fae-87f1-d1ad3206c297")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075 270)
@@ -6288,7 +6288,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "74f97111-e094-4dd8-808c-0ea10b9bdd4e")
+			(uuid "426d1150-81ef-4ecc-b31d-58758b3fbf9c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
@@ -7480,7 +7480,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "6791e840-c788-46b3-ab07-0ce37b730bd2")
+			(uuid "6278b7a7-573c-497b-8e08-22cd4eab4eb7")
 		)
 		(pad "2" smd roundrect
 			(at -2.25 1.075 270)
@@ -7502,7 +7502,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "84dafa6e-66ed-4e47-8f80-1f596f666eec")
+			(uuid "6379a0d3-931f-4b81-a6d6-c07185279f45")
 		)
 		(embedded_fonts no)
 	)
@@ -13502,7 +13502,7 @@
 			(pinfunction "V-")
 			(pintype "power_in")
 			(thermal_bridge_angle 45)
-			(uuid "11fd09a9-3a2d-4d1f-9621-51d542912d72")
+			(uuid "976aa633-6429-4b38-ade5-6bc1b8ae917f")
 		)
 		(pad "5" smd rect
 			(at 1.025 0.75 180)
