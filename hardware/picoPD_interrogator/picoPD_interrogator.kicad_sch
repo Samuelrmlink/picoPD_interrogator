@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "e34b0978-7def-4921-94d0-accc0a677529")
 	(paper "A4")
+	(title_block
+		(title "picoPD_interrogator")
+		(date "2025-07-23")
+		(rev "D - RC1")
+		(comment 1 "Uses RP2 PIO feature for USB-PD enumeration and testing")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
