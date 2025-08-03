@@ -9746,7 +9746,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 208.788 49.53 0)
 			(effects
 				(font
@@ -10070,7 +10070,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "DSS16U"
 			(at 172.466 42.418 0)
 			(effects
 				(font
@@ -10524,7 +10524,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TI_SN74LVC1G3157-Q1"
 			(at 186.69 96.52 0)
 			(effects
 				(font
@@ -10743,7 +10743,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "DSS16U"
 			(at 206.756 66.548 0)
 			(effects
 				(font
@@ -11089,7 +11089,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "TI_SN74LVC1G3157-Q1"
 			(at 186.69 118.11 0)
 			(effects
 				(font
