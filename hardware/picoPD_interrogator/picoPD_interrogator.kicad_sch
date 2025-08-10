@@ -7,7 +7,7 @@
 	(title_block
 		(title "picoPD_interrogator")
 		(date "2025-07-23")
-		(rev "D - RC1")
+		(rev "D - RC2")
 		(comment 1 "Uses RP2 PIO feature for USB-PD enumeration and testing")
 	)
 	(lib_symbols
