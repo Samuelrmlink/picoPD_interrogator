@@ -7050,7 +7050,7 @@
 		(uuid "3169bb23-f97d-43ab-8f18-a0e4cb343248")
 	)
 	(label "SWD_IO"
-		(at 237.49 104.14 180)
+		(at 237.49 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7520,12 +7520,12 @@
 		(uuid "911b4716-ac0d-4252-9f90-34a2909a72e4")
 	)
 	(label "SWD_CLK"
-		(at 53.34 90.17 0)
+		(at 43.18 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "92ba027c-6794-4498-a999-c8bc616421b7")
 	)
@@ -7600,7 +7600,7 @@
 		(uuid "a174973d-5e84-418b-a55d-b11c991c8372")
 	)
 	(label "SWD_CLK"
-		(at 237.49 106.68 180)
+		(at 237.49 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7680,7 +7680,7 @@
 		(uuid "ab51c5a8-1598-4856-a14f-56a900d90e7d")
 	)
 	(label "UART0_RX"
-		(at 237.49 111.76 180)
+		(at 237.49 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7890,7 +7890,7 @@
 		(uuid "dfcd6b74-34aa-4d8d-8f97-0ef9519b8fb7")
 	)
 	(label "UART0_TX"
-		(at 237.49 109.22 180)
+		(at 237.49 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7980,12 +7980,12 @@
 		(uuid "fe47e591-cfae-4a77-b166-ea186d158b08")
 	)
 	(label "SWD_IO"
-		(at 43.18 90.17 180)
+		(at 53.34 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ff148947-f29d-4360-b5f6-b351041fc258")
 	)
