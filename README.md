@@ -1,5 +1,5 @@
 # picoPD_interrogator [Hardware Repository]
-## __WARNING:__ The current hardware design version may have issues! Please see the 'Known Issues' section below.
+## __WARNING:__ Please see the 'Known Issues' section below.
 
 If you're looking for firmware: [rp2040_pd_bmc](https://github.com/Samuelrmlink/rp2040_pd_bmc)
 
