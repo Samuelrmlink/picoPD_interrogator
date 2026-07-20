@@ -2046,7 +2046,7 @@
 		)
 		(uuid "c7477168-93a8-4b23-802a-a52d40e5de65")
 	)
-	(text "Port 2 is configured with Rd resistors.\n(Default Role: UFP)"
+	(text "Port 1 is configured with Rd resistors.\n(Default Role: UFP)"
 		(exclude_from_sim no)
 		(at 48.26 184.658 0)
 		(effects
@@ -2056,7 +2056,7 @@
 		)
 		(uuid "d3d74652-7681-4880-ad74-c300850ed06f")
 	)
-	(text "Interrogation Port 2\n[USB-C receptacle]"
+	(text "Interrogation Port 1\n[USB-C receptacle]"
 		(exclude_from_sim no)
 		(at 135.128 22.86 0)
 		(effects
