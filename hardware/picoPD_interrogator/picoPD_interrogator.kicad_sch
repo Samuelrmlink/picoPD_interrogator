@@ -3375,6 +3375,17 @@
 		)
 		(uuid "16b7ea34-80dc-4f36-8edc-9dc7eb6b5897")
 	)
+	(text "TODO:\n  - Add WS2812 sheet\n	- Need to verify/test LEDs on-hand (verify 3.3v logic levels, etc..)\n  - Consider LiPo circuit/battery?\n  - Explore expansion connector options (Flipper, Debug, etc..)\n	- ZIF-type FFC connector? B2B? Standoff screws?\n  - Add sheet pins & connect\n  - Find suitable footprints\n	- Micro-HDMI connector\n	- VBUS breakout connections\n	- UART for PSU"
+		(exclude_from_sim no)
+		(at 85.09 178.308 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "189937b0-4188-444e-8254-1e8ae2c27d68")
+	)
 	(text "JST-SH (1mm) connectors\nused for interfacing with \nupstream control/debugging\ndevices. \n\n[Optional]\nAdapter is required\nfor usage with Flipper Zero."
 		(exclude_from_sim no)
 		(at 179.578 142.24 0)
