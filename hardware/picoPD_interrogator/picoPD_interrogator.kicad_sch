@@ -17,24 +17,26 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -6.35 26.67 0)
+			(property "Reference" "J5"
+				(at 10.16 26.162 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right bottom)
 				)
 			)
-			(property "Value" "HDMI_A"
-				(at 10.16 26.67 0)
+			(property "Value" "DVI_A"
+				(at 10.922 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify top)
 				)
 			)
 			(property "Footprint" ""
@@ -48,7 +50,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://en.wikipedia.org/wiki/HDMI"
+			(property "Datasheet" ""
 				(at 0.635 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -59,7 +61,7 @@
 					)
 				)
 			)
-			(property "Description" "HDMI type A connector"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -89,45 +91,6 @@
 				(effects
 					(font
 						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "HDMI_A_0_0"
-				(polyline
-					(pts
-						(xy 0 16.51) (xy 0 18.034) (xy 0 17.272) (xy 1.905 17.272) (xy 1.905 18.034) (xy 1.905 16.51)
-					)
-					(stroke
-						(width 0.635)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.667 18.034) (xy 4.318 18.034) (xy 4.572 17.78) (xy 4.572 16.764) (xy 4.318 16.51) (xy 2.667 16.51)
-						(xy 2.667 17.272)
-					)
-					(stroke
-						(width 0.635)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.128 16.51) (xy 8.128 18.034)
-					)
-					(stroke
-						(width 0.635)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -167,19 +130,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 16.51) (xy 5.334 18.034) (xy 6.35 18.034) (xy 6.35 16.51) (xy 6.35 18.034) (xy 7.112 18.034)
-						(xy 7.366 17.78) (xy 7.366 16.51)
-					)
-					(stroke
-						(width 0.635)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -537,6 +487,129 @@
 						)
 					)
 					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3238,6 +3311,19 @@
 		)
 	)
 	(rectangle
+		(start 318.77 140.97)
+		(end 342.9 181.61)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 219 217 82 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4b9b8368-ed63-4bda-89f7-d30f4a91e657")
+	)
+	(rectangle
 		(start 16.51 16.51)
 		(end 77.47 105.41)
 		(stroke
@@ -3351,6 +3437,19 @@
 			)
 		)
 		(uuid "e49c5ddc-faa0-47e6-8de0-01201d9450c4")
+	)
+	(text "VBUS\nTerminal"
+		(exclude_from_sim no)
+		(at 331.216 148.082 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 219 217 82 1)
+			)
+		)
+		(uuid "e7251408-6953-42f7-b43f-3517d91c976a")
 	)
 	(junction
 		(at 215.9 43.18)
@@ -4627,7 +4726,7 @@
 		(at 207.01 48.26 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.889 0.889)
 			)
 			(justify left bottom)
 		)
@@ -4654,10 +4753,10 @@
 		(uuid "757c4e83-c998-4f52-8b68-01cfe3792e77")
 	)
 	(label "REG_FB"
-		(at 205.74 68.58 0)
+		(at 205.74 71.12 90)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.889 0.889)
 			)
 			(justify left bottom)
 		)
@@ -4874,10 +4973,10 @@
 		(uuid "cc61bdfe-fcf1-4aae-b105-5b30aff74d64")
 	)
 	(label "REG_SW"
-		(at 208.28 55.88 0)
+		(at 208.28 59.69 90)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.889 0.889)
 			)
 			(justify left bottom)
 		)
@@ -5022,6 +5121,17 @@
 			(justify right)
 		)
 		(uuid "ffcbfe39-d907-40b3-9182-b285dcbaff5b")
+	)
+	(hierarchical_label "VBUS"
+		(shape passive)
+		(at 331.47 167.64 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d1e7274-8a78-4ab9-96c3-2ab38048280b")
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -5312,6 +5422,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 360.68 139.7 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "04ac14af-f476-41d6-b2ed-7c6cbff96c19")
+		(property "Reference" "R27"
+			(at 362.712 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 360.68 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 360.68 137.922 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 360.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 360.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Detailed" "0 Ohms Jumper Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 360.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "RMCF0201ZT0R00CT-ND"
+			(at 360.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "RMCF0201ZT0R00"
+			(at 360.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c316f860-e432-4371-b271-eda29717fe26")
+		)
+		(pin "2"
+			(uuid "6cfdccb9-26b6-4d6e-a698-8dcceccb0443")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 318.77 109.22 270)
 		(unit 1)
@@ -5554,25 +5788,25 @@
 		(dnp no)
 		(uuid "1afbc9d5-533e-415f-b5dc-8949d90ffe58")
 		(property "Reference" "C3"
-			(at 179.324 65.786 0)
+			(at 180.086 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 186.436 71.12 0)
+			(at 180.594 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right bottom)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -5866,6 +6100,130 @@
 			(project "picoPD_interrogator"
 				(path "/e34b0978-7def-4921-94d0-accc0a677529"
 					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 360.68 137.16 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e8ca847-3ae3-4665-b78e-265b6d4b65ba")
+		(property "Reference" "R26"
+			(at 362.712 134.874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 360.68 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 360.68 135.382 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 360.68 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 360.68 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Detailed" "0 Ohms Jumper Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 360.68 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "RMCF0201ZT0R00CT-ND"
+			(at 360.68 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "RMCF0201ZT0R00"
+			(at 360.68 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f09f5c7-a709-46db-a8a0-5fe02dd42b28")
+		)
+		(pin "2"
+			(uuid "d64ddfab-9ac4-40e4-8871-2b5793841602")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -6276,25 +6634,25 @@
 		(dnp no)
 		(uuid "492d7440-a3d3-4a05-819f-4230c56d94d1")
 		(property "Reference" "C6"
-			(at 207.518 49.53 0)
+			(at 211.836 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right bottom)
 			)
 		)
 		(property "Value" "100nF"
-			(at 213.868 49.53 0)
+			(at 212.344 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
@@ -6401,23 +6759,25 @@
 		(dnp no)
 		(uuid "4a2b6647-eab2-42d1-b8cb-3fbbaf13c87e")
 		(property "Reference" "U6"
-			(at 194.31 48.26 0)
+			(at 204.47 51.308 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right bottom)
 			)
 		)
 		(property "Value" "LV2862XDDC"
-			(at 194.31 50.8 0)
+			(at 203.962 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
@@ -6684,25 +7044,25 @@
 		(fields_autoplaced yes)
 		(uuid "53f35399-a10a-4683-a444-72adfdf21bd5")
 		(property "Reference" "J5"
-			(at 62.23 149.8599 0)
+			(at 60.96 124.968 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right bottom)
 			)
 		)
-		(property "Value" "HDMI_A"
-			(at 62.23 152.3999 0)
+		(property "Value" "DVI_A"
+			(at 61.722 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify top)
 			)
 		)
 		(property "Footprint" ""
@@ -6716,7 +7076,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://en.wikipedia.org/wiki/HDMI"
+		(property "Datasheet" ""
 			(at 51.435 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6727,7 +7087,7 @@
 				)
 			)
 		)
-		(property "Description" "HDMI type A connector"
+		(property "Description" ""
 			(at 50.8 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -7200,25 +7560,25 @@
 		(dnp no)
 		(uuid "7474ae37-b11f-4215-958b-af8ab1f4a5ce")
 		(property "Reference" "C5"
-			(at 210.566 42.164 0)
+			(at 209.296 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right bottom)
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 208.788 34.036 0)
+			(at 209.55 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -7469,25 +7829,25 @@
 		(dnp no)
 		(uuid "7949b631-997c-4698-aa3d-1db72eb90e0f")
 		(property "Reference" "C2"
-			(at 172.974 65.786 0)
+			(at 173.736 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
 		)
 		(property "Value" "1uF"
-			(at 178.054 71.12 0)
+			(at 174.244 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right bottom)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -7594,13 +7954,14 @@
 		(dnp no)
 		(uuid "84de6b97-d155-4de0-85ce-6775845ddc21")
 		(property "Reference" "R24"
-			(at 200.66 74.676 90)
+			(at 200.66 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "10K"
@@ -7717,25 +8078,25 @@
 		(dnp no)
 		(uuid "9c94d488-a0c5-4273-8678-3a205a7b5fa1")
 		(property "Reference" "C7"
-			(at 216.916 42.164 0)
+			(at 215.646 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right bottom)
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 215.138 34.036 0)
+			(at 215.9 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -8042,25 +8403,25 @@
 		(dnp no)
 		(uuid "a0125df1-96fd-4135-b091-aefee6986eb7")
 		(property "Reference" "C4"
-			(at 204.216 42.164 0)
+			(at 202.946 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right bottom)
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 202.438 34.036 0)
+			(at 203.2 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -8150,6 +8511,84 @@
 			(project "picoPD_interrogator"
 				(path "/e34b0978-7def-4921-94d0-accc0a677529"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 331.47 167.64 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a81d13a2-d83e-43ca-8a70-c720eb669586")
+		(property "Reference" "TP1"
+			(at 331.47 173.482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 329.946 176.022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 326.39 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 331.47 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1567f7d4-91a1-4f1a-9a1b-3de0b8599526")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -8967,13 +9406,14 @@
 		(dnp no)
 		(uuid "dffbe47e-9d28-4743-9a86-50591ceff173")
 		(property "Reference" "R25"
-			(at 210.82 74.676 90)
+			(at 210.82 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 			)
 		)
 		(property "Value" "33K"
@@ -9525,8 +9965,8 @@
 		)
 	)
 	(sheet
-		(at 115.57 87.63)
-		(size 17.78 10.16)
+		(at 114.935 78.105)
+		(size 13.97 12.065)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9539,9 +9979,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "c005f400-2771-42c4-a653-4be0c9a68b07")
+		(uuid "5fc3cb73-4322-43f5-bce6-327144ddaa7e")
 		(property "Sheetname" "Type-C Port 2"
-			(at 115.57 86.9184 0)
+			(at 114.935 77.3934 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9551,8 +9991,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "typec_1.kicad_sch"
-			(at 115.57 98.3746 0)
+		(property "Sheetfile" "typec_2.kicad_sch"
+			(at 114.935 90.7546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "466dba84-566e-4e21-b006-d90ee849b944")
+	(uuid "8c61081e-b5e7-4f1e-be8c-cf1853456334")
 	(paper "A4")
 	(title_block
 		(rev "D - RC2")
@@ -1807,20 +1807,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "51d1a15c-c7c2-493e-a2d9-8db5c33a6042")
-	)
-	(rectangle
-		(start 16.51 151.13)
-		(end 77.47 193.04)
-		(stroke
-			(width 0.508)
-			(type dash)
-			(color 132 0 132 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "51f7118b-1a93-4629-96cf-ce32806239e2")
+		(uuid "21de1dcc-e0e7-4eda-a5c1-113894cf7052")
 	)
 	(rectangle
 		(start 16.51 16.51)
@@ -1833,7 +1820,20 @@
 		(fill
 			(type none)
 		)
-		(uuid "770e3615-8a74-4199-8944-8ae13d9f3d1d")
+		(uuid "31d57e90-fcb4-43b6-81d1-1475138d3ed4")
+	)
+	(rectangle
+		(start 16.51 151.13)
+		(end 77.47 193.04)
+		(stroke
+			(width 0.508)
+			(type dash)
+			(color 132 0 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "88a993bb-e4ee-485f-9d60-b8305df362df")
 	)
 	(rectangle
 		(start 97.79 16.51)
@@ -1846,7 +1846,17 @@
 		(fill
 			(type none)
 		)
-		(uuid "c657abbd-45b9-4b24-b5ef-716321a3d4e2")
+		(uuid "d15091a4-4de3-48f0-864a-c05029fded3d")
+	)
+	(text "Port 2 is configured with Rd resistors.\n(Default Role: UFP)"
+		(exclude_from_sim no)
+		(at 48.26 186.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0688b412-218a-487c-9078-5adb9090855b")
 	)
 	(text "BMC_VREF should be ~0.541v\n(1.1v logic level)"
 		(exclude_from_sim no)
@@ -1856,33 +1866,20 @@
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "205eb795-f94b-4bae-9544-42fb3682a039")
+		(uuid "15792bcd-1fc2-405b-9d94-10e8813cdb72")
 	)
-	(text "VCONN Switches"
+	(text "Interrogation Port 2\n[USB-C receptacle]"
 		(exclude_from_sim no)
-		(at 123.19 92.964 0)
+		(at 124.206 23.876 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 				(thickness 0.508)
 				(bold yes)
-				(color 0 132 132 1)
+				(color 52 135 255 1)
 			)
 		)
-		(uuid "4a9348f5-605e-4ce5-8d19-bba2cc27d6e2")
-	)
-	(text "CC pull-down [and/or]\npull-up resistors"
-		(exclude_from_sim no)
-		(at 46.99 160.02 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 132 0 132 1)
-			)
-		)
-		(uuid "a1c8c5b4-d7e2-477e-bba1-a3768a169689")
+		(uuid "180f24d0-1f09-45f4-ad56-5c8eeb8039f5")
 	)
 	(text "USB-PD [Transmit]"
 		(exclude_from_sim no)
@@ -1895,40 +1892,7 @@
 				(color 216 33 41 1)
 			)
 		)
-		(uuid "c302dd8e-eb2f-4079-8d24-96de1767a9a7")
-	)
-	(text "These provide VCONN power to \nVPDs (VCONN-powered devices) \nsuch as E-Marker cables"
-		(exclude_from_sim no)
-		(at 131.318 141.478 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c7477168-93a8-4b23-802a-a52d40e5de65")
-	)
-	(text "Port 1 is configured with Rd resistors.\n(Default Role: UFP)"
-		(exclude_from_sim no)
-		(at 48.26 186.944 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d3d74652-7681-4880-ad74-c300850ed06f")
-	)
-	(text "Interrogation Port 1\n[USB-C receptacle]"
-		(exclude_from_sim no)
-		(at 124.206 23.876 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 52 135 255 1)
-			)
-		)
-		(uuid "e2b7eb54-86c5-4664-baf8-0548256bb1fd")
+		(uuid "1bf45d43-ca5f-4f32-a37d-17dbe1751fd6")
 	)
 	(text "USB-PD [Receive]"
 		(exclude_from_sim no)
@@ -1941,223 +1905,139 @@
 				(color 216 33 41 1)
 			)
 		)
-		(uuid "ffcd8501-238d-4c5b-8294-f94ac98b8b2a")
+		(uuid "2e29ceb5-fa6c-4215-b5f2-f51bab0544e8")
 	)
-	(junction
-		(at 77.47 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1cafbbb7-e224-4d8e-a0a4-c52f4ab3ab83")
+	(text "VCONN Switches"
+		(exclude_from_sim no)
+		(at 123.19 92.964 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 132 132 1)
+			)
+		)
+		(uuid "58eefe87-2aa0-4cb8-8c03-ece4e2fee73b")
 	)
-	(junction
-		(at 77.47 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2528d612-153a-40a0-a137-d89dda8f6276")
+	(text "CC pull-down [and/or]\npull-up resistors"
+		(exclude_from_sim no)
+		(at 46.99 160.02 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 132 0 132 1)
+			)
+		)
+		(uuid "64cc0c6a-68e4-470b-b0a0-c9a0c4216c42")
 	)
-	(junction
-		(at 36.83 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c7eb995-bfa5-4753-b860-e52fca72b4d4")
-	)
-	(junction
-		(at 77.47 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65b303e7-054f-4321-8d19-f6150ef04348")
-	)
-	(junction
-		(at 33.02 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "698ac723-82df-4c22-9c5d-75f4495b46c3")
-	)
-	(junction
-		(at 115.57 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fc941ae-3cf3-4b32-acf9-a281c42f19a4")
-	)
-	(junction
-		(at 74.93 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a087a9de-d848-49cb-9d44-a2add65b2f82")
-	)
-	(junction
-		(at 132.08 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8d6f6d6-cdc3-4318-88c0-c669b2baeb84")
-	)
-	(junction
-		(at 46.99 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf1618e4-0032-4a56-986e-933320bd4f0e")
-	)
-	(junction
-		(at 33.02 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db0adff9-4da0-4a60-8902-128ce14b1c0f")
+	(text "These provide VCONN power to \nVPDs (VCONN-powered devices) \nsuch as E-Marker cables"
+		(exclude_from_sim no)
+		(at 131.318 141.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce5ac656-98d9-4177-8acc-b3aa75c50b49")
 	)
 	(junction
 		(at 63.5 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "df93d62d-f2db-4f29-b096-42fe47807766")
+		(uuid "03adb7b3-5169-49c3-bbde-d6ddc3c013e3")
+	)
+	(junction
+		(at 46.99 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "152c127f-45c8-46fd-a8cc-90018a7349b2")
+	)
+	(junction
+		(at 33.02 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b338019-4d13-4a01-8c6d-14ba6fc30fef")
+	)
+	(junction
+		(at 33.02 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22168ed1-fd98-4b66-8877-9a569c22ebb0")
+	)
+	(junction
+		(at 77.47 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f72c331-5fbf-4b4c-b412-2c5e85d953ab")
+	)
+	(junction
+		(at 115.57 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "768a481d-140b-4e08-b5ad-be6fb0d2a08c")
+	)
+	(junction
+		(at 77.47 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ee20872-0698-4871-87fb-b6966d14a5b1")
 	)
 	(junction
 		(at 132.08 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e4fb6ecb-be87-458b-bfc1-5c4c84a5ac39")
+		(uuid "880cbf5b-1d0d-4817-81a2-2d019519c567")
+	)
+	(junction
+		(at 132.08 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95da6d5c-e7a3-4e74-b738-8541aa2082dd")
 	)
 	(junction
 		(at 85.09 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ed42b4fd-3d66-4bca-aab1-4b4d02cc4557")
+		(uuid "b6214a7b-ceef-4073-808e-e697fc8c7111")
+	)
+	(junction
+		(at 77.47 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c634d0e6-f244-4ab0-bbdd-c45cef0ff183")
+	)
+	(junction
+		(at 74.93 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df6e1554-5ec2-4c20-b3ed-a1e0f2ad28e9")
+	)
+	(junction
+		(at 36.83 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0c5c1bf-1109-4d0c-b856-3e018cdfa99d")
 	)
 	(no_connect
 		(at 113.03 100.33)
-		(uuid "96294759-1943-4fb8-9ab4-b613b9601b7e")
+		(uuid "4cd22968-822e-4144-9616-3a2ef4a68921")
 	)
 	(no_connect
 		(at 113.03 121.92)
-		(uuid "a1cdae3a-bb89-40bd-b192-ead68a2bbc3d")
+		(uuid "79ee7a2f-6f66-4773-841c-1c9d35c8938d")
 	)
 	(wire
 		(pts
-			(xy 41.91 179.07) (xy 54.61 179.07)
+			(xy 62.23 171.45) (xy 63.5 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00c9377d-3ab3-4831-979a-81b4dda8331a")
-	)
-	(wire
-		(pts
-			(xy 77.47 116.84) (xy 77.47 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0218723d-8a6e-41f1-9c24-08fc4dc49198")
-	)
-	(wire
-		(pts
-			(xy 74.93 54.61) (xy 74.93 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "062d6584-2739-467f-8e38-4eb6fd7a6617")
-	)
-	(wire
-		(pts
-			(xy 36.83 55.88) (xy 36.83 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a2bdc84-a225-440e-89a2-fdad230391f6")
-	)
-	(wire
-		(pts
-			(xy 77.47 116.84) (xy 81.28 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d354572-0881-4ec4-a010-4f615ba2b5e7")
-	)
-	(wire
-		(pts
-			(xy 130.81 53.34) (xy 132.08 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e16f417-d4a4-41d8-90bf-24729094bb4c")
-	)
-	(wire
-		(pts
-			(xy 76.2 138.43) (xy 76.2 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f822349-11e7-4143-b596-1ef825ba0786")
-	)
-	(wire
-		(pts
-			(xy 77.47 107.95) (xy 80.01 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18e6f339-96f1-4f03-aba2-998bb416d680")
-	)
-	(wire
-		(pts
-			(xy 132.08 55.88) (xy 130.81 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a33df11-3a6e-4a51-b04b-3dcf0f53b4bf")
-	)
-	(wire
-		(pts
-			(xy 63.5 171.45) (xy 63.5 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "222e0921-b213-4d24-b2c9-42455fe1287a")
-	)
-	(wire
-		(pts
-			(xy 33.02 179.07) (xy 34.29 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "322306c8-dfcc-4ce6-8b85-2fae214482fe")
-	)
-	(wire
-		(pts
-			(xy 33.02 171.45) (xy 33.02 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3276cff9-9aa0-4d40-874e-5b68035ac008")
-	)
-	(wire
-		(pts
-			(xy 85.09 55.88) (xy 85.09 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33f793c7-ca73-419d-a00d-8a626ef6e200")
+		(uuid "002c0001-317d-482d-a2a1-930cf6843d09")
 	)
 	(wire
 		(pts
@@ -2167,47 +2047,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "377b2d0d-97a5-4985-9c18-56d6cafe48c7")
+		(uuid "01b3f437-9bb6-410c-af93-4028f1387848")
 	)
 	(wire
 		(pts
-			(xy 34.29 171.45) (xy 33.02 171.45)
+			(xy 72.39 107.95) (xy 77.47 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "404c81c1-ae63-482e-8b3a-bc7a14ffa793")
-	)
-	(wire
-		(pts
-			(xy 107.95 73.66) (xy 115.57 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40a9ba2e-68fe-4147-82ad-86d52822623a")
-	)
-	(wire
-		(pts
-			(xy 132.08 50.8) (xy 133.35 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c22b1e4-d694-444a-895c-4f55170f98f2")
-	)
-	(wire
-		(pts
-			(xy 63.5 179.07) (xy 63.5 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e1ae5db-9d1c-4584-b903-f566281dc715")
+		(uuid "0276aca2-aeb4-44a4-b19e-facda3d6dfaf")
 	)
 	(polyline
 		(pts
@@ -2218,207 +2068,27 @@
 			(type default)
 			(color 216 33 41 1)
 		)
-		(uuid "4ece5568-611c-42d8-8433-d9d4e6d58927")
+		(uuid "05de851d-2828-461c-98d6-144e11f02297")
 	)
 	(wire
 		(pts
-			(xy 110.49 132.08) (xy 113.03 132.08)
+			(xy 77.47 116.84) (xy 81.28 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4edc6083-dcae-456a-b9fe-e97ba4e62624")
+		(uuid "09021394-1c34-4101-9842-5a4436c360d0")
 	)
 	(wire
 		(pts
-			(xy 41.91 171.45) (xy 54.61 171.45)
+			(xy 36.83 55.88) (xy 36.83 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "513c8ff3-2138-46c7-9527-94c90287d2d2")
-	)
-	(wire
-		(pts
-			(xy 62.23 171.45) (xy 63.5 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c05b9f1-fc82-4bae-9b5e-87cf4f374dc3")
-	)
-	(wire
-		(pts
-			(xy 31.75 171.45) (xy 33.02 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6821e155-6b8c-4b8d-898b-1e77b2bf8454")
-	)
-	(wire
-		(pts
-			(xy 74.93 55.88) (xy 74.93 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "739eb26c-8641-42aa-9561-9be82cdde947")
-	)
-	(wire
-		(pts
-			(xy 77.47 115.57) (xy 77.47 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74b1d02a-3e5d-4d95-94b4-818fa6d46c94")
-	)
-	(wire
-		(pts
-			(xy 110.49 113.03) (xy 110.49 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "789a85d4-909d-44c3-b324-db9fc8a63bb4")
-	)
-	(wire
-		(pts
-			(xy 46.99 55.88) (xy 46.99 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b0448f3-41e2-4889-b07e-aa471d7a3ec3")
-	)
-	(wire
-		(pts
-			(xy 29.21 104.14) (xy 33.02 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b392cae-8ec6-4eed-9f10-81ebe9f1cacb")
-	)
-	(wire
-		(pts
-			(xy 132.08 53.34) (xy 132.08 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d0a94e2-c8fb-427f-af2b-5a491f25d1c6")
-	)
-	(wire
-		(pts
-			(xy 132.08 53.34) (xy 133.35 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3b20123-140a-48a0-a7d7-87522c070cd2")
-	)
-	(wire
-		(pts
-			(xy 110.49 134.62) (xy 110.49 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3facfa8-dc5a-4b6a-b20e-5477153a7e74")
-	)
-	(wire
-		(pts
-			(xy 130.81 48.26) (xy 132.08 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab29ac8a-4d86-41bd-8035-1028635554d7")
-	)
-	(wire
-		(pts
-			(xy 74.93 55.88) (xy 85.09 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adf1966d-2150-4fa7-80c3-f4932c87befd")
-	)
-	(wire
-		(pts
-			(xy 33.02 124.46) (xy 33.02 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0184dcf-1973-41d4-9e51-c7655a06359e")
-	)
-	(wire
-		(pts
-			(xy 33.02 115.57) (xy 33.02 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0288981-55cc-44f4-9928-f7adbc1e59dd")
-	)
-	(wire
-		(pts
-			(xy 72.39 138.43) (xy 76.2 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2f03e75-14d1-4c5b-a134-677ae8d75ae3")
-	)
-	(wire
-		(pts
-			(xy 33.02 115.57) (xy 35.56 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b512be22-d735-496e-b3ae-3430a98159a1")
-	)
-	(wire
-		(pts
-			(xy 85.09 54.61) (xy 85.09 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b626995c-cbaa-4002-9919-a54d78b6dcd5")
-	)
-	(wire
-		(pts
-			(xy 33.02 114.3) (xy 33.02 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c39980bd-eab0-4275-809f-7ad81b7f8aca")
+		(uuid "0aab4e0f-03a5-4084-9c23-846a587a8678")
 	)
 	(wire
 		(pts
@@ -2428,67 +2098,37 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c9116d60-85c3-4c8c-8a0b-9673a1f70e42")
+		(uuid "0b213a58-d7b6-4f48-8ca1-d9c09669d501")
 	)
 	(wire
 		(pts
-			(xy 110.49 110.49) (xy 113.03 110.49)
+			(xy 29.21 104.14) (xy 33.02 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce9fb2e4-514d-4f96-b5bb-05837a797808")
+		(uuid "141e3dbd-2804-4a2a-888a-cb7719df9894")
 	)
 	(wire
 		(pts
-			(xy 77.47 125.73) (xy 80.01 125.73)
+			(xy 132.08 53.34) (xy 133.35 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2b327dc-ad13-4ed0-94cd-395cd625c647")
+		(uuid "1b56db87-ce04-4794-ba24-3af35c0a33ad")
 	)
 	(wire
 		(pts
-			(xy 72.39 125.73) (xy 77.47 125.73)
+			(xy 132.08 55.88) (xy 130.81 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d70a2b0a-41de-403f-9170-decbed38ce8a")
-	)
-	(wire
-		(pts
-			(xy 72.39 107.95) (xy 77.47 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd55c259-3491-46bc-85b6-6934d5f865bc")
-	)
-	(wire
-		(pts
-			(xy 132.08 48.26) (xy 132.08 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e09b5d1b-c069-47bc-91d4-ef3e6c4b9209")
-	)
-	(wire
-		(pts
-			(xy 63.5 179.07) (xy 62.23 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4d967c2-ba77-480e-ad7e-5f60a8d070f7")
+		(uuid "1e4639f8-18f3-4446-a490-63867f3f1929")
 	)
 	(wire
 		(pts
@@ -2498,17 +2138,47 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ef84a5af-6ea5-4295-b323-356d678b8c7c")
+		(uuid "23e6179f-7062-4923-85aa-64920bd7b313")
 	)
 	(wire
 		(pts
-			(xy 130.81 50.8) (xy 132.08 50.8)
+			(xy 76.2 138.43) (xy 76.2 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f17e3c33-bc24-4085-ac46-1d01d9b1f1a4")
+		(uuid "268ea3f0-5984-4d2f-ab2e-bba6d52a4140")
+	)
+	(wire
+		(pts
+			(xy 41.91 171.45) (xy 54.61 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ad0f28-3105-4ee2-9ae2-d7b28e40eeaf")
+	)
+	(wire
+		(pts
+			(xy 33.02 124.46) (xy 33.02 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8298d9-677b-4167-89ca-3cd6662a02e2")
+	)
+	(wire
+		(pts
+			(xy 77.47 107.95) (xy 80.01 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b698b05-824d-458f-a9ad-e487b58fa3a1")
 	)
 	(wire
 		(pts
@@ -2518,67 +2188,337 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f6eec4f5-a125-4c62-abeb-80d8a780caa3")
+		(uuid "301e37de-8823-4a6a-867c-637431b9edb9")
 	)
-	(label "CC2_CONN"
-		(at 130.81 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 130.81 48.26) (xy 132.08 48.26)
 		)
-		(uuid "059a7902-ffb0-4500-8377-07d57501010e")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32978809-2d8b-49be-ae50-169b48cfe2ab")
 	)
-	(label "BMC_VREF"
-		(at 57.15 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 72.39 125.73) (xy 77.47 125.73)
 		)
-		(uuid "242c7b5c-1432-4e2c-b601-8b983865a014")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "338a3aad-8275-4a06-900c-8b5e1ec90147")
 	)
-	(label "CC1_CONN"
-		(at 43.18 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 107.95 73.66) (xy 115.57 73.66)
 		)
-		(uuid "264b59f5-dd64-4be9-889a-0602491b15b7")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b93f20-5210-4bc3-baf7-9da0b121db86")
 	)
-	(label "3V3"
-		(at 36.83 34.29 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 130.81 53.34) (xy 132.08 53.34)
 		)
-		(uuid "2a96d35b-fdbe-460b-8ebe-484ac494a980")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37bf1288-04dd-4e4f-a914-d2c34f706ea5")
 	)
-	(label "3V3"
-		(at 74.93 34.29 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 33.02 179.07) (xy 34.29 179.07)
 		)
-		(uuid "454d8756-0d20-4c3e-b182-c394f988f6e2")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b691a6a-274b-4a03-81a1-96bb8646f5b8")
 	)
-	(label "CC1_CONN"
-		(at 128.27 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 85.09 55.88) (xy 85.09 57.15)
 		)
-		(uuid "59c083f8-673a-42ec-991d-89ad5f05d6cf")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435a555e-78b3-4fe4-9f64-08bad303f02e")
+	)
+	(wire
+		(pts
+			(xy 130.81 50.8) (xy 132.08 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46391a22-2346-4408-a493-8d99f4ca3609")
+	)
+	(wire
+		(pts
+			(xy 132.08 53.34) (xy 132.08 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac546e5-905f-4f92-b4a4-7bb488910f4f")
+	)
+	(wire
+		(pts
+			(xy 110.49 110.49) (xy 113.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cbb17b8-9b6a-426f-a393-9c1cc5816dcc")
+	)
+	(wire
+		(pts
+			(xy 132.08 50.8) (xy 133.35 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5014dee3-34c1-425f-9097-de24c28d3db3")
+	)
+	(wire
+		(pts
+			(xy 63.5 179.07) (xy 63.5 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2d3b9c-0beb-4ec0-9b04-2298c0f49317")
+	)
+	(wire
+		(pts
+			(xy 110.49 113.03) (xy 110.49 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "654f0f8c-4832-4b8f-9577-339b121d7635")
+	)
+	(wire
+		(pts
+			(xy 77.47 115.57) (xy 77.47 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b8e933-8d79-4b47-ac4e-26e0ed7eb78d")
+	)
+	(wire
+		(pts
+			(xy 72.39 138.43) (xy 76.2 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2c86ba-d09a-4f40-acb1-4a8315d84d21")
+	)
+	(wire
+		(pts
+			(xy 46.99 55.88) (xy 46.99 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ddf2217-9117-4c13-b021-e43f8f210615")
+	)
+	(wire
+		(pts
+			(xy 33.02 114.3) (xy 33.02 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83701ded-ae88-445b-aa87-eebbcb03ec5f")
+	)
+	(wire
+		(pts
+			(xy 110.49 134.62) (xy 110.49 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf516f5-c957-49af-97b2-4afcc28600ec")
+	)
+	(wire
+		(pts
+			(xy 34.29 171.45) (xy 33.02 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9218cb0e-8b0a-4dd3-ad17-bd10bdef0e8e")
+	)
+	(wire
+		(pts
+			(xy 74.93 55.88) (xy 74.93 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94989c33-03f9-4b1a-b50d-c4229001ecca")
+	)
+	(wire
+		(pts
+			(xy 63.5 179.07) (xy 62.23 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9876bda5-013e-4c60-b877-3633c0afad26")
+	)
+	(wire
+		(pts
+			(xy 33.02 115.57) (xy 35.56 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ee0a42-59aa-4802-bb1f-2201f27324a1")
+	)
+	(wire
+		(pts
+			(xy 132.08 48.26) (xy 132.08 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a855b000-cb8f-4bbe-93ae-7aa1be6ca608")
+	)
+	(wire
+		(pts
+			(xy 31.75 171.45) (xy 33.02 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab3aa75b-efb2-44e5-9439-1d5972953694")
+	)
+	(wire
+		(pts
+			(xy 85.09 54.61) (xy 85.09 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adfa5027-ee1c-4a4c-9226-852d8bac8a70")
+	)
+	(wire
+		(pts
+			(xy 74.93 55.88) (xy 85.09 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af83aa33-d5a2-4323-8225-b53abb12a729")
+	)
+	(wire
+		(pts
+			(xy 41.91 179.07) (xy 54.61 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b44d6ee3-fe89-40ff-9882-8d49f69e3942")
+	)
+	(wire
+		(pts
+			(xy 77.47 125.73) (xy 80.01 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf0bdd4-7a10-422a-8e2c-510fb2d27851")
+	)
+	(wire
+		(pts
+			(xy 110.49 132.08) (xy 113.03 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caba6f48-ab62-4425-a46c-753a06780274")
+	)
+	(wire
+		(pts
+			(xy 33.02 171.45) (xy 33.02 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d270fd50-6aa3-460e-8282-8c9a77605462")
+	)
+	(wire
+		(pts
+			(xy 74.93 54.61) (xy 74.93 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ddd6e5-0c2e-4b89-a07f-bfc882e76aff")
+	)
+	(wire
+		(pts
+			(xy 63.5 171.45) (xy 63.5 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f83550ae-782a-4d83-8f64-a847b4f8ec5e")
+	)
+	(wire
+		(pts
+			(xy 77.47 116.84) (xy 77.47 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8dd8ea5-609b-4500-9729-46fe75e3255b")
+	)
+	(wire
+		(pts
+			(xy 33.02 115.57) (xy 33.02 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc22f906-3a25-42ec-a7fa-5be57b70ed21")
 	)
 	(label "CC2_CONN"
 		(at 57.15 128.27 180)
@@ -2588,17 +2528,17 @@
 			)
 			(justify right)
 		)
-		(uuid "5e73d7fc-4e07-4ed6-956d-816fa8c40ec8")
+		(uuid "34d47e65-01b5-4bf7-9160-265553a7447e")
 	)
-	(label "CC1_CONN"
-		(at 46.99 46.99 90)
+	(label "3V3"
+		(at 74.93 34.29 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "73371af0-806c-4f68-9ba0-e61d6c004b5a")
+		(uuid "35fa46f4-bbf0-4f6a-9d88-d599787d478b")
 	)
 	(label "CC2_CONN"
 		(at 128.27 121.92 0)
@@ -2608,67 +2548,7 @@
 			)
 			(justify left)
 		)
-		(uuid "aab04e0e-49ee-4e07-a1e1-d18386b935b8")
-	)
-	(label "CC1_TX"
-		(at 38.1 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac495362-9138-4232-b6bb-df1f3d0f43e2")
-	)
-	(label "CC2_CONN"
-		(at 85.09 46.99 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c8ae3dc4-3ddc-4de9-89a3-847cf2a08d1a")
-	)
-	(label "CC2_TX"
-		(at 76.2 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca6fab1d-b5d9-437f-b464-fb09a460f3aa")
-	)
-	(label "BMC_VREF"
-		(at 35.56 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d0e63fba-377d-45ef-b4f2-5e0aa8da9be7")
-	)
-	(label "CC1_CONN"
-		(at 130.81 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d58d3bda-2ede-465d-a032-aa0d85fd2e2c")
-	)
-	(label "CC2_CONN"
-		(at 43.18 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d5c6bea3-1128-47c6-9661-5152d0cf7cdf")
+		(uuid "5cfb89a7-57d4-4965-a65d-eabd4748fd2e")
 	)
 	(label "3V3"
 		(at 57.15 138.43 180)
@@ -2678,17 +2558,107 @@
 			)
 			(justify right)
 		)
-		(uuid "e964ae57-193a-49a4-8ebb-01419524a25d")
+		(uuid "634771a9-8470-4bdc-a811-54618305c241")
+	)
+	(label "CC1_CONN"
+		(at 43.18 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67ba16c6-63d3-447b-bfc3-a87fa6098727")
+	)
+	(label "CC1_TX"
+		(at 38.1 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "698a9776-0cb3-4a6a-84df-3b4d8efa9898")
 	)
 	(label "BMC_VREF"
-		(at 57.15 123.19 180)
+		(at 57.15 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f0dbf2a2-23f7-4e8a-b50e-79e897a812a0")
+		(uuid "6f610038-a519-46dd-a365-82278673caaa")
+	)
+	(label "BMC_VREF"
+		(at 35.56 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73498b8d-ab31-4b94-8413-cdbba80e3478")
+	)
+	(label "CC1_CONN"
+		(at 46.99 46.99 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76471a6f-8475-4c49-88f3-0cde3c378598")
+	)
+	(label "CC2_CONN"
+		(at 130.81 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80982372-8c0c-4dd9-a26e-65f7c6b3cedc")
+	)
+	(label "CC2_TX"
+		(at 76.2 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9580acd5-f1b5-4280-90b4-141f7608b8df")
+	)
+	(label "CC1_CONN"
+		(at 130.81 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "969e39d1-4d56-45ca-9e3c-b8d60142b253")
+	)
+	(label "CC1_CONN"
+		(at 128.27 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d2bd248-4d6a-4b91-87a3-dddf6b33d056")
+	)
+	(label "3V3"
+		(at 36.83 34.29 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "acc1ce3a-5d4e-4a3c-abdf-2dca73cb2eae")
 	)
 	(label "CC1_CONN"
 		(at 57.15 110.49 180)
@@ -2698,73 +2668,37 @@
 			)
 			(justify right)
 		)
-		(uuid "fa104a3e-2671-4eca-bc30-72695f91cc3c")
+		(uuid "ad928696-7218-44bc-9b35-ad617ee60ad2")
 	)
-	(hierarchical_label "USB_DM"
-		(shape passive)
-		(at 133.35 50.8 0)
+	(label "CC2_CONN"
+		(at 85.09 46.99 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "0861058c-b2a6-49be-b7a1-250858ae477c")
+		(uuid "c3960ef4-383b-4423-9cc5-2178735041ff")
 	)
-	(hierarchical_label "CC1_RX"
-		(shape passive)
-		(at 80.01 107.95 0)
+	(label "BMC_VREF"
+		(at 57.15 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "1b1fb1bb-5c21-4202-b424-941898333347")
+		(uuid "c95c3e74-2e46-4479-8e2e-b63cf74f691d")
 	)
-	(hierarchical_label "3V3"
-		(shape passive)
-		(at 81.28 116.84 0)
+	(label "CC2_CONN"
+		(at 43.18 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "1bdbffe8-f5a8-4ed0-afd9-22128ce887b3")
-	)
-	(hierarchical_label "SBU1"
-		(shape passive)
-		(at 130.81 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4270327d-8dcb-443d-bb71-d6c0cc1b7784")
-	)
-	(hierarchical_label "CC2_VCONN_EN"
-		(shape passive)
-		(at 128.27 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "49f8a952-3dbf-435f-9b85-678246659932")
-	)
-	(hierarchical_label "CC1_VCONN_EN"
-		(shape passive)
-		(at 128.27 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5074dc0a-9f73-452f-b323-cd91450a1ca4")
+		(uuid "f9ee4753-a8b9-45be-bb0b-dbe20d17ed90")
 	)
 	(hierarchical_label "3V3"
 		(shape passive)
@@ -2775,18 +2709,7 @@
 			)
 			(justify right)
 		)
-		(uuid "63a96397-5e89-412a-96e9-0883d939d78e")
-	)
-	(hierarchical_label "CC1_ADC"
-		(shape passive)
-		(at 46.99 64.77 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8b7d2d05-e376-4298-b0c0-5877182fee2c")
+		(uuid "0613a658-ea4a-4e01-88d0-d904985849c9")
 	)
 	(hierarchical_label "SBU2"
 		(shape passive)
@@ -2797,128 +2720,7 @@
 			)
 			(justify left)
 		)
-		(uuid "90e1bb06-d25a-4678-abc2-9d5c693c7eac")
-	)
-	(hierarchical_label "CC2_RX"
-		(shape passive)
-		(at 80.01 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "94413a77-842a-4ad6-8f7e-34546e41bf3a")
-	)
-	(hierarchical_label "3V3"
-		(shape passive)
-		(at 105.41 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9717975a-093a-418c-806e-3391ab69507e")
-	)
-	(hierarchical_label "3V3"
-		(shape passive)
-		(at 128.27 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9d08bb76-b3f5-4143-97e6-cd9705bb5fae")
-	)
-	(hierarchical_label "CC2_TX_H"
-		(shape passive)
-		(at 67.31 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a14ebf9c-6b71-4c3f-8840-bc2cdde0d736")
-	)
-	(hierarchical_label "USB_DP"
-		(shape passive)
-		(at 133.35 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ba6eee67-9f18-4e03-9041-eb6f07c2281e")
-	)
-	(hierarchical_label "CC2_TX_L"
-		(shape passive)
-		(at 67.31 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0c0c7d1-1036-4b6d-8ed9-1586f8f150f7")
-	)
-	(hierarchical_label "VBUS"
-		(shape passive)
-		(at 130.81 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c63d459b-1558-46eb-a42e-5379917cc877")
-	)
-	(hierarchical_label "3V3"
-		(shape passive)
-		(at 105.41 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cf5fe65f-b7c9-4f97-84b3-0bd1de19830e")
-	)
-	(hierarchical_label "3V3"
-		(shape passive)
-		(at 31.75 171.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d14049ee-4f96-46a5-a56d-f99673a5b6cc")
-	)
-	(hierarchical_label "CC1_TX_L"
-		(shape passive)
-		(at 29.21 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ddc4167a-18b9-49d3-b01c-a329b38d5b6a")
-	)
-	(hierarchical_label "3V3"
-		(shape passive)
-		(at 128.27 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ded6d163-034c-4edf-88ef-03c0dd04f32d")
+		(uuid "11c029e1-9350-43a9-b6b6-91cc7e3f63e3")
 	)
 	(hierarchical_label "CC2_ADC"
 		(shape passive)
@@ -2929,7 +2731,18 @@
 			)
 			(justify right)
 		)
-		(uuid "e651375b-d838-46fb-b9ed-ff92f3aa3e74")
+		(uuid "1a5e18e3-904d-4c7d-86bf-0d11786c1026")
+	)
+	(hierarchical_label "3V3"
+		(shape passive)
+		(at 128.27 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1acb7ff7-9b13-45f3-961f-576a5a80a077")
 	)
 	(hierarchical_label "CC1_TX_H"
 		(shape passive)
@@ -2940,11 +2753,198 @@
 			)
 			(justify right)
 		)
-		(uuid "f9581c1d-8d76-44a9-b41a-12c01d0c586a")
+		(uuid "2317ffce-c9b2-4d39-9174-608389b05377")
+	)
+	(hierarchical_label "VBUS"
+		(shape passive)
+		(at 130.81 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "251d934a-dfd5-4e69-99d9-847e5386f482")
+	)
+	(hierarchical_label "CC2_RX"
+		(shape passive)
+		(at 80.01 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cc2b6ef-9de5-43a4-b5dc-fee906b26303")
+	)
+	(hierarchical_label "3V3"
+		(shape passive)
+		(at 128.27 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31880390-64b1-42e3-9904-eb4406adab45")
+	)
+	(hierarchical_label "CC1_RX"
+		(shape passive)
+		(at 80.01 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44c3af02-bb8f-48b6-be96-d534ea2130ae")
+	)
+	(hierarchical_label "3V3"
+		(shape passive)
+		(at 81.28 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "478f98cc-6b95-4339-be0a-864b0bc65b35")
+	)
+	(hierarchical_label "3V3"
+		(shape passive)
+		(at 105.41 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4937a067-59cc-4ce7-8879-33011a9ee1fd")
+	)
+	(hierarchical_label "CC2_TX_L"
+		(shape passive)
+		(at 67.31 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "824649b3-dc8e-4413-943a-0e51623b525e")
+	)
+	(hierarchical_label "3V3"
+		(shape passive)
+		(at 31.75 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "965ec304-0258-4767-9b1a-8b503864f619")
+	)
+	(hierarchical_label "USB_DP"
+		(shape passive)
+		(at 133.35 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "970aeee0-8af4-4881-bcf7-b4430457c7d1")
+	)
+	(hierarchical_label "3V3"
+		(shape passive)
+		(at 105.41 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d96e2a5-b304-4f89-8d3b-b3794e2065c2")
+	)
+	(hierarchical_label "SBU1"
+		(shape passive)
+		(at 130.81 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a44336a8-2941-467b-a9af-c310f36fb3b5")
+	)
+	(hierarchical_label "CC2_VCONN_EN"
+		(shape passive)
+		(at 128.27 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c60d20c2-40f1-473e-be72-09d0f5742165")
+	)
+	(hierarchical_label "CC1_ADC"
+		(shape passive)
+		(at 46.99 64.77 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8443283-6b2f-4fee-bbc4-5c7fb08c3165")
+	)
+	(hierarchical_label "CC2_TX_H"
+		(shape passive)
+		(at 67.31 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc39ba64-703b-40d4-81f7-a5afad674a90")
+	)
+	(hierarchical_label "CC1_VCONN_EN"
+		(shape passive)
+		(at 128.27 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d88b6d92-77fc-4548-b659-1053094ecf40")
+	)
+	(hierarchical_label "CC1_TX_L"
+		(shape passive)
+		(at 29.21 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e143db5b-face-445f-9793-2a4ae78b7505")
+	)
+	(hierarchical_label "USB_DM"
+		(shape passive)
+		(at 133.35 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f48d5480-9ad2-429c-b906-04cac2435237")
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 121.92 180)
+		(at 74.93 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2952,9 +2952,133 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0dc899d4-bb8b-42ee-903c-71eb896f336c")
-		(property "Reference" "R19"
-			(at 75.946 121.92 0)
+		(uuid "0317075c-428f-4ec0-8f22-9fc692fc7f41")
+		(property "Reference" "R43"
+			(at 73.406 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100R"
+			(at 74.93 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 73.152 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 74.93 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Detailed" "100 Ohms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 74.93 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "P122654CT-ND"
+			(at 74.93 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF1000C"
+			(at 74.93 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "abbd4940-c4cd-40f1-a7d0-173a437431f5")
+		)
+		(pin "2"
+			(uuid "50367be5-ac26-4244-aa19-189d4c080f0c")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 60.96 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "045bfc65-22eb-4d9c-9443-ef39d4921b67")
+		(property "Reference" "R47"
+			(at 83.566 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2964,8 +3088,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3K"
-			(at 77.47 121.92 90)
+		(property "Value" "100K"
+			(at 85.09 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2975,7 +3099,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 79.248 121.92 90)
+			(at 86.868 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2986,7 +3110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 121.92 0)
+			(at 85.09 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2997,7 +3121,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 77.47 121.92 0)
+			(at 85.09 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3007,8 +3131,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 77.47 121.92 0)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 85.09 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3018,8 +3142,8 @@
 				)
 			)
 		)
-		(property "Description Detailed" "3.3 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 77.47 121.92 0)
+		(property "Description Detailed" "0 Ohms Jumper Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 85.09 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3029,8 +3153,8 @@
 				)
 			)
 		)
-		(property "DigiKey PN" "P122937CT-ND"
-			(at 77.47 121.92 0)
+		(property "DigiKey PN" "RMCF0201ZT0R00CT-ND"
+			(at 85.09 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3040,132 +3164,8 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "ERJ-1GNF3301C"
-			(at 77.47 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4cbba439-453a-4ae9-b6e2-587f74aad88f")
-		)
-		(pin "2"
-			(uuid "aac8cb06-fc0d-49d5-9248-13245ab26501")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 58.42 171.45 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0e2be818-078d-40fd-ba49-fd5fd82ac713")
-		(property "Reference" "R6"
-			(at 58.42 169.926 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 58.42 171.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 58.42 169.672 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 58.42 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 58.42 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description Detailed" "5.1 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 58.42 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey PN" "P123051CT-N"
-			(at 58.42 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer PN" "ERJ-1GNF5101C"
-			(at 58.42 171.45 0)
+		(property "Manufacturer PN" "RMCF0201ZT0R00"
+			(at 85.09 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3176,15 +3176,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f64f8a8-4fc9-44cc-9f18-b704c85cf4bc")
+			(uuid "715af66c-c731-4cdb-9d77-9e8ded7e5f07")
 		)
 		(pin "2"
-			(uuid "52bb168d-c882-4b4e-9a5c-f22769dc456a")
+			(uuid "36eea6d6-c44b-4c37-a0d8-6b36ec546547")
 		)
 		(instances
 			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "R6")
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -3200,8 +3200,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1167f17c-d3be-469a-a6ea-ebc1ea9a5887")
-		(property "Reference" "R11"
+		(uuid "05078494-4b1b-4d45-af61-5e3fb7a67412")
+		(property "Reference" "R33"
 			(at 35.306 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3300,395 +3300,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b21089f-a01b-4ec1-8de2-9c765c79391c")
+			(uuid "246088fe-762e-4b0c-b112-99e77648e9e2")
 		)
 		(pin "2"
-			(uuid "0d5de340-808b-456a-bc5f-91c474065148")
+			(uuid "edc67046-a326-4640-8065-fb1e2088fd42")
 		)
 		(instances
 			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "picoPD_interrogator:rohm-RE1C002UN")
-		(at 34.29 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2acb7a77-9d65-45a8-9ff1-b86f470786bd")
-		(property "Reference" "Q1"
-			(at 33.02 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "rohm-RE1C002UN"
-			(at 40.64 49.5299 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
-			(at 39.37 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf"
-			(at 39.37 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "200ma, 20V Vds, N-Channel MOSFET, EMT3F (SOT-416FL)"
-			(at 34.29 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Rohm Semiconductor"
-			(at 34.29 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer PN" "RE1C002UNTCL"
-			(at 34.29 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey PN" "RE1C002UNTCLCT-ND"
-			(at 34.29 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description Detailed" "N-Channel 20 V 200mA (Ta) 150mW (Ta) Surface Mount EMT3F (SOT-416FL)"
-			(at 34.29 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "15cbf7ed-3be6-43eb-95a1-8152701ae839")
-		)
-		(pin "1"
-			(uuid "04ef38d1-0f97-4a9f-ab37-24f80052b7a5")
-		)
-		(pin "2"
-			(uuid "914052bd-e43f-4150-81ec-fd2ff3da65f1")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 115.57 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3087f29f-0788-47e4-be67-1407a900a49c")
-		(property "Reference" "J2"
-			(at 125.73 32.258 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 115.824 69.596 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
-			(at 119.38 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 119.38 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 115.57 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "GCT"
-			(at 115.57 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey PN" "2073-USB4105-GF-ACT-ND"
-			(at 115.57 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer PN" "USB4105-GF-A"
-			(at 115.57 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description Detailed" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole"
-			(at 115.57 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "B9"
-			(uuid "c5a69905-2a61-4d7f-92df-ff6461b6f10d")
-		)
-		(pin "B6"
-			(uuid "b8baff80-f9f6-4efd-9826-77f92273b10a")
-		)
-		(pin "B8"
-			(uuid "a09343cf-4f0c-49d5-87b0-14d13db24437")
-		)
-		(pin "B7"
-			(uuid "2f771a51-2b6d-46da-82ca-1b083cb3e3b4")
-		)
-		(pin "A12"
-			(uuid "4c1b5afe-11d8-42a7-85c8-498d0e85353d")
-		)
-		(pin "A4"
-			(uuid "b28bb6a3-dfa7-4b30-a7a3-fa237c7aae36")
-		)
-		(pin "A5"
-			(uuid "c9e6c215-b47e-4ae9-b557-8a2274e44703")
-		)
-		(pin "A6"
-			(uuid "10fb587d-02c7-4f34-80af-104b2f1646d5")
-		)
-		(pin "A7"
-			(uuid "d0284c90-378a-46d2-ad92-c5217dbb7373")
-		)
-		(pin "A8"
-			(uuid "0a0ac313-8008-41fd-bb87-bd71184765c7")
-		)
-		(pin "B5"
-			(uuid "3a93a0ea-8d59-46e9-9f4d-0341d15b7b78")
-		)
-		(pin "A9"
-			(uuid "dfbaf48d-cf47-4559-92f7-0b1bcefc1da5")
-		)
-		(pin "S1"
-			(uuid "fb133d71-dd51-44bb-8124-dbc587fca4f5")
-		)
-		(pin "A1"
-			(uuid "270641cb-4b6f-449b-b39d-9edc71d3df27")
-		)
-		(pin "B12"
-			(uuid "52a71fa5-4c29-4e3d-9093-fe1d2afdda47")
-		)
-		(pin "B1"
-			(uuid "93df4a93-d853-4d2e-9c5f-9000f4a3448b")
-		)
-		(pin "B4"
-			(uuid "d68c76ba-b8c2-4ba5-8f1d-d4b2c61e951d")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 180.34 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3ad601a2-0e0c-4bea-a5a0-748461999cf6")
-		(property "Reference" "#PWR08"
-			(at 63.5 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.31 181.864 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "234d1f70-fffc-4de7-8f3c-8dd913a723b4")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "#PWR08")
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -3696,7 +3316,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 179.07 270)
+		(at 77.47 121.92 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3704,20 +3324,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "43f8a4e2-4c32-42d2-970f-6661d16f9604")
-		(property "Reference" "R7"
-			(at 58.42 177.546 90)
+		(uuid "06b6ce6c-e9f5-40d6-8507-c5ecc3fa80e4")
+		(property "Reference" "R45"
+			(at 75.946 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left)
 			)
 		)
-		(property "Value" "5.1K"
-			(at 58.42 179.07 90)
+		(property "Value" "3.3K"
+			(at 77.47 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3727,7 +3347,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 58.42 177.292 90)
+			(at 79.248 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3738,7 +3358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 179.07 0)
+			(at 77.47 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3749,7 +3369,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 58.42 179.07 0)
+			(at 77.47 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3760,7 +3380,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 58.42 179.07 0)
+			(at 77.47 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3770,8 +3390,8 @@
 				)
 			)
 		)
-		(property "Description Detailed" "5.1 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 58.42 179.07 0)
+		(property "Description Detailed" "3.3 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 77.47 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3781,8 +3401,8 @@
 				)
 			)
 		)
-		(property "DigiKey PN" "P123051CT-N"
-			(at 58.42 179.07 0)
+		(property "DigiKey PN" "P122937CT-ND"
+			(at 77.47 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3792,8 +3412,8 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "ERJ-1GNF5101C"
-			(at 58.42 179.07 0)
+		(property "Manufacturer PN" "ERJ-1GNF3301C"
+			(at 77.47 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3804,23 +3424,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c3ff611-8108-4bec-a26a-505a97d34434")
+			(uuid "d99d56a3-158e-4458-92ac-48e696bf05a9")
 		)
 		(pin "2"
-			(uuid "1355e6a5-cf90-4bef-847e-38ea4e189e18")
+			(uuid "145120dd-e0b7-4cf3-aa9b-cb0164fc829e")
 		)
 		(instances
 			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "R7")
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "R45")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 33.02 110.49 180)
+		(lib_id "power:GND")
+		(at 76.2 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3828,30 +3448,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4ad9195f-ee2d-4e0a-8e5e-94be4a5ba852")
-		(property "Reference" "R9"
-			(at 31.496 110.49 0)
+		(uuid "0b84eec7-238a-4467-b50f-5fa7a35742ce")
+		(property "Reference" "#PWR031"
+			(at 76.2 146.05 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "5.1K"
-			(at 33.02 110.49 90)
+		(property "Value" "GND"
+			(at 76.2 143.764 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 34.798 110.49 90)
+		(property "Footprint" ""
+			(at 76.2 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3862,7 +3482,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 110.49 0)
+			(at 76.2 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3872,52 +3492,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 33.02 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 33.02 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description Detailed" ""
-			(at 33.02 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey PN" ""
-			(at 33.02 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer PN" ""
-			(at 33.02 110.49 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3928,15 +3504,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "40e07616-15e4-4ed2-809a-cba2f2a08192")
-		)
-		(pin "2"
-			(uuid "cb3de387-1421-49ce-bc1b-d319a6808d2b")
+			(uuid "ce7aeee7-d8f8-4d63-bffe-7fd19fa1c1e8")
 		)
 		(instances
 			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "R9")
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3952,8 +3525,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4b3675ed-cfec-457a-ac7b-e5dabe793f3d")
-		(property "Reference" "R18"
+		(uuid "10f2e551-0ae9-465d-8221-83cd0b6e6667")
+		(property "Reference" "R44"
 			(at 75.946 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4052,15 +3625,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7cfaf535-b5ee-4308-9c06-e5cfe600fa2c")
+			(uuid "ceff66ae-b477-4bd3-ba72-f7db5b8587e7")
 		)
 		(pin "2"
-			(uuid "1dd81270-a411-4c39-84e3-761f3b585fe0")
+			(uuid "19536d7a-ca68-4ba2-9874-57dd53c0c6f6")
 		)
 		(instances
 			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "R18")
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -4068,7 +3641,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 50.8 0)
+		(at 33.02 120.65 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4076,20 +3649,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "58804ba4-6b6a-4158-bb44-c9f7ae55b1c9")
-		(property "Reference" "R20"
-			(at 83.566 50.8 0)
+		(uuid "1503f1ef-09ce-42ea-a0d1-d1457980d4ee")
+		(property "Reference" "R32"
+			(at 31.496 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "0R"
-			(at 85.09 50.8 90)
+		(property "Value" "1K"
+			(at 33.02 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4099,7 +3672,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 83.312 50.8 90)
+			(at 34.798 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4110,7 +3683,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 50.8 0)
+			(at 33.02 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4121,7 +3694,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 50.8 0)
+			(at 33.02 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4131,8 +3704,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Stackpole Electronics Inc"
-			(at 85.09 50.8 0)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 33.02 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4142,8 +3715,8 @@
 				)
 			)
 		)
-		(property "Description Detailed" "0 Ohms Jumper Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 85.09 50.8 0)
+		(property "Description Detailed" "1 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 33.02 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4153,8 +3726,8 @@
 				)
 			)
 		)
-		(property "DigiKey PN" "RMCF0201ZT0R00CT-ND"
-			(at 85.09 50.8 0)
+		(property "DigiKey PN" "P122413CT-ND"
+			(at 33.02 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4164,8 +3737,8 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "RMCF0201ZT0R00"
-			(at 85.09 50.8 0)
+		(property "Manufacturer PN" "ERJ-1GNF1001C"
+			(at 33.02 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4176,15 +3749,139 @@
 			)
 		)
 		(pin "1"
-			(uuid "8b4a34eb-0a49-4216-9273-1ea668b1060e")
+			(uuid "37785259-a353-46f8-8462-6d9c63a77ab6")
 		)
 		(pin "2"
-			(uuid "1135aa12-99ba-4bfe-93d4-e4402091cb01")
+			(uuid "829f9de5-455b-4b50-bf31-f1e41e88e074")
 		)
 		(instances
 			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "R20")
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 50.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "151f9bcf-0924-4057-8dcb-6bcdc1faef6c")
+		(property "Reference" "R37"
+			(at 45.466 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R"
+			(at 46.99 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 48.768 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 46.99 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Detailed" "0 Ohms Jumper Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 46.99 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "RMCF0201ZT0R00CT-ND"
+			(at 46.99 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "RMCF0201ZT0R00"
+			(at 46.99 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "324be408-5f4f-432f-b032-9d23c23c8c3d")
+		)
+		(pin "2"
+			(uuid "bbe38bc3-f92c-4b04-bd90-379c172879f5")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -4200,8 +3897,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5ea5d86f-2fe3-4956-8fbc-c32182d5f9cf")
-		(property "Reference" "Q4"
+		(uuid "1d4608c7-67c3-426b-bc59-a9593de17df6")
+		(property "Reference" "Q7"
 			(at 71.12 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4305,18 +4002,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "31300f63-a221-435a-9dce-c1897a87788d")
+			(uuid "50b8a315-2f99-4b0c-9f91-6f9c9b43d750")
 		)
 		(pin "1"
-			(uuid "b359182c-6111-491c-bdef-ca49fc4066d2")
+			(uuid "89c0c75d-2da4-49bb-b763-e27b23d703a1")
 		)
 		(pin "2"
-			(uuid "93302e03-d4eb-4276-9ec3-77e5a03104fb")
+			(uuid "404f57ee-bb1b-49a0-bd3e-75f7974b22e6")
 		)
 		(instances
 			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "Q4")
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -4324,7 +4021,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 46.99 60.96 180)
+		(at 58.42 171.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4332,20 +4029,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6bfd11a9-d325-445e-9249-3e8a672f0ae2")
-		(property "Reference" "R30"
-			(at 45.466 60.96 0)
+		(uuid "1e1f9e2e-2d97-4430-a3b3-87ff1ace6c8a")
+		(property "Reference" "R40"
+			(at 58.42 169.926 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify bottom)
 			)
 		)
-		(property "Value" "100K"
-			(at 46.99 60.96 90)
+		(property "Value" "5.1K"
+			(at 58.42 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4355,7 +4052,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 48.768 60.96 90)
+			(at 58.42 169.672 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4366,7 +4063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 60.96 0)
+			(at 58.42 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4377,285 +4074,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 46.99 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Stackpole Electronics Inc"
-			(at 46.99 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description Detailed" "0 Ohms Jumper Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 46.99 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey PN" "RMCF0201ZT0R00CT-ND"
-			(at 46.99 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer PN" "RMCF0201ZT0R00"
-			(at 46.99 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a3cb32c-069b-467e-8660-be794c886830")
-		)
-		(pin "2"
-			(uuid "670c7802-0765-4881-8535-a70cc5f0b2cc")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 110.49 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "72112950-a163-42b3-a038-f7228ec17908")
-		(property "Reference" "#PWR019"
-			(at 110.49 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 117.094 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ae8ce56b-cd32-45ef-8bed-e9966b413c75")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 110.49 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "856e1333-2172-4f7d-9b19-9d503cb6e23d")
-		(property "Reference" "#PWR020"
-			(at 110.49 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 138.684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c231240-77fe-4e10-ba06-97ade6947a38")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 33.02 120.65 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8629cd3d-12b9-4485-a7e5-82836273d1e6")
-		(property "Reference" "R10"
-			(at 31.496 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 33.02 120.65 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 34.798 120.65 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 33.02 120.65 0)
+			(at 58.42 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4666,7 +4085,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 33.02 120.65 0)
+			(at 58.42 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4676,8 +4095,8 @@
 				)
 			)
 		)
-		(property "Description Detailed" "1 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 33.02 120.65 0)
+		(property "Description Detailed" "5.1 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 58.42 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4687,8 +4106,8 @@
 				)
 			)
 		)
-		(property "DigiKey PN" "P122413CT-ND"
-			(at 33.02 120.65 0)
+		(property "DigiKey PN" "P123051CT-N"
+			(at 58.42 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4698,8 +4117,8 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "ERJ-1GNF1001C"
-			(at 33.02 120.65 0)
+		(property "Manufacturer PN" "ERJ-1GNF5101C"
+			(at 58.42 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4710,301 +4129,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "06dc8f20-a078-4ae0-87a8-b54b79b523a5")
+			(uuid "f51c3ea4-8345-4345-9365-cb5685aecd18")
 		)
 		(pin "2"
-			(uuid "2dc15d8d-015f-4f47-bb93-f99840a3fd03")
+			(uuid "13d85daf-3595-4042-9167-f54896486017")
 		)
 		(instances
 			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "picoPD_interrogator:rohm-RE1C002UN")
-		(at 72.39 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "89edb9b8-7e34-479a-bb0b-c7f5015fecd9")
-		(property "Reference" "Q5"
-			(at 71.12 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "rohm-RE1C002UN"
-			(at 78.74 64.7699 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
-			(at 77.47 65.405 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf"
-			(at 77.47 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "200ma, 20V Vds, N-Channel MOSFET, EMT3F (SOT-416FL)"
-			(at 72.39 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Rohm Semiconductor"
-			(at 72.39 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer PN" "RE1C002UNTCL"
-			(at 72.39 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey PN" "RE1C002UNTCLCT-ND"
-			(at 72.39 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description Detailed" "N-Channel 20 V 200mA (Ta) 150mW (Ta) Surface Mount EMT3F (SOT-416FL)"
-			(at 72.39 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "382a90e5-00bc-4ca3-a1bc-82a435aab818")
-		)
-		(pin "1"
-			(uuid "6bd2f06d-03a7-46cf-a9f9-5869b8c21cf8")
-		)
-		(pin "2"
-			(uuid "4cf76008-301e-4b87-b2cf-29120c38c6b7")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 74.93 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8f2d3bfc-a85e-4ab2-8a3c-ee7cee6fe705")
-		(property "Reference" "#PWR024"
-			(at 74.93 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 74.93 81.534 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b043586f-506c-4cc9-9d55-c32cf5520769")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 115.57 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "941e870a-7e71-4a80-9159-bdbb6511d519")
-		(property "Reference" "#PWR025"
-			(at 115.57 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 115.57 77.724 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc6be2c3-591c-49c3-b964-893aeea5f6b3")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "#PWR025")
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -5020,8 +4153,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9e7fbb9b-7a7a-443d-b0d0-cff03decdbd5")
-		(property "Reference" "U3"
+		(uuid "22668197-0d18-47b4-b7c5-c95aaedf6be0")
+		(property "Reference" "U8"
 			(at 64.77 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5119,7 +4252,7 @@
 			)
 		)
 		(pin "2"
-			(uuid "f3f9d64d-9aab-4b8e-910d-6593d055fd4d")
+			(uuid "8f9fdd7a-a96e-47b0-ba22-1bf8771fa9bd")
 		)
 		(pin "7"
 			(uuid "074d31dc-e072-48a8-b21f-009161ebc29f")
@@ -5131,21 +4264,21 @@
 			(uuid "22fa50fa-b5e9-4114-8b61-da52e37e5ae0")
 		)
 		(pin "1"
-			(uuid "a4e41422-fe02-457d-ba3d-b4f49e2bbb56")
+			(uuid "93568302-48ff-41e9-bed6-06ede681fe15")
 		)
 		(pin "4"
 			(uuid "15243d9a-6fa1-4b69-9847-837690c316cd")
 		)
 		(pin "3"
-			(uuid "745fac08-c0d1-4c0b-b2b7-b223b22cbcf1")
+			(uuid "00136e03-9da5-4b92-8a14-8cf0867e72a7")
 		)
 		(pin "6"
 			(uuid "e62d6762-496f-439f-8db3-ca58a889727a")
 		)
 		(instances
 			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "U3")
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -5153,7 +4286,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 139.7 0)
+		(at 110.49 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5161,9 +4294,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b09f4a71-3f98-4e51-acb6-ef071bf51d67")
-		(property "Reference" "#PWR017"
-			(at 76.2 146.05 0)
+		(uuid "28275cb1-ba95-486c-9118-c9fbcdb3b41d")
+		(property "Reference" "#PWR032"
+			(at 110.49 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5174,7 +4307,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 143.764 0)
+			(at 110.49 117.094 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5184,7 +4317,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 139.7 0)
+			(at 110.49 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5195,7 +4328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 139.7 0)
+			(at 110.49 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5206,7 +4339,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 139.7 0)
+			(at 110.49 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5217,1770 +4350,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a1d5d9b3-d785-4497-a2b3-f5467406a07b")
+			(uuid "b338e026-c4de-468f-a7ce-59edc729c2ad")
 		)
 		(instances
 			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "picoPD_interrogator:ST-LM393QT")
-		(at 64.77 125.73 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b1672c9b-e6c9-4332-9315-a84ca06c40ba")
-		(property "Reference" "U3"
-			(at 64.77 116.586 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ST-LM393QT"
-			(at 64.77 119.126 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "picoPD_interrogator:DFN-8_2x2mm_P0.5mm_ST"
-			(at 64.77 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/group1/b4/cc/cf/13/18/28/44/f5/CD00000465/files/CD00000465.pdf/jcr:content/translations/en.CD00000465.pdf"
-			(at 64.77 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 64.77 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 64.77 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description Detailed" "Comparator General Purpose Open-Collector, Rail-to-Rail 8-UFSON (2x2)"
-			(at 64.77 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey PN" "497-11126-1-ND"
-			(at 64.77 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer PN" "LM393QT"
-			(at 64.77 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "84be19e1-7e71-419b-8cf5-b116ac0f5069")
-		)
-		(pin "7"
-			(uuid "3540cc9d-8226-40a1-91b0-4e6b82e5a923")
-		)
-		(pin "8"
-			(uuid "259cb289-cced-49b3-a7d0-e8fe12b3b0c2")
-		)
-		(pin "5"
-			(uuid "a3431341-c8ce-4ba8-9eb2-51f49aa01ed6")
-		)
-		(pin "1"
-			(uuid "51683814-c122-416f-a0af-be0e3b700397")
-		)
-		(pin "4"
-			(uuid "15243d9a-6fa1-4b69-9847-837690c316ce")
-		)
-		(pin "3"
-			(uuid "24190c27-c98e-4bd8-8ffd-ec91bd3b749b")
-		)
-		(pin "6"
-			(uuid "19f72e38-0797-469f-b30a-3c30132583ad")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "U3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "picoPD_interrogator:ST-LM393QT")
-		(at 64.77 135.89 90)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b3a75336-7cae-4474-ae55-1937a51c8274")
-		(property "Reference" "U3"
-			(at 64.77 133.35 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ST-LM393QT"
-			(at 64.77 135.89 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "picoPD_interrogator:DFN-8_2x2mm_P0.5mm_ST"
-			(at 64.77 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/group1/b4/cc/cf/13/18/28/44/f5/CD00000465/files/CD00000465.pdf/jcr:content/translations/en.CD00000465.pdf"
-			(at 64.77 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 64.77 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 64.77 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description Detailed" "Comparator General Purpose Open-Collector, Rail-to-Rail 8-UFSON (2x2)"
-			(at 64.77 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey PN" "497-11126-1-ND"
-			(at 64.77 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer PN" "LM393QT"
-			(at 64.77 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "84be19e1-7e71-419b-8cf5-b116ac0f5067")
-		)
-		(pin "7"
-			(uuid "074d31dc-e072-48a8-b21f-009161ebc29e")
-		)
-		(pin "8"
-			(uuid "79c9b246-2936-4b19-ac1c-707cd81cfeef")
-		)
-		(pin "5"
-			(uuid "22fa50fa-b5e9-4114-8b61-da52e37e5adf")
-		)
-		(pin "1"
-			(uuid "51683814-c122-416f-a0af-be0e3b700395")
-		)
-		(pin "4"
-			(uuid "5183ac22-6620-4648-a9ba-6b4f354d905b")
-		)
-		(pin "3"
-			(uuid "24190c27-c98e-4bd8-8ffd-ec91bd3b7499")
-		)
-		(pin "6"
-			(uuid "e62d6762-496f-439f-8db3-ca58a8897279")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "U3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 74.93 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bdba3ef5-c45c-48a2-a581-c9dc3cbd64d3")
-		(property "Reference" "R17"
-			(at 73.406 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100R"
-			(at 74.93 73.66 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 73.152 73.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 74.93 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 74.93 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description Detailed" "100 Ohms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 74.93 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey PN" "P122654CT-ND"
-			(at 74.93 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer PN" "ERJ-1GNF1000C"
-			(at 74.93 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c3af6dad-0d0c-493e-abfb-a253dfdcd025")
-		)
-		(pin "2"
-			(uuid "382ee659-3079-4906-a9d0-b25273fce54a")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 38.1 179.07 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "bfa16b65-a817-4958-9a32-29e283112df1")
-		(property "Reference" "R5"
-			(at 38.1 177.546 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "35K"
-			(at 38.1 179.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 38.1 177.292 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 38.1 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 38.1 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cdf442e9-6399-4dd4-8f91-e194a1d71cc5")
-		)
-		(pin "2"
-			(uuid "1bcd23e0-b869-4ec0-a811-b5432676df65")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "picoPD_interrogator:TI_sn741vc1g3157-q1")
-		(at 120.65 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c87404fc-004e-4968-8634-9cdc61c7ec20")
-		(property "Reference" "U5"
-			(at 125.73 119.126 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "TI_SN74LVC1G3157-Q1"
-			(at 120.65 135.382 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "picoPD_interrogator:TI_sn741vc1g3157-q1"
-			(at 120.65 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "IC SWITCH SPDT X 1 15OHM SC70-6"
-			(at 120.65 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer PN" "1P1G3157QDCKRQ1"
-			(at 120.65 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 120.65 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey PN" "296-15610-1-ND"
-			(at 120.65 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description Detailed" "1 Circuit IC Switch 2:1 15Ohm SC-70-6"
-			(at 120.65 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "5fc9c13e-044f-413b-a61f-ea63c8393083")
-		)
-		(pin "5"
-			(uuid "6489ae89-710a-437a-9df1-dda6c6c40a92")
-		)
-		(pin "1"
-			(uuid "0d231bc3-5c07-461a-9b6a-313aa3973256")
-		)
-		(pin "3"
-			(uuid "583678ec-7609-450b-bd6e-86c66e4d5fbf")
-		)
-		(pin "2"
-			(uuid "41453539-1366-4f0f-a101-37f8b9e05a22")
-		)
-		(pin "6"
-			(uuid "5bb0327d-5bcd-4557-9fd9-fce6fe8a1c3a")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 36.83 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c874d8c1-824e-441b-84f1-5fd85e88b464")
-		(property "Reference" "R12"
-			(at 35.306 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100R"
-			(at 36.83 73.66 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 35.052 73.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 36.83 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 36.83 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description Detailed" "100 Ohms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 36.83 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey PN" "P122654CT-ND"
-			(at 36.83 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer PN" "ERJ-1GNF1000C"
-			(at 36.83 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb013ff5-c04d-4442-a7b0-a37669becb5a")
-		)
-		(pin "2"
-			(uuid "2ed7cd0f-296f-4b08-ac54-91ae6c755804")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 109.22 105.41 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c89c85da-46d2-4559-a2ef-d40d57814933")
-		(property "Reference" "R22"
-			(at 109.22 103.886 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "33R"
-			(at 109.22 105.41 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 109.22 103.632 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 109.22 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer PN" "ERJ-1GNF33R0C"
-			(at 109.22 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 109.22 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description Detailed" "33 Ohms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 109.22 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey PN" "P122944CT-ND"
-			(at 109.22 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f314e914-12ca-4182-a8bf-a663b00e0a14")
-		)
-		(pin "2"
-			(uuid "d924595b-6b8a-4d15-807e-ae19db8ef5f2")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 46.99 50.8 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cb6bf820-bcba-4e03-b649-628dcd6244e0")
-		(property "Reference" "R14"
-			(at 45.466 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R"
-			(at 46.99 50.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 48.768 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 46.99 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Stackpole Electronics Inc"
-			(at 46.99 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description Detailed" "0 Ohms Jumper Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 46.99 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey PN" "RMCF0201ZT0R00CT-ND"
-			(at 46.99 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer PN" "RMCF0201ZT0R00"
-			(at 46.99 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d631d9d8-007d-4103-b2bb-546f981c52d0")
-		)
-		(pin "2"
-			(uuid "3a5f19f6-6ded-494a-be97-93faec929f81")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 109.22 127 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d9948668-ca6a-433a-9888-8b3547b75123")
-		(property "Reference" "R23"
-			(at 109.22 125.476 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "33R"
-			(at 109.22 127 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 109.22 125.222 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 109.22 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer PN" "ERJ-1GNF33R0C"
-			(at 109.22 127 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 109.22 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description Detailed" "33 Ohms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 109.22 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey PN" "P122944CT-ND"
-			(at 109.22 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a01f6f2-3d4e-4a7d-9b94-5492fa04c86d")
-		)
-		(pin "2"
-			(uuid "78258267-12c4-434e-bbd8-4621a9c4fef7")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 33.02 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e1e2205f-d0a9-4e77-a33f-4e9b830aa1a7")
-		(property "Reference" "#PWR013"
-			(at 33.02 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 33.02 131.064 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef65553a-9d27-471f-93bc-10230cdd92c4")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "picoPD_interrogator:TI_sn741vc1g3157-q1")
-		(at 120.65 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e3808462-d3b6-4d53-adac-e40e95c5b994")
-		(property "Reference" "U4"
-			(at 125.73 97.536 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "TI_SN74LVC1G3157-Q1"
-			(at 120.65 113.792 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "picoPD_interrogator:TI_sn741vc1g3157-q1"
-			(at 120.65 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "IC SWITCH SPDT X 1 15OHM SC70-6"
-			(at 120.65 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer PN" "1P1G3157QDCKRQ1"
-			(at 120.65 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 120.65 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey PN" "296-15610-1-ND"
-			(at 120.65 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description Detailed" "1 Circuit IC Switch 2:1 15Ohm SC-70-6"
-			(at 120.65 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "979d8b78-d45f-4cdc-9a59-d47735f633e3")
-		)
-		(pin "5"
-			(uuid "fb1d8680-32f6-41f0-841e-cbbb8c3cefc4")
-		)
-		(pin "1"
-			(uuid "b7b9eaa0-7a2f-4e89-894b-a5ad8f0b2123")
-		)
-		(pin "3"
-			(uuid "e5f0a8a3-73d3-4464-b1e8-c76d808b859c")
-		)
-		(pin "2"
-			(uuid "8ea68461-ca61-4b06-acdb-e2ee2ad0ff84")
-		)
-		(pin "6"
-			(uuid "dcdd6023-c2c5-4716-a25e-e682157e9fc1")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 36.83 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e820bcce-af2d-4261-9cae-aea872bd0d8e")
-		(property "Reference" "#PWR026"
-			(at 36.83 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 36.83 81.534 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b50cbebf-61e0-4066-aedd-3806a04e7ed1")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 85.09 60.96 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e86783ec-9707-44f1-9ca9-66c9f4e6c0dc")
-		(property "Reference" "R31"
-			(at 83.566 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 85.09 60.96 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 86.868 60.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 85.09 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Stackpole Electronics Inc"
-			(at 85.09 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description Detailed" "0 Ohms Jumper Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 85.09 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey PN" "RMCF0201ZT0R00CT-ND"
-			(at 85.09 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer PN" "RMCF0201ZT0R00"
-			(at 85.09 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "17b9fba1-c88c-4e31-a059-7f2d7ab975e0")
-		)
-		(pin "2"
-			(uuid "1eef3b6d-56dc-45e0-8f38-628a703f3907")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 74.93 38.1 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ee6d9ac3-a956-4461-979e-c07e22b1ef92")
-		(property "Reference" "R16"
-			(at 73.406 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "200R"
-			(at 74.93 38.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 76.708 38.1 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 74.93 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 74.93 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description Detailed" "200 Ohms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 74.93 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey PN" "P122416CT-ND"
-			(at 74.93 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer PN" "ERJ-1GNF2000C"
-			(at 74.93 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "20b1327f-e711-4ff8-81c7-6db664f40abc")
-		)
-		(pin "2"
-			(uuid "7117eba8-609f-4738-bdce-6c5d00619d17")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 38.1 171.45 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "fd6f6916-0a49-4ca8-8b6f-5f04a7994c53")
-		(property "Reference" "R4"
-			(at 38.1 169.926 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "35K"
-			(at 38.1 171.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 38.1 169.672 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 38.1 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 38.1 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94de8087-b80e-4658-90ba-b40f8f8a5f72")
-		)
-		(pin "2"
-			(uuid "24e6b59a-1f75-4424-8570-a0aa5b339c8f")
-		)
-		(instances
-			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "R4")
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6996,8 +4371,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fe22efa7-587a-4df8-acad-98fc93349a50")
-		(property "Reference" "Q2"
+		(uuid "28c9d003-b463-449d-b7e2-dc58fb4d84eb")
+		(property "Reference" "Q6"
 			(at 33.02 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7101,18 +4476,2643 @@
 			)
 		)
 		(pin "3"
-			(uuid "7527f906-4da9-45b5-95cf-dd24bedea913")
+			(uuid "836063e7-8358-4896-a150-f230c010eedd")
 		)
 		(pin "1"
-			(uuid "46464161-6488-4c60-b853-b0f89d5f2b0c")
+			(uuid "bd8cb78a-05ea-4220-9f96-2edc8a003bfb")
 		)
 		(pin "2"
-			(uuid "935690a8-dc6c-4ea1-bfea-02f3620e0f96")
+			(uuid "6c242f14-a479-4ee2-81f5-4d5d5b53297e")
 		)
 		(instances
 			(project "picoPD_interrogator"
-				(path "/e34b0978-7def-4921-94d0-accc0a677529/0bab21ff-4542-4a67-acb6-f8b7d3b85465"
-					(reference "Q2")
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "picoPD_interrogator:ST-LM393QT")
+		(at 64.77 135.89 90)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "347e4bb6-f837-4c04-8c3c-61ef07c2d753")
+		(property "Reference" "U8"
+			(at 64.77 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ST-LM393QT"
+			(at 64.77 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "picoPD_interrogator:DFN-8_2x2mm_P0.5mm_ST"
+			(at 64.77 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/group1/b4/cc/cf/13/18/28/44/f5/CD00000465/files/CD00000465.pdf/jcr:content/translations/en.CD00000465.pdf"
+			(at 64.77 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 64.77 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 64.77 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Detailed" "Comparator General Purpose Open-Collector, Rail-to-Rail 8-UFSON (2x2)"
+			(at 64.77 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "497-11126-1-ND"
+			(at 64.77 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "LM393QT"
+			(at 64.77 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "84be19e1-7e71-419b-8cf5-b116ac0f5067")
+		)
+		(pin "7"
+			(uuid "074d31dc-e072-48a8-b21f-009161ebc29e")
+		)
+		(pin "8"
+			(uuid "8f5b387b-c78a-4a47-9d09-95298ba177ba")
+		)
+		(pin "5"
+			(uuid "22fa50fa-b5e9-4114-8b61-da52e37e5adf")
+		)
+		(pin "1"
+			(uuid "51683814-c122-416f-a0af-be0e3b700395")
+		)
+		(pin "4"
+			(uuid "d14fc118-43f0-4853-a047-5651d5bfec61")
+		)
+		(pin "3"
+			(uuid "24190c27-c98e-4bd8-8ffd-ec91bd3b7499")
+		)
+		(pin "6"
+			(uuid "e62d6762-496f-439f-8db3-ca58a8897279")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "U8")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 105.41 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "38a663de-027d-47b4-816b-9c94ee4f9b7e")
+		(property "Reference" "R48"
+			(at 109.22 103.886 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "33R"
+			(at 109.22 105.41 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 109.22 103.632 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF33R0C"
+			(at 109.22 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 109.22 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Detailed" "33 Ohms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 109.22 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "P122944CT-ND"
+			(at 109.22 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08744cba-e141-42d8-9667-6eba708b0873")
+		)
+		(pin "2"
+			(uuid "2377f0cc-6819-4139-8b18-669663228c67")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 33.02 110.49 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "405adde9-3484-4e0e-b8b2-104f9442d401")
+		(property "Reference" "R13"
+			(at 31.496 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 33.02 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 34.798 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 33.02 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Detailed" ""
+			(at 33.02 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" ""
+			(at 33.02 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" ""
+			(at 33.02 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3858345e-abf4-478c-b27c-0c663e73497d")
+		)
+		(pin "2"
+			(uuid "0f131dfb-eb93-4ec5-8699-c22961156d1c")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "picoPD_interrogator:TI_sn741vc1g3157-q1")
+		(at 120.65 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "47c1fd4b-417f-4591-ad78-c4b7fc682cdf")
+		(property "Reference" "U10"
+			(at 125.73 119.126 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "TI_SN74LVC1G3157-Q1"
+			(at 120.65 135.382 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "picoPD_interrogator:TI_sn741vc1g3157-q1"
+			(at 120.65 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IC SWITCH SPDT X 1 15OHM SC70-6"
+			(at 120.65 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "1P1G3157QDCKRQ1"
+			(at 120.65 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 120.65 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "296-15610-1-ND"
+			(at 120.65 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Detailed" "1 Circuit IC Switch 2:1 15Ohm SC-70-6"
+			(at 120.65 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "f4ece74d-dd7d-4a1b-b813-5e5c6e95c98e")
+		)
+		(pin "5"
+			(uuid "15ec0de1-468a-46bd-979a-be25c2ee95c6")
+		)
+		(pin "1"
+			(uuid "7933c430-8d75-4032-9da2-2d72da0d7b36")
+		)
+		(pin "3"
+			(uuid "4af0436c-389d-4874-8260-91ee391c7c68")
+		)
+		(pin "2"
+			(uuid "e856d660-fb79-495b-b67c-99ebd430888b")
+		)
+		(pin "6"
+			(uuid "0fc9c362-f2ea-4dbb-8fbf-882da7e1db59")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 179.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d8e2685-fcd4-4d72-9384-36e47fbb8041")
+		(property "Reference" "R41"
+			(at 58.42 177.546 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 58.42 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 58.42 177.292 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 58.42 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Detailed" "5.1 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 58.42 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "P123051CT-N"
+			(at 58.42 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF5101C"
+			(at 58.42 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a3c08d8-a367-45bf-8077-97a2e8258fa6")
+		)
+		(pin "2"
+			(uuid "b4d742ca-0200-493b-bd61-6406f620f57c")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 127 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ed987f2-f5d6-4329-83d7-2ea74ed8eb6a")
+		(property "Reference" "R49"
+			(at 109.22 125.476 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "33R"
+			(at 109.22 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 109.22 125.222 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF33R0C"
+			(at 109.22 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 109.22 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Detailed" "33 Ohms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 109.22 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "P122944CT-ND"
+			(at 109.22 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7302ff4-77e3-433f-84fd-41078615f72c")
+		)
+		(pin "2"
+			(uuid "30408991-6dc8-4a08-9ea2-9a91f5fb07f8")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "picoPD_interrogator:rohm-RE1C002UN")
+		(at 34.29 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "769be64f-2642-44e5-ba5f-84988151ecfe")
+		(property "Reference" "Q3"
+			(at 33.02 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "rohm-RE1C002UN"
+			(at 40.64 49.5299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
+			(at 39.37 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf"
+			(at 39.37 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "200ma, 20V Vds, N-Channel MOSFET, EMT3F (SOT-416FL)"
+			(at 34.29 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Rohm Semiconductor"
+			(at 34.29 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "RE1C002UNTCL"
+			(at 34.29 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "RE1C002UNTCLCT-ND"
+			(at 34.29 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Detailed" "N-Channel 20 V 200mA (Ta) 150mW (Ta) Surface Mount EMT3F (SOT-416FL)"
+			(at 34.29 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "83edb34e-e37f-429e-a7a0-90553b4c6beb")
+		)
+		(pin "1"
+			(uuid "c6b6780c-8261-48ac-b0ba-d60c7fb8b82a")
+		)
+		(pin "2"
+			(uuid "39599020-41c8-4fce-9df3-2d694df4470d")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 60.96 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "843f6836-f2a1-47d1-8d11-9b7a875d0720")
+		(property "Reference" "R38"
+			(at 45.466 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 46.99 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 48.768 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 46.99 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Detailed" "0 Ohms Jumper Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 46.99 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "RMCF0201ZT0R00CT-ND"
+			(at 46.99 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "RMCF0201ZT0R00"
+			(at 46.99 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0fbf1cb-a3ed-4e19-9143-be388a981157")
+		)
+		(pin "2"
+			(uuid "8552912e-82dc-4e52-8b9b-fa2f6e0c647f")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88c8ae49-8cee-4047-9eab-df02d7ac4d23")
+		(property "Reference" "#PWR028"
+			(at 36.83 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 81.534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f18a9032-97e6-472f-8929-34a3f26624a5")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 36.83 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c9a0cdc-52db-4f77-8acd-1f90e8a79e63")
+		(property "Reference" "R35"
+			(at 35.306 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100R"
+			(at 36.83 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 35.052 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 36.83 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 36.83 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Detailed" "100 Ohms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 36.83 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "P122654CT-ND"
+			(at 36.83 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF1000C"
+			(at 36.83 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18d64b0a-b4fe-4323-a998-10795eba30d9")
+		)
+		(pin "2"
+			(uuid "767b5c11-fc37-4296-b96e-0bdaecc9141b")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "94423e07-38ce-4830-8d74-8ad52bb16507")
+		(property "Reference" "#PWR033"
+			(at 110.49 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 138.684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61bd9b81-6300-44b7-8893-1383a86fbf95")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a156b904-a2b0-4dc0-944f-fea057337def")
+		(property "Reference" "#PWR014"
+			(at 33.02 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 131.064 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11153cd0-6bf1-4a4e-b76a-e0666785367e")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 115.57 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a719c8f6-8a22-46ee-9435-19d6895973ae")
+		(property "Reference" "J3"
+			(at 125.73 32.258 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 115.824 69.596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+			(at 119.38 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 119.38 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 115.57 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 115.57 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "2073-USB4105-GF-ACT-ND"
+			(at 115.57 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "USB4105-GF-A"
+			(at 115.57 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Detailed" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole"
+			(at 115.57 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "B9"
+			(uuid "940805ab-6c01-47f3-ae4b-a4bf7c2bdfd7")
+		)
+		(pin "B6"
+			(uuid "4a2e0d3c-fcfa-4eff-a1a9-cf2ff4bdbd60")
+		)
+		(pin "B8"
+			(uuid "252ac359-7dfa-46bb-8a11-9e78d8faf0f1")
+		)
+		(pin "B7"
+			(uuid "e3c28698-2b6e-4358-b1c3-4508b8e38ea2")
+		)
+		(pin "A12"
+			(uuid "8d7a4ae7-c683-4b8c-a6a9-d1919976ba88")
+		)
+		(pin "A4"
+			(uuid "c4458b24-63dd-4d14-94a4-183fd875e2c3")
+		)
+		(pin "A5"
+			(uuid "698aa96b-9777-469f-bfd8-d10c85d3da93")
+		)
+		(pin "A6"
+			(uuid "6662d8bd-737c-4140-8560-4ea2a39b3749")
+		)
+		(pin "A7"
+			(uuid "ab273bb6-9a51-4bb7-8188-69cdc6d01ed5")
+		)
+		(pin "A8"
+			(uuid "2bd2e4b7-d26c-4dcd-8dc3-aab5c88ffb75")
+		)
+		(pin "B5"
+			(uuid "f25d54aa-1be7-4959-a8d5-977c731ed891")
+		)
+		(pin "A9"
+			(uuid "ca13bac2-18e8-4f79-84a6-2f6dc285a829")
+		)
+		(pin "S1"
+			(uuid "d5f477bb-8786-4998-a1a7-2923d31fef3f")
+		)
+		(pin "A1"
+			(uuid "8513ff21-4359-47df-8f4e-e35ff2d17f2e")
+		)
+		(pin "B12"
+			(uuid "1fa870e4-3332-4f0a-984e-def1a4421cad")
+		)
+		(pin "B1"
+			(uuid "666dc6b3-8d59-4b5d-82b7-04ed4913e807")
+		)
+		(pin "B4"
+			(uuid "b010bbe3-f41b-4f2b-a08c-290c20716a1b")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "picoPD_interrogator:TI_sn741vc1g3157-q1")
+		(at 120.65 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a8c554b9-69e8-40cb-b17d-8c1f66300ce8")
+		(property "Reference" "U9"
+			(at 125.73 97.536 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "TI_SN74LVC1G3157-Q1"
+			(at 120.65 113.792 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "picoPD_interrogator:TI_sn741vc1g3157-q1"
+			(at 120.65 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IC SWITCH SPDT X 1 15OHM SC70-6"
+			(at 120.65 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "1P1G3157QDCKRQ1"
+			(at 120.65 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 120.65 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "296-15610-1-ND"
+			(at 120.65 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Detailed" "1 Circuit IC Switch 2:1 15Ohm SC-70-6"
+			(at 120.65 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "97403217-cdc7-4e6a-bdac-7ec99751e0ae")
+		)
+		(pin "5"
+			(uuid "94c7a4fc-074e-4d4b-85b5-fc3895d5a2a8")
+		)
+		(pin "1"
+			(uuid "e272891a-6f5a-40d3-b504-7765b1b2bca5")
+		)
+		(pin "3"
+			(uuid "9bcb82d5-ca26-40c0-9cb2-6f3e1df44fac")
+		)
+		(pin "2"
+			(uuid "4953d36d-dc5d-4500-950b-3289f635dab2")
+		)
+		(pin "6"
+			(uuid "405c297a-e893-4f57-9950-99774e9cef88")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 38.1 171.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "ad4bf32c-183e-48c4-a63b-e7cc27c96d59")
+		(property "Reference" "R8"
+			(at 38.1 169.926 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "35K"
+			(at 38.1 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 38.1 169.672 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 38.1 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e03aa84-df0b-4b8a-8f8e-728c9a85780b")
+		)
+		(pin "2"
+			(uuid "951ce6c0-216e-4977-ba95-ccc25f8bd87b")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "adab8084-8a24-4ec2-b984-f1e3912b73b5")
+		(property "Reference" "R46"
+			(at 83.566 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 85.09 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 83.312 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 85.09 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Detailed" "0 Ohms Jumper Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 85.09 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "RMCF0201ZT0R00CT-ND"
+			(at 85.09 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "RMCF0201ZT0R00"
+			(at 85.09 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7431b17-e614-46ad-9cc9-7e787707def1")
+		)
+		(pin "2"
+			(uuid "8988567d-d3c2-4028-8ef6-b95c9d562792")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 180.34 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ae05dd4a-08d7-423b-94f0-36ba510236ba")
+		(property "Reference" "#PWR016"
+			(at 63.5 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 181.864 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dfa3b86a-a285-4d04-a1e1-5cbdc94a4e1a")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 38.1 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4dde2d3-a38f-4247-9d9a-6f642e77a83c")
+		(property "Reference" "R42"
+			(at 73.406 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200R"
+			(at 74.93 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 76.708 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 74.93 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Detailed" "200 Ohms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 74.93 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "P122416CT-ND"
+			(at 74.93 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "ERJ-1GNF2000C"
+			(at 74.93 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d46af9de-ab5d-4a98-a568-8e585db8738c")
+		)
+		(pin "2"
+			(uuid "2441139d-8a81-4252-8b96-b687548cb2f1")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0cc139f-abf2-42d9-88d5-e815d4958a32")
+		(property "Reference" "#PWR029"
+			(at 74.93 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 81.534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c19cc7e4-57a6-42ff-b618-a00e07cafbbd")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "picoPD_interrogator:ST-LM393QT")
+		(at 64.77 125.73 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e48a3aaf-570f-47e8-98aa-ccf8e39146db")
+		(property "Reference" "U8"
+			(at 64.77 116.586 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ST-LM393QT"
+			(at 64.77 119.126 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "picoPD_interrogator:DFN-8_2x2mm_P0.5mm_ST"
+			(at 64.77 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/group1/b4/cc/cf/13/18/28/44/f5/CD00000465/files/CD00000465.pdf/jcr:content/translations/en.CD00000465.pdf"
+			(at 64.77 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
+			(at 64.77 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 64.77 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Detailed" "Comparator General Purpose Open-Collector, Rail-to-Rail 8-UFSON (2x2)"
+			(at 64.77 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "497-11126-1-ND"
+			(at 64.77 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "LM393QT"
+			(at 64.77 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "84be19e1-7e71-419b-8cf5-b116ac0f5069")
+		)
+		(pin "7"
+			(uuid "7f49905c-bd51-4ce2-98ac-9a961cf12861")
+		)
+		(pin "8"
+			(uuid "259cb289-cced-49b3-a7d0-e8fe12b3b0c2")
+		)
+		(pin "5"
+			(uuid "49774e71-d26d-4ec0-bbc4-459fc990cf72")
+		)
+		(pin "1"
+			(uuid "51683814-c122-416f-a0af-be0e3b700397")
+		)
+		(pin "4"
+			(uuid "15243d9a-6fa1-4b69-9847-837690c316ce")
+		)
+		(pin "3"
+			(uuid "24190c27-c98e-4bd8-8ffd-ec91bd3b749b")
+		)
+		(pin "6"
+			(uuid "3d62777a-3a15-41d3-95ec-18ce86070497")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "U8")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 38.1 179.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "e70dbb97-11ff-46ac-aa7a-3d60051a1f54")
+		(property "Reference" "R36"
+			(at 38.1 177.546 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "35K"
+			(at 38.1 179.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 38.1 177.292 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 38.1 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6ccf421-368b-4b42-b2e3-f42523b93b00")
+		)
+		(pin "2"
+			(uuid "162739a8-5bc4-4f12-8cb6-1efd1959adc8")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f28078da-8e39-4797-95a6-4ea987a50be9")
+		(property "Reference" "#PWR034"
+			(at 115.57 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 77.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a67517d1-f05e-4b8c-ad64-ddbd4e93013f")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "picoPD_interrogator:rohm-RE1C002UN")
+		(at 72.39 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb9061ff-f4d3-4117-ac05-4fb5b7ed8a11")
+		(property "Reference" "Q8"
+			(at 71.12 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "rohm-RE1C002UN"
+			(at 78.74 64.7699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
+			(at 77.47 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf"
+			(at 77.47 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "200ma, 20V Vds, N-Channel MOSFET, EMT3F (SOT-416FL)"
+			(at 72.39 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Rohm Semiconductor"
+			(at 72.39 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "RE1C002UNTCL"
+			(at 72.39 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey PN" "RE1C002UNTCLCT-ND"
+			(at 72.39 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description Detailed" "N-Channel 20 V 200mA (Ta) 150mW (Ta) Surface Mount EMT3F (SOT-416FL)"
+			(at 72.39 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ec372b39-b136-407e-8f67-f85727a8752c")
+		)
+		(pin "1"
+			(uuid "1ec0ab33-fb20-428d-ba62-8fd36b571659")
+		)
+		(pin "2"
+			(uuid "9d509061-35e2-4fa6-b6e8-3b37f07d634d")
+		)
+		(instances
+			(project "picoPD_interrogator"
+				(path "/e34b0978-7def-4921-94d0-accc0a677529/5fc3cb73-4322-43f5-bce6-327144ddaa7e"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
