@@ -486,7 +486,9 @@
   },
   "legacy": [],
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "picoPD_interrogator"
+    ],
     "pinned_symbol_libs": [
       "picoPD_interrogator"
     ]
@@ -683,6 +685,10 @@
     [
       "5fc3cb73-4322-43f5-bce6-327144ddaa7e",
       "Type-C Port 2"
+    ],
+    [
+      "2deb0404-c7e1-484e-908d-6bc9d3b847d1",
+      "LEDs"
     ]
   ],
   "text_variables": {},
