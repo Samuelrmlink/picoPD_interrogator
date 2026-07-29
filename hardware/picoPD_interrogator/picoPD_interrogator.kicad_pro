@@ -666,7 +666,7 @@
         "uuid": "e34b0978-7def-4921-94d0-accc0a677529"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C28-30,#PWR48,R67-68,U12",
     "variants": []
   },
   "sheets": [
@@ -689,6 +689,10 @@
     [
       "2deb0404-c7e1-484e-908d-6bc9d3b847d1",
       "LEDs"
+    ],
+    [
+      "9e668c5c-0501-4614-a8be-4d57d311b186",
+      "Power Regulation"
     ]
   ],
   "text_variables": {},
