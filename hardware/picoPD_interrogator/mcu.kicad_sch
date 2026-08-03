@@ -2992,7 +2992,7 @@
 	)
 	(rectangle
 		(start 82.55 16.51)
-		(end 201.295 164.465)
+		(end 201.295 163.83)
 		(stroke
 			(width 0.508)
 			(type dash)
