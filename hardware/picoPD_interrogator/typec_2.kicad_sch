@@ -6625,7 +6625,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 100K OHM 1% 1/20W 0201"
 			(at 109.22 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -6636,7 +6636,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Panasonic Electronic Components"
 			(at 109.22 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -6658,7 +6658,7 @@
 				)
 			)
 		)
-		(property "DigiKey PN" ""
+		(property "DigiKey PN" "P122655CT-N"
 			(at 109.22 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -6669,7 +6669,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" ""
+		(property "Manufacturer PN" "ERJ-1GNF1003C"
 			(at 109.22 168.91 0)
 			(hide yes)
 			(show_name no)
