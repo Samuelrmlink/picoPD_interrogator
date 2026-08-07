@@ -4414,7 +4414,7 @@
 		(uuid "0dd0de95-f849-45ab-a66b-66c4245d982f")
 	)
 	(label "TC2_CC2_TX_H"
-		(at 87.63 154.94 0)
+		(at 87.63 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4484,7 +4484,7 @@
 		(uuid "18e4704a-ad24-4c0f-806c-0fa216a558c6")
 	)
 	(label "TC1_CC2_VCONN_EN"
-		(at 87.63 111.76 0)
+		(at 85.09 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4614,7 +4614,7 @@
 		(uuid "2b912fc1-6a7e-4884-81eb-f6f3d058ccfc")
 	)
 	(label "TC2_CC1_TX_H"
-		(at 87.63 147.32 0)
+		(at 87.63 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4904,7 +4904,7 @@
 		(uuid "620b6e89-ade1-4543-8394-198f53a8d1fd")
 	)
 	(label "TC2_CC2_TX_L"
-		(at 87.63 157.48 0)
+		(at 87.63 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4984,7 +4984,7 @@
 		(uuid "6f421b70-147b-4062-a1c9-2d7e7ff2a3a5")
 	)
 	(label "TC1_CC1_VCONN_EN"
-		(at 87.63 109.22 0)
+		(at 85.09 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5014,7 +5014,7 @@
 		(uuid "74cfab31-da3f-4f90-a78c-8d1fdc5f3263")
 	)
 	(label "TC2_CC1_TX_L"
-		(at 87.63 149.86 0)
+		(at 87.63 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5064,7 +5064,7 @@
 		(uuid "88d23cf8-8a95-4c0a-bd67-53d220b5cc2e")
 	)
 	(label "TC2_CC2_VCONN_EN"
-		(at 87.63 121.92 0)
+		(at 85.09 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5164,7 +5164,7 @@
 		(uuid "a1a3598a-e892-4192-9946-5dae211b7f62")
 	)
 	(label "TC2_CC1_VCONN_EN"
-		(at 87.63 119.38 0)
+		(at 85.09 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5234,7 +5234,7 @@
 		(uuid "ade69bf0-5c83-40eb-9871-1bf1987e0f59")
 	)
 	(label "TC1_CC2_TX_H"
-		(at 87.63 139.7 0)
+		(at 87.63 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5334,7 +5334,7 @@
 		(uuid "c401fc46-2c8c-4401-b5f8-bb5b2948edc8")
 	)
 	(label "TC1_CC2_TX_L"
-		(at 87.63 142.24 0)
+		(at 87.63 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
