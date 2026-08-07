@@ -361,28 +361,28 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J5"
-				(at 2.54 0.0001 0)
+				(at 1.27 11.938 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right bottom)
 				)
 			)
-			(property "Value" "FlipperBreakout"
-				(at 2.54 -2.5399 0)
+			(property "Value" "FlipperBreakout_2"
+				(at 1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -569,7 +569,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -587,7 +587,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -605,7 +605,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -623,7 +623,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -641,7 +641,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -659,7 +659,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -677,7 +677,7 @@
 							)
 						)
 					)
-					(number "15"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -695,7 +695,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -713,7 +713,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -731,7 +731,7 @@
 							)
 						)
 					)
-					(number "18"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4714,7 +4714,7 @@
 		(uuid "417b569e-297a-4d45-84be-e377ca461e65")
 	)
 	(label "SWD_CLK"
-		(at 346.71 90.17 180)
+		(at 346.71 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4792,6 +4792,16 @@
 			(justify left)
 		)
 		(uuid "52f3d601-8ec0-46db-988d-1700e4719b7e")
+	)
+	(label "CY43_MISO_RES"
+		(at 243.84 40.64 0)
+		(effects
+			(font
+				(size 0.0254 0.0254)
+			)
+			(justify left)
+		)
+		(uuid "53ddfa8b-3e79-4d5f-82da-d5af54a81d97")
 	)
 	(label "3V3"
 		(at 30.48 39.37 180)
@@ -4933,6 +4943,16 @@
 		)
 		(uuid "68cbd1eb-383d-4517-9d96-21f033e26142")
 	)
+	(label "CY43_IRQ_RES"
+		(at 243.84 45.72 0)
+		(effects
+			(font
+				(size 0.0254 0.0254)
+			)
+			(justify left)
+		)
+		(uuid "6a70986a-8606-4d6d-baf3-a5a25b040b66")
+	)
 	(label "TC1_CC2_VCONN_EN"
 		(at 165.1 39.37 0)
 		(effects
@@ -5054,7 +5074,7 @@
 		(uuid "8a758230-ae18-4e79-aef9-bc49397a3046")
 	)
 	(label "SWD_IO"
-		(at 346.71 85.09 180)
+		(at 346.71 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5587,7 +5607,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "picoPD_interrogator:RMC2045T"
 			(at 256.54 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7884,7 +7904,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "FlipperBreakout"
+		(property "Value" "FlipperBreakout_2"
 			(at 353.568 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7895,7 +7915,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal"
 			(at 351.79 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7928,34 +7948,34 @@
 				)
 			)
 		)
-		(pin "17"
+		(pin "2"
 			(uuid "8726db9b-e705-481a-a29b-9f39663c29c1")
 		)
-		(pin "11"
+		(pin "5"
 			(uuid "9fe73d1c-29e3-44f5-a9c0-fe238a0cff51")
 		)
 		(pin "10"
 			(uuid "41dd1b68-fd68-47e2-b8d6-2eaef17796c2")
 		)
-		(pin "16"
+		(pin "3"
 			(uuid "aaa8e819-d0ac-4434-80ef-25907e8b6d72")
 		)
-		(pin "12"
+		(pin "8"
 			(uuid "27ddb75c-275c-41f0-8336-3708ff2263d4")
 		)
-		(pin "15"
+		(pin "4"
 			(uuid "c4299c33-6515-4680-aee3-94a0214bd593")
 		)
-		(pin "13"
+		(pin "1"
 			(uuid "7328b13e-86ad-404d-b3ea-87d27720dc32")
 		)
 		(pin "9"
 			(uuid "29fcdd1c-81d4-400d-98ee-f19f2b50e48e")
 		)
-		(pin "14"
+		(pin "7"
 			(uuid "0f2c0714-b068-4b5a-a14a-00ae2c363f18")
 		)
-		(pin "18"
+		(pin "6"
 			(uuid "834ca77b-4660-44c5-90f3-cba59758e345")
 		)
 		(instances

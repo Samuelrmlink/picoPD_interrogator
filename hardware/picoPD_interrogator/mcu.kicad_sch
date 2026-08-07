@@ -5102,7 +5102,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm"
 			(at 113.03 109.22 0)
 			(hide yes)
 			(show_name no)

@@ -17,27 +17,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 22.225 0)
+			(property "Reference" "J3"
+				(at 10.16 18.542 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right bottom)
 				)
 			)
 			(property "Value" "USB_C_Receptacle_USB2.0_16P"
-				(at 0 19.685 0)
+				(at 0.254 -18.796 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 				(at 3.81 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -59,7 +61,95 @@
 					)
 				)
 			)
-			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(property "Description" "CONN RCP USB2.0 TYP C 16P SMD RA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "GCT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey PN" "2073-USB4105-GF-ACT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer PN" "USB4105-GF-A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description Detailed" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "KLC_S4.2_DVDD" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "KLC_S4.2_VREG_LX" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "KLC_S3.3" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "KLC_S4.1" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -693,24 +783,6 @@
 						)
 					)
 					(number "B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -22.86 90)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2161,12 +2233,6 @@
 		(uuid "3f72c331-5fbf-4b4c-b412-2c5e85d953ab")
 	)
 	(junction
-		(at 115.57 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "768a481d-140b-4e08-b5ad-be6fb0d2a08c")
-	)
-	(junction
 		(at 115.57 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2438,16 +2504,6 @@
 			(type default)
 		)
 		(uuid "338a3aad-8275-4a06-900c-8b5e1ec90147")
-	)
-	(wire
-		(pts
-			(xy 107.95 73.66) (xy 115.57 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36b93f20-5210-4bc3-baf7-9da0b121db86")
 	)
 	(wire
 		(pts
@@ -7785,9 +7841,6 @@
 		)
 		(pin "A9"
 			(uuid "ca13bac2-18e8-4f79-84a6-2f6dc285a829")
-		)
-		(pin "S1"
-			(uuid "d5f477bb-8786-4998-a1a7-2923d31fef3f")
 		)
 		(pin "A1"
 			(uuid "8513ff21-4359-47df-8f4e-e35ff2d17f2e")
