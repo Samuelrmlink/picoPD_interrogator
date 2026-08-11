@@ -3458,24 +3458,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C17"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "5e19a426-48c5-4f9a-b6e8-5ed15bb636f2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "aec3032c-dc63-45a1-88cf-b69190ca3f6d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -6127,24 +6127,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C18"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "68155657-a0fd-4e35-a731-281cfb964329")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "abe006ae-bfc8-4b57-95f9-22aa90efb828")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -7607,24 +7607,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C10"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "86d19530-f9e3-46bd-b3d6-350dd8fc0c74")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "15pF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "947bd39f-2507-43c8-920c-d919b9742336")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -12387,24 +12387,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C15"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "c3595c47-3ee6-41e2-b382-593bd9671b75")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "1715dca3-aa2c-4c28-abfa-bd89b3979024")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -14036,24 +14036,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "a6bd7aa3-94f3-4ec8-b87b-0e4f394d79b1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4bac532a-e302-4dc6-bb48-d1ae8556e43b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -14548,24 +14548,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C37"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "f9d82e1d-9f96-4e51-b2ed-bb86855dd54d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0d4ff73e-af61-486e-8faf-7f484667cd96")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -15431,24 +15431,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "0a00d199-ef8e-43fc-b3fc-a12bee954d89")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "af44a0e3-b0fd-430c-95fa-e6dd25bf34d0")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -16482,24 +16482,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C12"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "84c834af-97ab-4abc-886b-ab843750638d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d39de9e2-22a5-4541-9ece-03f5a3919593")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -23246,24 +23246,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "51b07d5d-4112-42e7-9102-6d4c3f142877")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "15pF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "1f8ffffa-ebea-4921-bd2d-15e661351e9c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -25927,24 +25927,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C32"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "8c0909b6-6cbd-49f1-b64f-4eda83bd1222")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7e2b8ddf-5555-44a6-bdbe-064262679403")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -26183,24 +26183,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C6"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "d0bed5bf-0de9-4740-aad9-d30e956a93d0")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "35eb085d-b2a1-47e6-9a95-9e9c0c978207")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -26439,24 +26439,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C16"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "2ec47af5-5dae-44a2-ba44-2f7b642780ad")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4a615d9c-23f3-4236-b0b7-46ee20de703a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -30040,24 +30040,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C19"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "65014916-b64b-41d4-acfd-115df742191d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e49f8617-8e54-4cb4-b710-1dc443193cda")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -31517,24 +31517,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C20"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "63c93e45-ad73-4753-811f-c520038cb667")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "50cdb7f8-0425-46f3-b6cf-3fab50eb670d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -35810,24 +35810,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C36"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "252ed006-cad4-40be-b073-5d6c60b59496")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "614b4f91-b69c-49e7-887f-b64b3815dcc2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -37973,24 +37973,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C24"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "014a79e1-d9a3-4c8e-ab40-25c9c83db19d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "cf9a4fe8-1e95-4276-ab39-48b7cd8fb4b2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -39242,24 +39242,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C21"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "15b316cc-df24-47b7-bb89-97b939880e60")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4d7e58cc-f582-4fa1-9cf6-a3c12e3f181f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -39485,24 +39485,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C31"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "46d387af-2ecb-4f57-a8ee-cd1e99fc6dd1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "1uF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "df54b6b9-6e12-4192-b653-92a45e104538")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -43208,24 +43208,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C23"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "850520cc-4d80-4403-8542-49593e273361")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "952e20cb-9b62-4871-afa1-a289df13ae1e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -44142,24 +44142,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C13"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "066208cb-b2b5-47f1-8853-83dd45df1936")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "80414074-5f1b-4697-b5e0-963b9b9b9c85")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -44385,24 +44385,24 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C14"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "7e051491-b9c0-498c-872e-6998b55ffbff")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.05 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "85be83bc-821e-48ff-afaa-a5028b2e471d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
