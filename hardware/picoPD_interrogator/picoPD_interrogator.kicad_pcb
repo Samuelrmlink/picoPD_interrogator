@@ -481,24 +481,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R49"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "0fe35478-2569-4dd7-b357-8a7edb79ccc3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "33R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "28082d2f-d5b5-45ab-a18e-f8cd8c7ff924")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -737,24 +737,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R28"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "63b1f72b-2706-4e5a-aad1-6f52213f31f2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "27R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "4e98006d-a6aa-48fe-8572-b36b5e5c8b77")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -1358,24 +1358,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R67"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "4cf50fd6-d07d-4e17-9a60-ba2b0764fb83")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "1e669fc0-4135-4c98-a07d-05f1f41fa548")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -1614,24 +1614,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R31"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "1fad83da-3292-4420-8f00-5374fad31154")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "14b337dc-6a56-4611-ab3d-548890357480")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -2189,24 +2189,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R62"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "563a3e95-11cf-4a05-b692-22c8e1b23df3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "5.1K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "dc31c445-1ec2-45b5-8f04-c608fb5101af")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -3202,24 +3202,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R29"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "bf2cf603-4052-44cf-9188-bd2078f1bfbc")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "27R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "ef123294-b9a6-4081-bee2-1294cf92f935")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -3701,24 +3701,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R26"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "fc6746ac-9aad-47f9-a061-6da849071110")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "27R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "8e672e91-581e-47f2-a0b0-1570c44620a8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -7095,24 +7095,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R61"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "af05ccd8-3fff-44ad-8d40-b1c2fc48caa0")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "5.1K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "719ef5e0-5cc4-4525-8240-ca831b227d57")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -7351,24 +7351,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R52"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "cedf3b5f-cb5b-4694-a273-fe8a5a2598fe")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "65K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "3c195059-9e29-4830-88fb-45bf79863633")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -9460,24 +9460,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R19"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "83b7d0cd-6331-4670-bc08-87fd64384347")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "3.3K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "c3d4b2ea-0948-4cc2-95b5-295e20eb543a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -10037,24 +10037,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R32"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "cff45c6a-226c-4776-abb4-b33c0e413235")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "1K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "0d25ef60-cda9-4904-adf6-afbe8d4e5916")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -10293,24 +10293,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R46"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "f4dd56d6-00d4-4efb-9fb5-b2d4ff5b86c8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "0R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "367dedb6-ddae-4c97-af4d-49e81f649282")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -10969,24 +10969,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R48"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "3abd32e9-e9b5-41d0-b513-b06a20e012fa")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "33R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "7158193f-59e0-4da1-89f6-1dd1b69a0695")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -11225,24 +11225,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "4c8dcf76-44fa-4753-b4f1-465f606a845b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "5.1K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "bf92d9bf-aac8-4ac9-a57d-227c2ec6fec5")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -11481,24 +11481,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R51"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "09d5cfa5-f9a8-41eb-aaf6-e5aa424980ab")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "7e1c35ff-b6f1-4089-b403-86385ed03335")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -12630,24 +12630,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "1f96224d-11af-4648-8318-f20f1913ed44")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "3.3K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "d09e8546-483d-4b57-8cac-2abd3c6e9179")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -12886,24 +12886,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R58"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "a00a836d-04e5-40e2-9490-c4222ef44d82")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "e55f9467-9a5e-4250-96f9-3c2a82111968")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -13461,24 +13461,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R30"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "9b8d07be-e5b2-42b3-90cb-9663680fc0b6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "9a793b59-2896-40c8-8953-718e62c0404b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -14292,24 +14292,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R22"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "700af420-2987-4418-b893-4818ca446243")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "33R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "99b98c56-127d-4299-8a03-3a3ae2783f97")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -14739,24 +14739,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "676d34af-6c83-4a46-b9b1-6eee4415e761")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "35K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "3a88a3d1-a765-4c72-bb1a-b5cb4316ec20")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -14982,14 +14982,14 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R64"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fdad34b2-794f-4e1f-a06c-1ea642d49c22")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -15000,7 +15000,7 @@
 			(effects
 				(font
 					(size 0.35 0.35)
-					(thickness 0.08)
+					(thickness 0.8)
 					(bold yes)
 				)
 			)
@@ -15240,24 +15240,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R70"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "c50d5291-0c6a-496c-9b76-96acbd20b226")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "1cec90ed-4e08-4b7d-a8ea-a4bede7dd6cc")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -16725,24 +16725,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R21"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "5fd5bc66-af8b-425e-88b3-d003e8fba18c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "c7421134-b589-40b3-aa9b-6629df83223d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -17657,24 +17657,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R56"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "5a8c1ff0-c07b-4459-92a6-4a2f6e4c9995")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "27R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "6e0757de-05b0-4e07-92d9-0835568d4e93")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -18333,24 +18333,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R39"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "556f6bc9-2530-4f1d-8b4f-d6f414446965")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "1K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "955960f5-a038-4db1-98b7-3d8989c5cb66")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -19135,24 +19135,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R41"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "ee0cf51e-3f4d-44c4-8832-56652704df14")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "5.1K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "dcb153d3-b1fe-4347-b94b-391ac6160bf1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -20221,24 +20221,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R11"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "0ca711c8-9156-4adb-ba7d-655130db997e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "200R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "a1c833ee-0766-4ad1-8aaa-d7eff99578fb")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -20739,24 +20739,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R43"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "e0462a33-4970-44b3-ba5f-7c7559e942a5")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "819a054c-f4e1-4c20-a47f-3e30db4da65b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -20995,24 +20995,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "e0b7e19a-6990-4aea-9d7e-5fd7d1a187a2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "0R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "f2d84262-1ff2-481c-b055-503efa7210ec")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -21251,24 +21251,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "7559993f-812e-4348-82f2-893020af805d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "3.3K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "78c8409c-dfb4-4afb-b780-694e24d34d14")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -22235,24 +22235,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R66"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "835e67c5-1bb5-43f3-bc27-f656e55d05ec")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "18K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "b28c08c1-a356-4162-9213-c184804fb5a1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -22491,24 +22491,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R55"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "27845b0b-3218-4713-b871-43fcc9e67318")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "a1cd8ab4-7ef1-4a08-acd2-051d932b628c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -22747,24 +22747,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "c052ccc5-e2b4-4b8e-8eea-8d8d9a811a9d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "35K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "b0396113-4761-40ea-a7fa-58a65be9b514")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -22990,24 +22990,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R12"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "deb6285b-4366-4983-aeee-18ff335b18fc")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "16150bbf-5d65-43ea-a6b4-629f7ca746c1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -23751,24 +23751,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R57"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "b96162a4-fffd-46c1-a353-40d9ec147c07")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "27R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "afc10e37-8e5f-4aff-9b7e-045937e2dc0b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -24007,24 +24007,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R38"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "dc62be65-d8b1-4943-81bf-eda1a5b3b405")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "93f9fba6-a8f7-43a0-a612-893e00644898")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -24483,24 +24483,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R18"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "c1a4da22-2aab-4653-a423-1d77e667fb9e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "3.3K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "fb1a2099-727c-443c-9ef1-7cefec7625bd")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -25159,24 +25159,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R35"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "8ea95e87-0dba-48c4-a275-cdb00dffc199")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "5638a006-2856-4ea4-a0d2-5424a6ffa052")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -25415,24 +25415,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R10"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "e1f016a3-da77-4f8b-b51e-812430923fe0")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "1K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "f4f17d28-4ec4-482b-960a-087308007131")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -25671,24 +25671,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R7"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "fe693e59-074d-4ebb-873d-402d44c0e819")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "5.1K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "c0e682fc-8256-4cc9-b28f-98e75ec9e6ee")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -26682,24 +26682,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R54"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "b77ff96f-97b0-4f19-bb52-40fa53e1cec5")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "35K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "5319649e-149d-4b31-b4cf-9dbf8b0f18d5")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -28214,24 +28214,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R17"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "67ff3ada-1180-4059-b79c-b8fa4b064e9a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "2332eabf-95f0-428f-b960-cfe6dcb4c257")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -28732,24 +28732,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R34"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "da4835ff-6979-4a6c-853d-59b9d4ffaa67")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "27R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "9204a67e-11f6-4b1b-a82c-e4997a8e520a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -30283,24 +30283,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R50"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "cb21ddbb-34c7-49b9-87aa-6f09c630b642")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "732K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "a0d77b3a-d536-44d9-955a-b32dec59b91e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -30749,24 +30749,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R60"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "7b96b7b2-a00c-4200-829b-71737f84d6eb")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "96fcaba8-a9fd-40a2-b443-2d694ddff908")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -31005,24 +31005,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R33"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "d14fb4f0-ad8b-4f31-af63-ef6e3a3f80ae")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "200R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "5b15aaf3-44d0-4fd0-ab17-6be49221da84")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -31261,24 +31261,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R16"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "636e96d6-cbca-45bf-9249-26f8df26d753")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "200R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "127771e9-4692-4994-909b-cd25786372ae")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -31760,24 +31760,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R69"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "ae148480-a53e-4284-abc6-ce0f2a07d462")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "470R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "10d7f824-a92d-4030-819e-4af281d73d25")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -31951,24 +31951,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R24"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "49bac798-97bb-4981-b2fd-18d68c1d99ae")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "714e71d9-b5b8-4412-8177-da000add96ea")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -32207,24 +32207,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R15"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "6c0597b5-6d1c-42fa-a71d-665619ae8fda")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "1K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "185f688a-d3f0-4673-9954-b28fc98e95d7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -32463,24 +32463,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R36"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "9fb93ea9-5cac-423e-bbec-8d27d6a19181")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "35K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "9e82eb3f-a063-48f0-a5bc-203ca36dd153")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -34066,24 +34066,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R37"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "90949c86-c433-472f-9bb4-9966369d6fac")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "0R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "3aa8c1a4-6cf1-4d61-8502-19b8ca896ce8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -34322,24 +34322,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R68"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "e04b9cf8-14a9-470f-9ab0-6c214951f8cb")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "3e89bd82-8552-4027-bb33-a378d44c171a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -34578,24 +34578,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R44"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "d89ae5e5-4b3d-4c14-8559-e9b8d4846137")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "3.3K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "f71f13dc-6cda-4c68-9bc3-b776205332dc")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -35153,24 +35153,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R42"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "703b1d0d-9b39-4236-a40b-704bda83dae1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "200R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "def8c618-da8e-4356-9f19-57ced6765a06")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -36265,24 +36265,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "5e23fb4a-9d27-4368-b8c0-bd85bce07e7d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "5.1K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "295a9ea5-f71b-4261-aecc-ddabecc427d3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -36521,24 +36521,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R27"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "ac4b761c-011d-4ab5-a630-e3b9a6d0c603")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "27R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "57ebf538-adfe-4dd5-aa01-ae6d52678f64")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -37096,24 +37096,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R47"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "eefebfcf-774a-4186-98e0-5ba05dd10c7b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "0a71e85c-8dee-4e40-8e5d-f45ab73d5c6a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -37352,24 +37352,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R20"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "1a22417b-2224-4aea-91a9-e757cc5671cb")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "0R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "35bb6007-5c8b-4d83-8b91-b91931c45efc")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -38513,24 +38513,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R59"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "1b69f97f-5233-4d39-a9f3-0220866c0ec8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "5.1K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "cf2b7729-d1dc-4f4e-a436-0e59df52c9c2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -40222,24 +40222,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R53"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "96b71ae6-6cb5-4a7d-9456-fa6641d035bf")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "100K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "80739b30-8a20-4103-8bdd-06c8f0edd270")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -41007,24 +41007,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R25"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "fbb0fb15-49f7-4d44-b773-e32c176f09e4")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "33K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "fbe4cb81-106b-4a15-9238-0a2d6cda62bb")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -41582,24 +41582,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R45"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "8d933fe2-97be-4db6-b2ec-a0357b3769ca")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "3.3K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "2a37c6c7-2d71-4145-98ee-9ebbfb6e7da4")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -41838,24 +41838,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R23"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "f96de591-fca4-4ff4-bd2f-8519a6617b1e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "33R"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "92aa6a9a-9b9a-4d6a-ad91-8ee035f1df9f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -42952,24 +42952,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R9"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "77f7fd9e-802f-46aa-895a-f813a990630e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "5.1K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "01096a47-d378-482e-a72d-0d8bd9aac6f8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -44993,14 +44993,14 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R65"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "16b23dae-0f9c-415f-8e24-707cd6dc487d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
@@ -45010,8 +45010,8 @@
 			(uuid "52943056-3206-4604-86d5-aa05972f77c1")
 			(effects
 				(font
-					(size 0.25 0.25)
-					(thickness 0.05)
+					(size 0.35 0.35)
+					(thickness 0.8)
 					(bold yes)
 				)
 			)
@@ -45251,24 +45251,24 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0 -1.05 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "f3597dae-8ee0-420e-babd-ed65afb6a12e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
 		(property "Value" "35K"
-			(at 0 1.05 0)
-			(layer "F.Fab")
+			(at 0 0 0)
+			(layer "User.1")
 			(uuid "241bda33-2b1e-4c0e-8b05-441dc7c032a4")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.35 0.35)
+					(thickness 0.8)
 				)
 			)
 		)
